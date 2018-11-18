@@ -7,7 +7,7 @@ class MyWork extends Component {
       <div className="main-page-container">
         <div id="press">
           <a>
-            <h2>My Work</h2>
+            <h2 className="my-work-title">My Work</h2>
           </a>
           <div className="press-container hover11">
             <div>
