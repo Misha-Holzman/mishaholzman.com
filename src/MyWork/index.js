@@ -6,7 +6,7 @@ class MyWork extends Component {
     return (
       <div className="main-page-container">
         <div id="press">
-          <a>
+          <a id="my-work">
             <h2 className="my-work-title">My Work</h2>
           </a>
           <div className="press-container hover11">
@@ -50,38 +50,7 @@ class MyWork extends Component {
                 <img src="https://i.imgur.com/BlwUBqT.png" alt="" />
               </a>
             </div>
-            <div>
-              <a
-                href="https://www.theinfatuation.com/new-york/reviews/win-son"
-                target="_blank"
-              >
-                <img src="https://i.imgur.com/AlmNNKm.png" alt="" />
-              </a>
-            </div>
-            <div>
-              <a
-                href="https://www.bonappetit.com/story/win-son-recipes"
-                target="_blank"
-              >
-                <img src="https://i.imgur.com/AKmdesl.png" alt="" />
-              </a>
-            </div>
-            <div>
-              <a
-                href="https://www.eater.com/2017/6/22/15804616/win-son-trigg-brown-josh-ku-brooklyn-nyc"
-                target="_blank"
-              >
-                <img src="https://i.imgur.com/AlmNNKm.png" alt="" />
-              </a>
-            </div>
-            <div>
-              <a
-                href="https://www.yelp.com/biz/win-son-brooklyn-4?osq=winson"
-                target="_blank"
-              >
-                <img src="https://i.imgur.com/aKvYpiC.png" alt="" />
-              </a>
-            </div>
+
           </div>
         </div>
       </div>
