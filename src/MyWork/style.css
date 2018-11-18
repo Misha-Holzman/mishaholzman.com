@@ -1,0 +1,30 @@
+.press-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 0;
+  max-width: 1280px;
+}
+
+.press-container > div {
+  padding: 10px;
+}
+
+.press-container > div > img {
+  height: 186px;
+  width: 351px;
+}
+
+.hover11 a img {
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.hover11 a:hover img {
+  opacity: .8;
+}
+/**/
+#press {
+  padding-top: 20px
+}
