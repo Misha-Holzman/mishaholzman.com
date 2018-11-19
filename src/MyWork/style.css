@@ -3,12 +3,13 @@
   font-size: 60px;
   font-weight: 400;
   text-align: center;
+  letter-spacing: 8px;
 }
 
 
 .press-container {
   display: flex;
-  flex-flow: column;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -17,10 +18,7 @@
 }
 
 .press-container > div {
-  padding: 20%;
-  border-top: black solid 1px;
-  border-bottom: black solid 1px;
-
+  padding: 30px;
 }
 
 .press-container > div > img {
@@ -33,11 +31,10 @@
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
 #my-work {
-
+  margin-top: 6%;
 }
 
 .hover11 a:hover img {
@@ -47,7 +44,7 @@
 #press {
   padding-top: 20px;
   display: flex;
-  flex-flow: column;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   align-content: center;
