@@ -11,36 +11,46 @@ class AboutPage extends Component {
             className="profile-pic"
             height="250px"
           />
-          <div className="">
-            <h3 className="hello-text">Hi!  I'm Misha Holzman</h3>
+          <div className="about-all-texts">
+            <h3 className="hello-text">Hi! I'm Misha Holzman</h3>
             <p className="main-text">
-              I am a full-stack web developer living and creating I NYC. I’m
+              I am a full-stack web developer living and creating in NYC. I’m
               passionate about helping people and companies express who and what
               they are by creating beautiful interfaces and engaging
               experiences.
             </p>
             <p className="main-text">
-              I was born in raised in NYC surrounded by art and
-              design. I love to create art and music and it gives me great
-              pleasure to cultivate this creative drive in my career as a web
-              developer. With years of training in business and management, I am
-              able to approach any project I work from multiple perspectives. To
-              align a company or individual’s online presence with their brand,
-              vision, values, and the positioning with the industry, it is
-              important to understand the perspective of the company and its
-              product. The perspective of the user is just as important, as
-              knowing the specific demographics of the target audience is
-              essential to developing a meaningful and impactful user-experience
-              for anyone visiting a website. My creative vision of design and
-              user interface, coupled with original artistic ideas and advanced
-              technicality, allows me to create unique and beautiful
-              user-oriented responsive websites.
+              I was born in raised in NYC surrounded by art and design. I love
+              to create art and music and I cultivate this creative drive in my
+              career as a web developer. With my education in business and
+              management, I can also approach the web development process with a
+              business mindset. I understand the importance of aligning a
+              company or individual’s online presence with their brand, vision,
+              values, and positioning with an industry. The perspective of the
+              user is just as important, as knowing the specific demographics of
+              the target audience is essential to developing a meaningful and
+              impactful user-experience for anyone visiting a website. My
+              creative vision of design and user interface, coupled with a
+              business perspective and advanced technicality, allows me to
+              create unique and beautiful user-oriented websites.
             </p>
             <p className="main-text">
-              Shoot me an email or give me a
-              ring about any inquiries, I’m always happy to chat 😀 🤙
+              Shoot me an email or give me a ring about any inquiries, I’m
+              always happy to chat 🤙
             </p>
-            <a href=""><button className="resume-button">my resume</button></a>
+            <a
+              href="https://www.canva.com/design/DADJEW_UA3A/bcvEeTpWjenkPRpNbShKfQ/view?presentation"
+              target="_blank"
+            >
+              <button className="resume-button">my resume</button>
+            </a>
+            <a href="#my-work" id="link2">
+              <img
+                src="https://i.imgur.com/T5f8v9i.png"
+                height="50px"
+                className="arrow"
+              />
+            </a>
           </div>
         </div>
       </div>
@@ -50,7 +60,16 @@ class AboutPage extends Component {
 
 export default AboutPage;
 
-//           <h2 className="about-title">about me</h2>
+
+
+
+
+
+
+
+
+
+// <h2 className="about-title">about me</h2>
 
 {
   /*<svg

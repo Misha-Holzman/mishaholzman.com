@@ -4,46 +4,46 @@ import "./style.css";
 class ContactPage extends Component {
   render() {
     return (
-      <div className="conact-page-container" id="contact-page">
+      <div className="contact-page-container">
         <img
           src="https://www.freeiconspng.com/uploads/line-png-32.png"
           width="40%"
           alt="Free Download Line Png Images"
           className="line"
         />
-        <h2 className="contact-title">contact me</h2>
-        <div className="social-links">
+        <h2 className="contact-title" id="contact-page">contact me</h2>
+        <div className="social-links-container">
           <a
             href="https://www.linkedin.com/in/misha-holzman/"
-            className="social-icon"
+            className="social-link"
             target="_blank"
           >
             <img
               src="https://i.imgur.com/M427KnU.png"
-              className="social-images"
+              className="social-image1"
               alt="linkedin"
             />
           </a>
           <a
             href="https://git.generalassemb.ly/mholzman"
-            className="social-icon"
+            className="social-link"
             target="_blank"
           >
             <img
               src="https://i.imgur.com/0pzhAxs.png"
               alt="github"
-              className="social-images"
+              className="social-image2"
               height="50px"
             />
           </a>
           <a
             href="https://www.instagram.com/notions_of_real/?hl=en"
-            className="social-icon"
+            className="social-link"
             target="_blank"
           >
             <img
               src="https://i.imgur.com/l9qpIO3.png"
-              className="social-images"
+              className="social-image3"
               alt="instagram"
             />
           </a>
@@ -79,6 +79,16 @@ class ContactPage extends Component {
             </p>
           </div>
         </div>
+        <a
+            href="#top"
+            className="back-to-top-link"
+          >
+            <img
+              src="https://i.imgur.com/lxhXnov.png"
+              className="back-to-top-img"
+              height="50px"
+            />
+          </a>
       </div>
     );
   }

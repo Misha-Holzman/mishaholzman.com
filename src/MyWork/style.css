@@ -1,15 +1,19 @@
 .main-work-container {
-  margin: 16% 8% 0 8%;
+  margin: 8% 8% 0 8%;
+}
+
+#my-work {
+  padding-top: 7%;
 }
 
 .my-work-title {
   font-family: "Sarina", cursive;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 400;
   text-align: center;
   letter-spacing: 8px;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+/*  border-top: 2px solid black;
+  border-bottom: 2px solid black;*/
   margin-bottom: 20%;
 }
 
@@ -20,7 +24,7 @@
   align-items: center;
   align-content: center;
   margin: 0;
-  max-width: 85%;
+  max-width: 75%;
 }
 
 .shaka-site {
@@ -39,7 +43,6 @@
 .winson-div {
   padding: 18% 0% 18% 0%;
   border-bottom: solid rgba(0, 0, 0, .1) 2px;
-
 }
 .fooder-site {
   border-radius: 15px;
@@ -64,8 +67,8 @@
 }*/
 
 .press-container > div > img {
-  max-height: 386px;
-  width: 351px;
+  max-height: 86px;
+  width: 51px;
 }
 
 .hover11 a img {
