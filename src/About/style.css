@@ -11,21 +11,35 @@
 }
 
 .about-page {
-  padding: 5%;
-  width: 60%;
+  padding: 5% 5% 0 5%;
+  width: 75%;
   margin: 0 auto;
-/*  border-radius: 50px;
-  border-left: solid red 2px;
-  border-bottom: solid red 2px;*/
 }
+
+.resume-button {
+  border-radius: 40px;
+  width: 20%;
+  height: 40px;
+  background-color: rgba(255, 255, 255, .3);
+  color: black;
+  font-family: "Lekton", sans-serif;
+  font-size: 20px;
+  border: 1px solid black;
+  margin-top: 5%;
+}
+
+
+
+/*
 
 #shapes-svg {
   z-index: -2;
   position: absolute;
-  top: 100%;
-  left: -25%;
-  height: 105%;
-}
+  top: 165%;
+  left: -6%;
+  height: 50%;
+  transform: rotate(95deg);
+}*/
 
 /*
 .about-page:hover {
@@ -37,13 +51,11 @@
 
 .profile-pic {
   margin-right: 13%;
-  box-shadow: 0px 20px 30px rgba(0,0,0,.3);
-  border-radius: 4px;
 }
 
 .about-page-container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   align-content: center;
   font-family: "Lekton", sans-serif;
@@ -52,9 +64,19 @@
 .hello-text {
   font-size: 30px;
   font-weight: 300;
+  font-family: 'Patrick Hand', cursive;
+  letter-spacing: 4px;
 }
 
 .main-text {
   font-size: 15px;
   font-weight: 100;
+  font-family: "Montserrat", sans-serif;
+
 }
+
+#about-page {
+  margin-top: -7%;
+  padding-top: 7%;
+/*  margin-left: 8%
+*/}
