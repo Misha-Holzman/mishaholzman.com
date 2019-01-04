@@ -308,6 +308,19 @@ html {
   #legends-img {
     height: 205px; 
   }
+
+  .soccer-button {
+    border-radius: 40px;
+    width: 35%;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    font-family: "Lekton", sans-serif;
+    font-size: 20px;
+    border: 1px solid black;
+    outline: none;
+    padding-top: 5px;
+  }
   
 }
 

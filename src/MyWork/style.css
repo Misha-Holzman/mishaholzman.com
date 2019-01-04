@@ -244,3 +244,22 @@
   color: black;
   border: rgb(172, 172, 172) solid 2px;
 }
+
+.soccer-button {
+  border-radius: 40px;
+  width: 30%;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: black;
+  font-family: "Lekton", sans-serif;
+  font-size: 20px;
+  border: 1px solid black;
+  outline: none;
+  padding-top: 5px;
+}
+
+.soccer-button:hover {
+  background-color: white;
+  color: black;
+  border: rgb(172, 172, 172) solid 2px;
+}

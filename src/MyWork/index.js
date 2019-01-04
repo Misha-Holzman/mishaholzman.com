@@ -48,7 +48,7 @@ class MyWork extends Component {
                     <p id='card-text'>Many restaurants in NYC have exciting new ideas and strong branding, but have websites that don’t live up to their full potential. The goal of this project was to take a bare, unattractive NYC restaurant website and redesign it to improve the site’s usability while accurately reflecting the restaurant’s unique cuisine and personality. I partnered up with three individuals in the user experience design class to collaborate and create the website. After collaborating with the UX team on idea generation, user stories, and initial wireframes and prototyping, I was in charge of building out the website using React. The design team created High-fidelity wireframes through Zeplin and used InVision prototyping, while I referenced the prototypes for styling, utilized Bulma and Bootstrap for some components, JavaScript and implemented css animation to spice it up.
                     </p>
                     <a
-                      href='https://git.generalassemb.ly/mholzman/Shaka'
+                      href='https://git.generalassemb.ly/Win-son/Win-Son'
                       target='_blank'
                     >
                       <button className='github-button'>GitHub</button>
@@ -118,7 +118,7 @@ class MyWork extends Component {
                       href='https://pages.git.generalassemb.ly/mholzman/MCHolzman-beatTheKeeper-Project-1/'
                       target='_blank'
                     >
-                      <button className='github-button'>GitHub</button>
+                      <button className='soccer-button'>Live Site</button>
                     </a>
                   </div>
                 </div>
