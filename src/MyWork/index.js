@@ -120,6 +120,12 @@ class MyWork extends Component {
                     >
                       <button className='soccer-button'>Live Site</button>
                     </a>
+                    <a
+                      href='https://pages.git.generalassemb.ly/mholzman/MCHolzman-beatTheKeeper-Project-1/'
+                      target='_blank'
+                    >
+                      <button className='github-button'>GitHub</button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -129,6 +135,7 @@ class MyWork extends Component {
             <br />
 
             {/*
+            https://git.generalassemb.ly/mholzman/MCHolzman-beatTheKeeper-Project-1
             <div className='shaka-div'>
               <a
                 href='https://git.generalassemb.ly/mholzman/Shaka'
