@@ -1,78 +1,70 @@
-import React, { Component } from "react";
-import "./style.css";
+import React, { Component } from 'react'
+import './style.css'
 
 class AboutPage extends Component {
-  render() {
-    return (
-      <div className="about-page" id="about-page">
-        <div className="about-page-container">
+  render () {
+    return ( 
+      <div className='about-page' id='about-page'>
+        <div className='about-page-container'>
           <img
-            src="https://i.imgur.com/3OahrP7.jpg"
-            className="profile-pic"
-            height="250px"
+            src='https://i.imgur.com/3OahrP7.jpg'
+            className='profile-pic'
+            height='250px'
           />
-          <div className="about-all-texts">
-            <h3 className="hello-text">Hi! I'm Misha Holzman</h3>
-            <p className="main-text">
+          <div className='about-all-texts'>
+            <h3 className='hello-text'>Hi! I'm Misha Holzman</h3>
+            <p className='main-text'>
               I am a full-stack web developer living and creating in NYC. I’m
               passionate about helping people and companies express who and what
               they are by creating beautiful interfaces and engaging
               experiences.
             </p>
-            <p className="main-text">
+            <p className='main-text'>
               I was born in raised in NYC surrounded by art and design. I love
               to create art and music and I cultivate this creative drive in my
               career as a web developer. With my education in business and
-              management, I can also approach the web development process with a
+              management, I can approach the web development process with a
               business mindset. I understand the importance of aligning a
               company or individual’s online presence with their brand, vision,
-              values, and positioning with an industry. The perspective of the
-              user is just as important, as knowing the specific demographics of
-              the target audience is essential to developing a meaningful and
-              impactful user-experience for anyone visiting a website. My
-              creative vision of design and user interface, coupled with a
+              values, and positioning with an industry. To develop a meaningful
+              and impactful user-experience for anyone visiting a website, I
+              like to keep in mind the perspective of the user by understanding
+              the specific demographics of the target audience.
+            </p>
+            <p className='main-text'>
+              My creative vision of design and user interface, coupled with a
               business perspective and advanced technicality, allows me to
               create unique and beautiful user-oriented websites.
             </p>
-            <p className="main-text">
+            <p className='main-text'>
               Shoot me an email or give me a ring about any inquiries, I’m
               always happy to chat 🤙
             </p>
             <a
-              href="https://www.canva.com/design/DADJEW_UA3A/bcvEeTpWjenkPRpNbShKfQ/view?presentation"
-              target="_blank"
+              href='https://www.canva.com/design/DADJEW_UA3A/0bMj_EnvT1y6R75vMixSbw/view?website#4'
+              target='_blank'
             >
-              <button className="resume-button">my resume</button>
+              <button className='resume-button'>my resume</button>
             </a>
-            <a href="#my-work" id="link2">
+            <a href='#my-work' id='link2'>
               <img
-                src="https://i.imgur.com/T5f8v9i.png"
-                height="50px"
-                className="arrow"
+                src='https://i.imgur.com/T5f8v9i.png'
+                height='50px'
+                className='arrow'
               />
             </a>
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default AboutPage;
-
-
-
-
-
-
-
-
-
+export default AboutPage
 
 // <h2 className="about-title">about me</h2>
 
-{
-  /*<svg
+{ /* <svg
     id="shapes-svg"
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
@@ -517,5 +509,4 @@ export default AboutPage;
         </g>
       </g>
     </g>
-  </svg>*/
-}
+  </svg> */ }

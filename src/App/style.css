@@ -1,7 +1,894 @@
-.App {
-/*  background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
-*/}
-
 html {
   scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 1200px) {
+  /* Large Desktop */
+  .resume-button {
+    border-radius: 40px;
+    width: 25%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    font-family: "Lekton", sans-serif;
+    font-size: 20px;
+    border: 1px solid black;
+    margin-top: 5%;
+    outline: none;
+  }
+}
+
+@media screen and (max-width: 1043px) {
+  /* Large Desktop */
+
+  .resume-button {
+    border-radius: 40px;
+    width: 30%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    font-family: "Lekton", sans-serif;
+    font-size: 20px;
+    border: 1px solid black;
+    margin-top: 5%;
+    outline: none;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  /* Large Desktop */
+
+  .shadow {
+    animation-name: floating;
+    animation-duration: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-top: 18%;
+    position: absolute;
+  }
+
+  #link {
+    text-decoration: none;
+    margin-top: 25%;
+    margin-left: 1px;
+    position: absolute;
+  }
+
+  .about-page-container {
+    display: flex;
+    /*    align-items: center;
+    align-content: center;
+    justify-content: center;*/
+    flex-flow: column;
+  }
+
+  .profile-pic {
+    margin-right: 0;
+  }
+
+  .hello-text {
+    text-align: center;
+  }
+
+  .about-all-texts {
+    text-align: center;
+  }
+
+  .contact-content-container {
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 0.5%;
+    border-radius: 300px;
+  }
+  .profile-pic {
+    border-radius: 30px;
+    border: 1px black solid;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  /* tablet */
+
+  .shadow {
+    animation-name: floating;
+    animation-duration: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-top: 24%;
+    position: absolute;
+  }
+
+  #link {
+    text-decoration: none;
+    margin-top: 31%;
+    margin-left: 1px;
+    position: absolute;
+  }
+
+  .nav-container {
+    background-color: rgba(255, 255, 255, 0);
+    width: 85%;
+    margin: 0 auto;
+    border-color: #8795a1;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    flex-flow: column;
+    /*  position: absolute;
+    top: 0;
+    flex: 1;
+    align-self: stretch;
+    right: 0;
+    left: 0;*/
+  }
+
+  .nav-bullets {
+    list-style: none;
+    width: 60%;
+    margin: 4% 7% 4% 0%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .title {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .profile-pic {
+    border-radius: 30px;
+    border: 1px black solid;
+  }
+}
+
+@media screen and (max-width: 705px) {
+  /* Large Desktop */
+
+  .shadow {
+    animation-name: floating;
+    animation-duration: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-top: 28%;
+    position: absolute;
+  }
+
+  #link {
+    text-decoration: none;
+    margin-top: 35%;
+    margin-left: 1px;
+    position: absolute;
+  }
+
+  .about-page-container {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .profile-pic {
+    margin-top: 12%;
+  }
+
+  .hello-text {
+    text-align: center;
+  }
+
+  .about-all-texts {
+    text-align: center;
+  }
+
+  .profile-pic {
+    border-radius: 30px;
+    border: 1px black solid;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  /* mobile */
+
+  .shadow {
+    animation-name: floating;
+    animation-duration: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-top: 32%;
+    position: absolute;
+  }
+
+  #link {
+    text-decoration: none;
+    margin-top: 42%;
+    margin-left: 1px;
+    position: absolute;
+  }
+
+    .profile-pic {
+    border-radius: 30px;
+    border: 1px black solid;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  /* mobile */
+
+  .shadow {
+    animation-name: floating;
+    animation-duration: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-top: 32%;
+    position: absolute;
+  }
+
+  #link {
+    text-decoration: none;
+    margin-top: 42%;
+    margin-left: 1px;
+    position: absolute;
+  }
+
+  .keeper-site {
+    height: 300px;
+  }
+
+  .profile-pic {
+    border-radius: 30px;
+    border: 1px black solid;
+  }
+
+  #flip-box {
+    width: 360px;
+  }
+  
+  #shaka-img {
+    height: 220px; 
+    border-radius: 15px;
+  }
+  #winson-img {
+    height: 230px; 
+    border-radius: 15px;
+  }
+  #legends-img {
+    height: 230px; 
+    border-radius: 15px;
+  }
+  #fooder-img {
+    height: 330px; 
+    border-radius: 15px;
+  }
+  #soccer-img {
+    height: 270px; 
+    border-radius: 15px;
+}
+
+
+
+  
+}
+
+@media screen and (max-width: 480px) {
+  /* mobile */
+
+  .shadow {
+    animation-name: floating;
+    animation-duration: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-top: 50%;
+    position: absolute;
+  }
+
+  #link {
+    text-decoration: none;
+    margin-top: 65%;
+    margin-left: 1px;
+    position: absolute;
+  }
+
+  .main-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  .profile-pic {
+    margin-top: 60%;
+  }
+
+  .resume-button {
+    border-radius: 40px;
+    width: 40%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    font-family: "Lekton", sans-serif;
+    font-size: 20px;
+    border: 1px solid black;
+    margin-top: 5%;
+    outline: none;
+  }
+
+  .about-page {
+    padding: 5% 5% 0 5%;
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .shaka-site {
+    height: 200px;
+  }
+
+  .winson-site {
+    height: 200px;
+  }
+
+  .fooder-site {
+    height: 280px;
+  }
+
+  .keeper-site {
+    height: 220px;
+  }
+
+  .profile-pic {
+    border-radius: 30px;
+    border: 1px black solid;
+  }
+
+  .main-text {
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  /* mobile */
+
+  .main-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  .nav-container {
+    background-color: rgba(255, 255, 255, 0);
+    width: 85%;
+    margin: 0 auto;
+    border-color: #8795a1;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    flex-flow: column;
+    /* padding-left: 10%; */
+    /*  position: absolute;
+    top: 0;
+    flex: 1;
+    align-self: stretch;
+    right: 0;
+    left: 0;*/
+  }
+
+  .nav-bullets {
+    list-style: none;
+    width: 70%;
+    margin: 4% 7% 4% 0%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .title {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .about-page-container {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .about-page {
+    padding: 5% 5% 0 5%;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .contact-content-container {
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 0.5%;
+    border-radius: 300px;
+  }
+
+  #work-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  #contact-page {
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
+
+  .social-image1,
+  .social-image2,
+  .social-image3 {
+    height: 85%;
+  }
+
+  .profile-pic {
+    border-radius: 30px;
+    border: 1px black solid;
+  }
+
+  #flip-box {
+    width: 340px;
+  }
+  
+  #shaka-img {
+    height: 180px; 
+    border-radius: 15px;
+  }
+  #winson-img {
+    height: 190px; 
+    border-radius: 15px;
+  }
+  #legends-img {
+    height: 190px; 
+    border-radius: 15px;
+  }
+  #fooder-img {
+    height: 290px; 
+    border-radius: 15px;
+  }
+  #soccer-img {
+    height: 230px; 
+    border-radius: 15px;
+}
+
+
+}
+
+@media screen and (max-width: 400px) {
+  /* mobile */
+
+  .profile-pic {
+    border-radius: 30px;
+    border: 1px black solid;
+  }
+
+  .main-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  .about-page-container {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .about-page {
+    padding: 5% 5% 0 5%;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .shaka-site {
+    height: 150px;
+  }
+
+  .winson-site {
+    height: 150px;
+  }
+
+  .fooder-site {
+    height: 230px;
+  }
+
+  .keeper-site {
+    height: 170px;
+  }
+
+  #work-page {
+    margin-left: 3%;
+  }
+
+
+  #contact-page {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+
+  .social-image1,
+  .social-image2,
+  .social-image3 {
+    height: 85%;
+  }
+
+  #main-contact-page {
+    margin-left: 8%;
+  }
+
+  #flip-box {
+    width: 340px;
+  }
+  
+  #shaka-img {
+    height: 170px; 
+    border-radius: 15px;
+  }
+  #winson-img {
+    height: 180px; 
+    border-radius: 15px;
+  }
+  #legends-img {
+    height: 180px; 
+    border-radius: 15px;
+  }
+  #fooder-img {
+    height: 280px; 
+    border-radius: 15px;
+  }
+  #soccer-img {
+    height: 220px; 
+    border-radius: 15px;
+}
+
+}
+
+
+@media screen and (max-width: 380px) {
+  /* mobile */
+
+  .profile-pic {
+    border-radius: 30px;
+    border: 1px black solid;
+  }
+
+  .main-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  .nav-container {
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    margin: 0 auto;
+    border-color: #8795a1;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    flex-flow: column;
+    /*  position: absolute;
+    top: 0;
+    flex: 1;
+    align-self: stretch;
+    right: 0;
+    left: 0;*/
+  }
+
+  .nav-bullets {
+    list-style: none;
+    width: 60%;
+    margin: 4% 7% 4% 0%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .title {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .resume-button {
+    border-radius: 40px;
+    width: 45%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    font-family: "Lekton", sans-serif;
+    font-size: 20px;
+    border: 1px solid black;
+    margin-top: 5%;
+    outline: none;
+  }
+
+  .profile-pic {
+    margin-top: 70%;
+  }
+
+  .about-page {
+    padding: 5% 5% 0 5%;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #work-page {
+    margin-left: 7%;
+  }
+
+  #flip-box {
+    width: 340px;
+  }
+  
+  #shaka-img {
+    height: 155px; 
+    border-radius: 15px;
+  }
+  #winson-img {
+    height: 165px; 
+    border-radius: 15px;
+  }
+  #legends-img {
+    height: 165px; 
+    border-radius: 15px;
+  }
+  #fooder-img {
+    height: 265px; 
+    border-radius: 15px;
+  }
+  #soccer-img {
+    height: 205px; 
+    border-radius: 15px;
+}
+}
+
+@media screen and (max-width: 370px) {
+  /* mobile */
+
+  .profile-pic {
+    border-radius: 30px;
+    border: 1px black solid;
+  }
+
+  .shadow {
+    animation-name: floating;
+    animation-duration: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-top: 65%;
+    position: absolute;
+  }
+
+  #link {
+    text-decoration: none;
+    margin-top: 85%;
+    position: absolute;
+  }
+
+  .main-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  .nav-container {
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    margin: 0 auto;
+    border-color: #8795a1;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    flex-flow: column;
+    /*  position: absolute;
+    top: 0;
+    flex: 1;
+    align-self: stretch;
+    right: 0;
+    left: 0;*/
+  }
+
+  .nav-bullets {
+    list-style: none;
+    width: 60%;
+    margin: 4% 7% 4% 0%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .about-page-container {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .about-page {
+    padding: 5% 5% 0 5%;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 326px) {
+  /* mobile */
+
+  .shadow {
+    animation-name: floating;
+    animation-duration: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-top: 65%;
+    position: absolute;
+  }
+
+  #link {
+    text-decoration: none;
+    margin-top: 85%;
+    margin-left: 1px;
+    position: absolute;
+  }
+
+  .main-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin-left: 15%;
+  }
+
+  .nav-container {
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    margin: 0 auto;
+    border-color: #8795a1;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    flex-flow: column;
+    padding-left: 3%;
+  }
+
+  .nav-bullets {
+    list-style: none;
+    width: 60%;
+    margin: 4% 7% 0% 0%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  #my-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding-left: 10%;
+  }
+
+  .profile-pic {
+    margin-top: 80%;
+  }
+
+  .about-page-container {
+    margin-left: 5%;
+    display: flex;
+    flex-flow: column;
+  }
+
+  .about-page {
+    padding: 5% 5% 0 5%;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .address {
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 200;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding-bottom: 10%;
+  }
+  .profile-pic {
+    border-radius: 30px;
+    border: 1px black solid;
+  }
+
+  #work-page {
+    margin-left: 3%;
+  }
+
+
+  #contact-page {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+
+  .social-image1,
+  .social-image2,
+  .social-image3 {
+    height: 85%;
+  }
+
+  #work-page {
+    margin-left: 10%;
+  }
+
+  #flip-box {
+    width: 360px;
+  }
+  
+  #shaka-img {
+    height: 150px; 
+    border-radius: 15px;
+  }
+  #winson-img {
+    height: 160px; 
+    border-radius: 15px;
+  }
+  #legends-img {
+    height: 150px; 
+    border-radius: 15px;
+  }
+  #fooder-img {
+    height: 250px; 
+    border-radius: 15px;
+  }
+  #soccer-img {
+    height: 200px; 
+    border-radius: 15px;
+  }
+
+  .shaka {
+    margin-bottom: -3%;
+  }
+  
+  .winson {
+    margin-bottom: 60%;
+  }
+  .card-title-winson {
+    margin-top: -50px;
+  }
+  
+  .deckOfLegends {
+    margin-bottom: 25%;
+  }
+  
+  .fooder {
+    margin-bottom: 27%;
+  }
+  
+  .soccer {
+    margin-bottom: 3%;
+  }
+
 }

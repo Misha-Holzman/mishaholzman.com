@@ -27,7 +27,7 @@
   max-width: 75%;
 }
 
-.shaka-site {
+/* .shaka-site {
   border-radius: 15px;
 }
 
@@ -59,19 +59,19 @@
 
 .keeper-div {
   padding: 18% 0% 18% 0%;
-}
+} */
 
 
 /*.press-container > div {
   padding: 30px;
 }*/
 
-.press-container > div > img {
+/* .press-container > div > img {
   max-height: 86px;
   width: 51px;
-}
+} */
 
-.hover11 a img {
+/* .hover11 a img {
   opacity: 1;
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
@@ -83,13 +83,138 @@
 
 .hover11 a:hover img {
   opacity: .7;
-}
+} */
 /**/
 #press {
-
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-start;
   align-items: center;
   align-content: center;
+}
+
+
+
+
+
+
+
+#flip-box {
+  background-color: transparent;
+  width: 500px;
+  height: 250px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+#flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 130%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+#flip-box:hover #flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+#flip-box-front, #flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+#flip-box-front {
+  background-color: white;
+  color: black;
+}
+
+/* Style the back side */
+#flip-box-back {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  transform: rotateY(180deg);
+  font-family: "Montserrat", sans-serif;
+}
+
+.back-card-text {
+  padding-right: 4%;
+  padding-left: 4%;
+}
+
+#card-title-shaka {
+  padding-top: 10%;
+  font-size: 25px;
+  font-weight: 600;
+}
+#card-title-winson {
+  padding-top: 2%;
+  font-size: 25px;
+  font-weight: 600;
+}
+#card-title-legends {
+  padding-top: 5%;
+  font-size: 25px;
+  font-weight: 600;
+}
+#card-title-fooder {
+  padding-top: 8%;
+  font-size: 25px;
+  font-weight: 600;
+}
+#card-title-soccer {
+  padding-top: 8%;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#card-text {
+  font-size: 13px;
+}
+
+.shaka {
+  margin-bottom: 5%;
+}
+
+.winson {
+  margin-bottom: 20%;
+}
+
+.deckOfLegends {
+  margin-bottom: 15%;
+}
+
+.fooder {
+  margin-bottom: 27%;
+}
+
+.soccer {
+  margin-bottom: 3%;
+}
+
+#shaka-img {
+  height: 260px; 
+  border-radius: 15px;
+}
+#winson-img {
+  height: 270px; 
+  border-radius: 15px;
+}
+#legends-img {
+  height: 250px; 
+  border-radius: 15px;
+}
+#fooder-img {
+  height: 370px; 
+  border-radius: 15px;
+}
+#soccer-img {
+  height: 310px; 
+  border-radius: 15px;
 }

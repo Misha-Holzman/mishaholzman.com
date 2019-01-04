@@ -20,7 +20,7 @@
   border-radius: 40px;
   width: 20%;
   height: 40px;
-  background-color: rgba(255, 255, 255, .3);
+  background-color: rgba(255, 255, 255, 0.3);
   color: black;
   font-family: "Lekton", sans-serif;
   font-size: 20px;
@@ -29,10 +29,7 @@
   outline: none;
 }
 
-
-
 /*
-
 #shapes-svg {
   z-index: -2;
   position: absolute;
@@ -49,7 +46,6 @@
 }
 */
 
-
 .profile-pic {
   margin-right: 13%;
 }
@@ -65,7 +61,7 @@
 .hello-text {
   font-size: 30px;
   font-weight: 300;
-  font-family: 'Patrick Hand', cursive;
+  font-family: "Patrick Hand", cursive;
   letter-spacing: 4px;
 }
 
@@ -73,12 +69,11 @@
   font-size: 15px;
   font-weight: 100;
   font-family: "Montserrat", sans-serif;
-
 }
 
 #about-page {
-  margin-top: -3%;
-  padding-top: 3%;
+  margin-top: 0%;
+  padding-top: 0%;
 }
 
 #link2 {
@@ -90,77 +85,70 @@
 .arrow {
   margin-top: 0px;
   margin-right: 5%;
-  -webkit-animation: shake-vertical 18s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
-  animation: shake-vertical 18s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+  -webkit-animation: shake-vertical 18s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+    infinite both;
+  animation: shake-vertical 18s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite
+    both;
 }
-
 
 .about-all-texts {
   display: flex;
   flex-flow: column;
 }
 
-
 @-webkit-keyframes shake-vertical {
   0%,
   100% {
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
   10%,
   30%,
   50%,
   70% {
     -webkit-transform: translateY(-8px);
-            transform: translateY(-8px);
+    transform: translateY(-8px);
   }
   20%,
   40%,
   60% {
     -webkit-transform: translateY(8px);
-            transform: translateY(8px);
+    transform: translateY(8px);
   }
   80% {
     -webkit-transform: translateY(6.4px);
-            transform: translateY(6.4px);
+    transform: translateY(6.4px);
   }
   90% {
     -webkit-transform: translateY(-6.4px);
-            transform: translateY(-6.4px);
+    transform: translateY(-6.4px);
   }
 }
 @keyframes shake-vertical {
   0%,
   100% {
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
   10%,
   30%,
   50%,
   70% {
     -webkit-transform: translateY(-8px);
-            transform: translateY(-8px);
+    transform: translateY(-8px);
   }
   20%,
   40%,
   60% {
     -webkit-transform: translateY(8px);
-            transform: translateY(8px);
+    transform: translateY(8px);
   }
   80% {
     -webkit-transform: translateY(6.4px);
-            transform: translateY(6.4px);
+    transform: translateY(6.4px);
   }
   90% {
     -webkit-transform: translateY(-6.4px);
-            transform: translateY(-6.4px);
+    transform: translateY(-6.4px);
   }
 }
-
-
-
-
-
-
-

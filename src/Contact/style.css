@@ -94,10 +94,12 @@
 }
 
 
+.back-to-top-link {
+  text-decoration: none;
+}
 
 
-.social-image1:hover
-{
+.social-image1:hover {
   -webkit-animation: swing .75s ease;
   animation: swing .75s ease;
   -webkit-animation-iteration-count: 1;

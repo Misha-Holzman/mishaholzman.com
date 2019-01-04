@@ -1,15 +1,15 @@
-import React, { Component } from "react";
-import Navbar from "../Navbar";
-import MainPage from "../MainPage";
-import MyWork from "../MyWork";
-import AboutPage from "../About";
-import ContactPage from "../Contact";
-import "./style.css";
+import React, { Component } from 'react'
+import Navbar from '../Navbar'
+import MainPage from '../MainPage'
+import MyWork from '../MyWork'
+import AboutPage from '../About'
+import ContactPage from '../Contact'
+import './style.css'
 
 class App extends Component {
-  render() {
+  render () {
     return (
-      <div className="App">
+      <div className='App'>
         <Navbar />
         <MainPage />
         <AboutPage />
@@ -20,4 +20,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default App

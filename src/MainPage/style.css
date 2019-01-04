@@ -28,15 +28,9 @@
   -webkit-transition: border-radius 2s ease-in-out;*/
 }
 
-
-
-.background-globe:hover {
-
-}
-
 .globe-text {
   font-family: "Lekton", sans-serif;
-
+  font-size: 140%;
 }
 
 
@@ -59,7 +53,6 @@
 }
 
 .arrow {
-
   -webkit-animation: shake-vertical 18s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
   animation: shake-vertical 18s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
 }
