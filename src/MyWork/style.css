@@ -149,17 +149,17 @@
 }
 
 #card-title-shaka {
-  padding-top: 10%;
+  margin-top: 6%;
   font-size: 25px;
   font-weight: 600;
 }
 #card-title-winson {
-  padding-top: 2%;
+  margin-top: -4%;
   font-size: 25px;
   font-weight: 600;
 }
 #card-title-legends {
-  padding-top: 5%;
+  margin-top: -4%;
   font-size: 25px;
   font-weight: 600;
 }
@@ -201,20 +201,46 @@
 #shaka-img {
   height: 260px; 
   border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
 #winson-img {
   height: 270px; 
   border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
 #legends-img {
   height: 250px; 
   border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
 #fooder-img {
   height: 370px; 
   border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
 #soccer-img {
   height: 310px; 
   border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+
+
+
+.github-button {
+  border-radius: 40px;
+  width: 20%;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: black;
+  font-family: "Lekton", sans-serif;
+  font-size: 20px;
+  border: 1px solid black;
+  outline: none;
+  padding-top: 5px;
+}
+
+.github-button:hover {
+  background-color: white;
+  color: black;
+  border: rgb(172, 172, 172) solid 2px;
 }

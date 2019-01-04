@@ -262,10 +262,52 @@ html {
   #soccer-img {
     height: 270px; 
     border-radius: 15px;
-}
+  }
+  .shaka {
+    margin-top: 20%;
+    margin-bottom: 40%;
 
+  }
+  
+  .winson {
+    margin-top: -20%;
+    margin-bottom: 100%;
 
+  }
+  .card-title-winson {
+    margin-top: -50px;
+  }
+  
+  .deckOfLegends {
+    margin-top: -45%;
+    margin-bottom: 50%;
+  }
+  
+  .fooder {
+    margin-top: -10%;
+    margin-bottom: 60%;
+  }
+  
+  .soccer {
+    margin-top: -10%;
+  }
 
+  .github-button {
+    border-radius: 40px;
+    width: 30%;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    font-family: "Lekton", sans-serif;
+    font-size: 20px;
+    border: 1px solid black;
+    outline: none;
+    padding-top: 5px;
+  }
+
+  #legends-img {
+    height: 205px; 
+  }
   
 }
 
@@ -327,6 +369,10 @@ html {
     height: 200px;
   }
 
+  #legends-img {
+    height: 210px; 
+  }
+
   .fooder-site {
     height: 280px;
   }
@@ -345,6 +391,48 @@ html {
     border-right: 1px solid lightgray;
     padding-left: 7px;
     padding-right: 7px;
+  }
+
+  .shaka {
+    margin-top: 20%;
+    margin-bottom: 40%;
+
+  }
+  
+  .winson {
+    margin-top: -40%;
+    margin-bottom: 110%;
+
+  }
+  .card-title-winson {
+    margin-top: -50px;
+  }
+  
+  .deckOfLegends {
+    margin-top: -45%;
+    margin-bottom: 60%;
+  }
+  
+  .fooder {
+    margin-top: -20%;
+    margin-bottom: 60%;
+  }
+  
+  .soccer {
+    margin-top: -30%;
+  }
+
+  .github-button {
+    border-radius: 40px;
+    width: 30%;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    font-family: "Lekton", sans-serif;
+    font-size: 20px;
+    border: 1px solid black;
+    outline: none;
+    padding-top: 5px;
   }
 }
 
@@ -459,7 +547,48 @@ html {
   #soccer-img {
     height: 230px; 
     border-radius: 15px;
-}
+  }
+  .shaka {
+    margin-top: 20%;
+    margin-bottom: 40%;
+
+  }
+  
+  .winson {
+    margin-top: -40%;
+    margin-bottom: 110%;
+
+  }
+  .card-title-winson {
+    margin-top: -50px;
+  }
+  
+  .deckOfLegends {
+    margin-top: -45%;
+    margin-bottom: 70%;
+  }
+  
+  .fooder {
+    margin-top: -20%;
+    margin-bottom: 60%;
+  }
+  
+  .soccer {
+    margin-top: -30%;
+  }
+
+  .github-button {
+    border-radius: 40px;
+    width: 30%;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    font-family: "Lekton", sans-serif;
+    font-size: 20px;
+    border: 1px solid black;
+    outline: none;
+    padding-top: 5px;
+  }
 
 
 }
@@ -550,7 +679,49 @@ html {
   #soccer-img {
     height: 220px; 
     border-radius: 15px;
-}
+  }
+
+  .shaka {
+    margin-top: 20%;
+    margin-bottom: 40%;
+
+  }
+  
+  .winson {
+    margin-top: -40%;
+    margin-bottom: 110%;
+
+  }
+  .card-title-winson {
+    margin-top: -50px;
+  }
+  
+  .deckOfLegends {
+    margin-top: -45%;
+    margin-bottom: 70%;
+  }
+  
+  .fooder {
+    margin-top: -20%;
+    margin-bottom: 60%;
+  }
+  
+  .soccer {
+    margin-top: -30%;
+  }
+
+  .github-button {
+    border-radius: 40px;
+    width: 30%;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    font-family: "Lekton", sans-serif;
+    font-size: 20px;
+    border: 1px solid black;
+    outline: none;
+    padding-top: 5px;
+  }
 
 }
 
@@ -654,7 +825,48 @@ html {
   #soccer-img {
     height: 205px; 
     border-radius: 15px;
-}
+  }
+  .shaka {
+    margin-top: 20%;
+    margin-bottom: 40%;
+
+  }
+  
+  .winson {
+    margin-top: -40%;
+    margin-bottom: 110%;
+
+  }
+  .card-title-winson {
+    margin-top: -50px;
+  }
+  
+  .deckOfLegends {
+    margin-top: -45%;
+    margin-bottom: 70%;
+  }
+  
+  .fooder {
+    margin-top: -20%;
+    margin-bottom: 60%;
+  }
+  
+  .soccer {
+    margin-top: -30%;
+  }
+
+  .github-button {
+    border-radius: 40px;
+    width: 30%;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    font-family: "Lekton", sans-serif;
+    font-size: 20px;
+    border: 1px solid black;
+    outline: none;
+    padding-top: 5px;
+  }
 }
 
 @media screen and (max-width: 370px) {
@@ -725,6 +937,48 @@ html {
     padding: 5% 5% 0 5%;
     width: 100%;
     margin: 0 auto;
+  }
+
+  .shaka {
+    margin-top: 20%;
+    margin-bottom: 40%;
+
+  }
+  
+  .winson {
+    margin-top: -40%;
+    margin-bottom: 110%;
+
+  }
+  .card-title-winson {
+    margin-top: -50px;
+  }
+  
+  .deckOfLegends {
+    margin-top: -45%;
+    margin-bottom: 60%;
+  }
+  
+  .fooder {
+    margin-top: -20%;
+    margin-bottom: 60%;
+  }
+  
+  .soccer {
+    margin-top: -30%;
+  }
+
+  .github-button {
+    border-radius: 40px;
+    width: 30%;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    font-family: "Lekton", sans-serif;
+    font-size: 20px;
+    border: 1px solid black;
+    outline: none;
+    padding-top: 5px;
   }
 }
 
@@ -869,26 +1123,45 @@ html {
   }
 
   .shaka {
-    margin-bottom: -3%;
+    margin-top: 20%;
+    margin-bottom: 40%;
+
   }
   
   .winson {
-    margin-bottom: 60%;
+    margin-top: -40%;
+    margin-bottom: 100%;
+
   }
   .card-title-winson {
     margin-top: -50px;
   }
   
   .deckOfLegends {
-    margin-bottom: 25%;
+    margin-top: -45%;
+    margin-bottom: 60%;
   }
   
   .fooder {
-    margin-bottom: 27%;
+    margin-top: -20%;
+    margin-bottom: 60%;
   }
   
   .soccer {
-    margin-bottom: 3%;
+    margin-top: -30%;
+  }
+
+  .github-button {
+    border-radius: 40px;
+    width: 30%;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    font-family: "Lekton", sans-serif;
+    font-size: 20px;
+    border: 1px solid black;
+    outline: none;
+    padding-top: 5px;
   }
 
 }
