@@ -103,7 +103,7 @@ class MyWork extends Component {
 
             <div id='flip-box' className='soccer'>
               <a
-                href='https://git.generalassemb.ly/mholzman/Shaka'
+                href='https://pages.git.generalassemb.ly/mholzman/MCHolzman-beatTheKeeper-Project-1/'
                 target='_blank'
               >
                 <div id='flip-box-inner'>
