@@ -76,20 +76,51 @@
   padding-bottom: 10%;
 }
 
-.social-links-container {
-  margin: 0 auto;
+.social-pics-container {
+  width: 25%;
   padding-bottom: 5%;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.social-link {
-  margin-left: 14%;
-  margin-right: 14%;
+.social-links-container1 {
+  width: 25%;
+  margin: 0 auto;
+}
+.social-links-container2 {
+  width: 25%;
+  margin: 0 auto;
+}
+.social-links-container3 {
+  width: 25%;
+  margin: 0 auto;
 }
 
-.social-image1, .social-image2, .social-image3 {
+.social-link1 {
+  width: 100%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.social-link2 {
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
+.social-link3 {
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
+.social-image1 {
+  height: 100%;
+}
+.social-image2 {
+  height: 100%;
+}
+
+.social-image3 {
   height: 100%;
 }
 
@@ -120,7 +151,7 @@
   animation: swing .75s ease;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
-}
+} 
 
 
 @-webkit-keyframes swing

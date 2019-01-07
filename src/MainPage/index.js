@@ -24,7 +24,6 @@ class MainPage extends Component {
                 />
               </path>
             </g>
-
           </svg>
         </div>
         <img
