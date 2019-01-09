@@ -6,7 +6,7 @@ class MainPage extends Component {
     return (
       <div className='main-page-container'>
         <div className='background-globe'>
-          <h2 className='globe-text'>Full Stack Web Developer</h2>
+          <h2 className='globe-text'>Front End Web Developer</h2>
           <svg viewBox='0 0 160 160' width='160' height='160'>
             <circle cx='80' cy='80' r='50' />
             <g transform=' matrix(01.266, -0.5, 0.25, 0.433, 80, 80)'>
@@ -24,6 +24,7 @@ class MainPage extends Component {
                 />
               </path>
             </g>
+
           </svg>
         </div>
         <img

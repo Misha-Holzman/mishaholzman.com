@@ -84,6 +84,16 @@ html {
     border-radius: 30px;
     border: 1px black solid;
   }
+
+  .social-pics-container {
+    width: 35%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 780px) {
@@ -142,6 +152,17 @@ html {
     border-radius: 30px;
     border: 1px black solid;
   }
+
+  .social-pics-container {
+    width: 40%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
 }
 
 @media screen and (max-width: 705px) {
@@ -184,6 +205,16 @@ html {
     border-radius: 30px;
     border: 1px black solid;
   }
+
+  .social-pics-container {
+    width: 45%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 667px) {
@@ -208,6 +239,16 @@ html {
     .profile-pic {
     border-radius: 30px;
     border: 1px black solid;
+  }
+
+  .social-pics-container {
+    width: 45%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
   }
 }
 
@@ -321,6 +362,16 @@ html {
     outline: none;
     padding-top: 5px;
     margin-right: 2%;
+  }
+
+  .social-pics-container {
+    width: 55%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
   }
   
 }
@@ -447,6 +498,16 @@ html {
     border: 1px solid black;
     outline: none;
     padding-top: 5px;
+  }
+
+  .social-pics-container {
+    width: 70%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
   }
 }
 
@@ -737,6 +798,16 @@ html {
     padding-top: 5px;
   }
 
+  .social-pics-container {
+    width: 80%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
 }
 
 
@@ -994,6 +1065,16 @@ html {
     outline: none;
     padding-top: 5px;
   }
+
+  .social-pics-container {
+    width: 85%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 326px) {
@@ -1176,6 +1257,16 @@ html {
     border: 1px solid black;
     outline: none;
     padding-top: 5px;
+  }
+
+  .social-pics-container {
+    width: 95%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
   }
 
 }
