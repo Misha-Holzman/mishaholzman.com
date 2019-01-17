@@ -21,7 +21,7 @@
 .nav-bullets {
   list-style: none;
   width: 40%;
-  margin: 3% 0% 3% 10%;
+  margin: 3% -5% 3% 10%;
   display: flex;
   align-content: flex-end;
 }
@@ -48,8 +48,6 @@
   margin-left: 8%;
 }
 
-.title {
-}
 
 .nav-text-links {
   text-decoration: none;

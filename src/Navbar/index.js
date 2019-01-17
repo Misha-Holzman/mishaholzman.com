@@ -1,60 +1,57 @@
-import React, { Component } from "react";
-import "./style.css";
-import { StickyContainer, Sticky } from 'react-sticky';
-
-
-
+import React, { Component } from 'react'
+import './style.css'
+import { StickyContainer, Sticky } from 'react-sticky'
 
 class Navbar extends Component {
-  render() {
+  render () {
     return (
-      <div className="nav-container" id="navbar">
-        <div className="title">
-          <a href="#changeMe" id="my-name">
+      <div className='nav-container' id='navbar'>
+        <div className='title'>
+          <a href='#changeMe' id='my-name'>
             <strong>Misha</strong> Holzman
           </a>
         </div>
-        <ul className="nav-bullets">
-          <li className="links">
-            <div class="section">
-              <div class="section__item">
+        <ul className='nav-bullets'>
+          <li className='links'>
+            <div class='section'>
+              <div class='section__item'>
                 <a
-                  href="#about-page"
-                  class="sm-link sm-link_padding-all sm-link1 nav-text-links"
+                  href='#about-page'
+                  class='sm-link sm-link_padding-all sm-link1 nav-text-links'
                 >
-                  <span class="sm-link__label">About Me</span>
+                  <span class='sm-link__label'>About Me</span>
                 </a>
               </div>
             </div>
           </li>
-          <li className="links">
-          <div class="section">
-              <div class="section__item">
+          <li className='links'>
+            <div class='section'>
+              <div class='section__item'>
                 <a
-                  href="#my-work"
-                  class="sm-link sm-link_padding-all sm-link1 nav-text-links"
+                  href='#my-work'
+                  class='sm-link sm-link_padding-all sm-link1 nav-text-links'
                 >
-                  <span class="sm-link__label">My Work</span>
+                  <span class='sm-link__label'>My Work</span>
                 </a>
               </div>
             </div>
           </li>
-          <li className="links">
-          <div class="section">
-              <div class="section__item">
+          <li className='links'>
+            <div class='section'>
+              <div class='section__item'>
                 <a
-                  href="#contact-page"
-                  class="sm-link sm-link_padding-all sm-link1 nav-text-links"
+                  href='#contact-page'
+                  class='sm-link sm-link_padding-all sm-link1 nav-text-links'
                 >
-                  <span class="sm-link__label">Contact</span>
+                  <span class='sm-link__label'>Contact</span>
                 </a>
               </div>
             </div>
           </li>
         </ul>
       </div>
-    );
+    )
   }
 }
 
-export default Navbar;
+export default Navbar

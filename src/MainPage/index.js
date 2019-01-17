@@ -6,7 +6,7 @@ class MainPage extends Component {
     return (
       <div className='main-page-container'>
         <div className='background-globe'>
-          <h2 className='globe-text'>Front End Web Developer</h2>
+          <h2 className='globe-text'>Full Stack Web Developer</h2>
           <svg viewBox='0 0 160 160' width='160' height='160'>
             <circle cx='80' cy='80' r='50' />
             <g transform=' matrix(01.266, -0.5, 0.25, 0.433, 80, 80)'>
@@ -27,6 +27,41 @@ class MainPage extends Component {
 
           </svg>
         </div>
+        <svg viewBox='0 0 2500 800' id='newSvg'>
+          <symbol id='s-text'>
+            <text text-anchor='middle'
+              x='15.5%'
+              y='26%'
+              className='text--line'
+              id='textLocation1'
+            >
+      creative
+            </text>
+            <text text-anchor='middle'
+              x='82%'
+              y='26%'
+              className='text--line2'
+              id='textLocation2'
+            >
+      solutions
+            </text>
+
+          </symbol>
+
+          <g class='g-ants'>
+            <use href='#s-text'
+              class='text-copy' />
+            <use href='#s-text'
+              class='text-copy' />
+            <use href='#s-text'
+              class='text-copy' />
+            <use href='#s-text'
+              class='text-copy' />
+            <use href='#s-text'
+              class='text-copy' />
+          </g>
+
+        </svg>
         <img
           src='https://i.imgur.com/wT3za4V.png'
           height='50px'

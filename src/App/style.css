@@ -2,6 +2,110 @@ html {
   scroll-behavior: smooth;
 }
 
+
+
+@media screen and (max-width: 1655px) {
+
+  #newSvg {
+    width: 2000px;
+    height: 500px;
+    font: 12em/1 Arial;
+    margin-top: 170px;
+    top: 11%;
+    left: -9%;
+    z-index: -5;
+  }
+
+
+}
+
+@media screen and (max-width: 1620px) {
+
+  #newSvg {
+    width: 2000px;
+    height: 500px;
+    font: 12em/1 Arial;
+    margin-top: 170px;
+    top: 10%;
+    left: -10%;
+  }
+
+
+}
+
+@media screen and (max-width: 1595px) {
+
+  #newSvg {
+    width: 2000px;
+    height: 500px;
+    font: 12em/1 Arial;
+    margin-top: 170px;
+    top: 10%;
+    left: -11%;
+  }
+
+
+}
+
+@media screen and (max-width: 1555px) {
+
+  #newSvg {
+    width: 2000px;
+    height: 500px;
+    font: 12em/1 Arial;
+    margin-top: 170px;
+    top: 10%;
+    left: -12%;
+  }
+
+
+}
+/* 
+
+@media screen and (max-width: 1600px) {
+
+  #newSvg {
+      margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+
+  #newSvg {
+      margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+
+  #newSvg {
+      margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+
+  #newSvg {
+      margin-left: 10%;
+  }
+} */
+
+@media screen and (max-width: 1280px) {
+
+  #newSvg {
+    position: absolute;
+    width: 1200px;
+    height: 400px;
+    font: 10em/1 Arial;
+    margin-top: 150px;
+    top: 10%;
+    left: 5%;
+  }
+
+}
+
+
+
 @media screen and (max-width: 1200px) {
   /* Large Desktop */
   .resume-button {
@@ -15,6 +119,10 @@ html {
     border: 1px solid black;
     margin-top: 5%;
     outline: none;
+  }
+
+  #newSvg {
+      display: none;
   }
 }
 
