@@ -118,7 +118,7 @@
             transform: translateY(6.4px);
   }
   90% {
-    -webkit-transform: translateY(-6.4px);
+        -webkit-transform: translateY(-6.4px);
             transform: translateY(-6.4px);
   }
 }
@@ -276,3 +276,4 @@ https://codepen.io/selimyilmaz/pen/WJKNWO
   stroke: #1B8798;
   stroke-dashoffset: 35%;
 } */
+

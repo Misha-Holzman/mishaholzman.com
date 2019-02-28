@@ -242,40 +242,72 @@ a.sm-link {
   transition-duration: 0.4s;
 }
 
-/* effect 1 */
+/* effect 6 */
 
-.sm-link1::before {
+.sm-link6::before,
+.sm-link6::after, 
+.sm-link6 .sm-link__label::before,
+.sm-link6 .sm-link__label::after{
+  transition-duration: .2s;
+  transition-timing-function: ease-out;
+}
+
+.sm-link6::before, 
+.sm-link6::after{
+  width: 100%;
+  height: var(--uismLinkLineWeight);
+  left: 0;
+}
+
+.sm-link6 .sm-link__label::before,
+.sm-link6 .sm-link__label::after{
+  width: var(--uismLinkLineWeight);
+  height: 100%;
+  top: 0;
+}
+
+.sm-link6::before{
+  top: 0;
   transform: translate3d(-105%, 0, 0);
 }
 
-.sm-link1::after {
+.sm-link6::after{
+  bottom: 0;
   transform: translate3d(105%, 0, 0);
 }
 
-.sm-link1 .sm-link__label::before {
-  transform: translate3d(0%, -100%, 0);
+.sm-link6 .sm-link__label::before{
+  left: 0;
+  transform: translate3d(0, 105%, 0);
 }
 
-.sm-link1 .sm-link__label::after {
-  transform: translate3d(0%, 100%, 0);
+.sm-link6 .sm-link__label::after{
+  right: 0;
+  transform: translate3d(0, -105%, 0);
 }
 
-.sm-link1::before,
-.sm-link1::after,
-.sm-link1 .sm-link__label::before,
-.sm-link1 .sm-link__label::after {
-  transition-timing-function: ease-out;
-  transition-duration: 0.2s, 0.15s;
-  transition-delay: 0s, 0.15s;
-}
-
-.sm-link1:hover::before,
-.sm-link1:hover::after,
-.sm-link1:hover .sm-link__label::before,
-.sm-link1:hover .sm-link__label::after {
+.sm-link6:hover::before,
+.sm-link6:hover::after,
+.sm-link6:hover .sm-link__label::before,
+.sm-link6:hover .sm-link__label::after{
   transform: translate3d(0, 0, 0);
-  opacity: 1;
+}
 
-  transition-duration: 0.25s;
+.sm-link6:hover::before{
   transition-delay: 0s;
+}
+
+.sm-link6 .sm-link__label::after,
+.sm-link6:hover::after{
+  transition-delay: .25s;
+}
+
+.sm-link6::after,
+.sm-link6:hover .sm-link__label::after{
+  transition-delay: .15s;
+}
+
+.sm-link6::before,
+.sm-link6:hover .sm-link__label::before{
+  transition-delay: .35s;
 }

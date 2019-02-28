@@ -18,8 +18,8 @@
 
 .resume-button {
   border-radius: 40px;
-  width: 20%;
-  height: 40px;
+  width: 23%;
+  height: 35px;
   background-color: rgba(255, 255, 255, 0.3);
   color: black;
   font-family: "Lekton", sans-serif;
@@ -86,7 +86,7 @@
 
 .arrow {
   margin-top: 0px;
-  margin-right: 5%;
+  margin-left: 1.5%;
   -webkit-animation: shake-vertical 18s cubic-bezier(0.455, 0.03, 0.515, 0.955)
     infinite both;
   animation: shake-vertical 18s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite
@@ -154,3 +154,37 @@
     transform: translateY(-6.4px);
   }
 }
+
+
+
+
+/* <div class="wrapper">
+  <div class="text-container">
+<a class="text">nihil sub sole novum</a>
+  </div>
+</div> */
+
+
+.resume-link-animation {
+  transition: background-size .4s ease;
+  background: linear-gradient(to bottom, transparent 62%, rgb(255, 227, 71) 0) center center/0% 75% no-repeat;
+  cursor: pointer;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.resume-link-animation:hover {
+  background-size: 100% 100%;
+}
+.resume-link-animation:active {
+  background-size: 80% 100%;
+}
+
+.resume-button:before {
+  content: "";
+  position: absolute;
+  display: block;
+  z-index: 0;
+}
+
+

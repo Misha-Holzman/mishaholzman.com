@@ -17,7 +17,7 @@ class Navbar extends Component {
               <div class='section__item'>
                 <a
                   href='#about-page'
-                  class='sm-link sm-link_padding-all sm-link1 nav-text-links'
+                  class='sm-link sm-link_padding-all sm-link6 nav-text-links'
                 >
                   <span class='sm-link__label'>About Me</span>
                 </a>
@@ -29,7 +29,7 @@ class Navbar extends Component {
               <div class='section__item'>
                 <a
                   href='#my-work'
-                  class='sm-link sm-link_padding-all sm-link1 nav-text-links'
+                  class='sm-link sm-link_padding-all sm-link6 nav-text-links'
                 >
                   <span class='sm-link__label'>My Work</span>
                 </a>
@@ -41,7 +41,7 @@ class Navbar extends Component {
               <div class='section__item'>
                 <a
                   href='#contact-page'
-                  class='sm-link sm-link_padding-all sm-link1 nav-text-links'
+                  class='sm-link sm-link_padding-all sm-link6 nav-text-links'
                 >
                   <span class='sm-link__label'>Contact</span>
                 </a>
