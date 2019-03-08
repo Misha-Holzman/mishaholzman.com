@@ -80,5 +80,3 @@ class MainPage extends Component {
 }
 
 export default MainPage
-
-//           <p className="arrow-text">my work</p>
