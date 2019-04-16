@@ -372,7 +372,7 @@ html {
     border-radius: 300px;
   }
   .profile-pic {
-    border-radius: 30px;
+    border-radius: 100%;
     border: 1px black solid;
   }
 
@@ -444,7 +444,7 @@ html {
   }
 
   .profile-pic {
-    border-radius: 30px;
+    border-radius: 100%;
     border: 1px black solid;
   }
 
@@ -497,7 +497,7 @@ html {
   }
 
   .profile-pic {
-    border-radius: 30px;
+    border-radius: 100%;
     border: 1px black solid;
   }
 
@@ -578,7 +578,7 @@ html {
   }
 
     .profile-pic {
-    border-radius: 30px;
+    border-radius: 100%;
     border: 1px black solid;
   }
 
@@ -623,7 +623,7 @@ html {
   }
 
   .profile-pic {
-    border-radius: 30px;
+    border-radius: 100%;
     border: 1px black solid;
   }
 
@@ -1180,7 +1180,7 @@ html {
   /* mobile */
 
   .profile-pic {
-    border-radius: 30px;
+    border-radius: 100%;
     border: 1px black solid;
   }
 
@@ -1256,7 +1256,7 @@ html {
   /* mobile */
 
   .profile-pic {
-    border-radius: 30px;
+    border-radius: 100%;
     border: 1px black solid;
   }
 
@@ -1472,7 +1472,7 @@ html {
   /* mobile */
 
   .profile-pic {
-    border-radius: 30px;
+    border-radius: 100%;
     border: 1px black solid;
   }
 
@@ -1677,7 +1677,7 @@ html {
     padding-bottom: 10%;
   }
   .profile-pic {
-    border-radius: 30px;
+    border-radius: 100%;
     border: 1px black solid;
   }
 
