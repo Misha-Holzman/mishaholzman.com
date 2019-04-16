@@ -2,6 +2,45 @@ html {
   scroll-behavior: smooth;
 }
 
+@media only screen  and (min-width : 1665px) {
+	
+  #newSvg {
+    position: absolute;
+    width: 1800px;
+    height: 500px;
+    font: 13em/1 Arial;
+    margin-top: 170px;
+    top: 8%;
+    left: 5%;
+  }
+
+
+  .nav-bullets {
+    list-style: none;
+    width: 40%;
+    margin: 3% -13% 3% 18%;
+    display: flex;
+    align-content: flex-end;
+  }
+
+
+  #my-name {
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+    font-family: "Lekton", sans-serif;
+    letter-spacing: 1px;
+  }
+
+  .title {
+    margin-left: 4%;
+  }
+
+  #about-page {
+    margin-top: 10%;
+  }
+    
+}
 
 
 @media screen and (max-width: 1655px) {
@@ -346,6 +385,10 @@ html {
     align-content: center;
     align-items: center;
   }
+
+  #link2 {
+    margin-left: 0;
+  }
 }
 
 @media screen and (max-width: 780px) {
@@ -475,6 +518,44 @@ html {
     align-content: center;
     justify-content: center;
   }
+
+  #josh-acting-img {
+    height: 270px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #shaka-img {
+    height: 294px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #winson-img {
+    height: 307px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #legends-img {
+    height: 275px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #fooder-img {
+    height: 440px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #soccer-img {
+    height: 350px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  .fooder {
+    margin-bottom: 65%;
+  }
+  
+  .soccer {
+    margin-bottom: 30%;
+  }
 }
 
 @media screen and (max-width: 667px) {
@@ -510,6 +591,12 @@ html {
     align-content: center;
     align-items: center;
   }
+  #flip-box {
+    background-color: transparent;
+    width: 535px;
+    height: 250px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
 }
 
 @media screen and (max-width: 535px) {
@@ -540,57 +627,99 @@ html {
     border: 1px black solid;
   }
 
-  #flip-box {
+  /* #flip-box {
     width: 360px;
-  }
+  } */
   
-  #shaka-img {
-    height: 220px; 
+  #josh-acting-img {
+    height: 240px; 
     border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #shaka-img {
+    height: 264px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
   }
   #winson-img {
-    height: 230px; 
+    height: 277px; 
     border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
   }
   #legends-img {
-    height: 230px; 
+    height: 245px; 
     border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
   }
   #fooder-img {
-    height: 330px; 
+    height: 410px; 
     border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
   }
   #soccer-img {
-    height: 270px; 
+    height: 320px; 
     border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
   }
-  .shaka {
-    margin-top: 20%;
-    margin-bottom: 40%;
-
-  }
-  
-  .winson {
-    margin-top: -20%;
-    margin-bottom: 100%;
-
-  }
-  .card-title-winson {
-    margin-top: -50px;
-  }
-  
-  .deckOfLegends {
-    margin-top: -45%;
-    margin-bottom: 50%;
-  }
-  
   .fooder {
-    margin-top: -10%;
-    margin-bottom: 60%;
+    margin-bottom: 75%;
   }
   
   .soccer {
-    margin-top: -10%;
+    margin-top: 5%;
+    margin-bottom: 35%;
+  }
+
+  .josh-acting {
+    margin-bottom: 25%;
+    margin-top: 8%;
+  }
+  .shaka {
+    margin-bottom: 33%;
+  }
+  
+  .winson {
+    margin-bottom: 37%;
+  }
+  
+  .deckOfLegends {
+    margin-bottom: 28%;
+  }
+  
+  .back-card-text {
+    padding-right: 4%;
+    padding-left: 4%;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #josh-flip-text {
+    margin-top: 5%;
+  }
+  #shaka-flip-text {
+    margin-top: 5%;
+  }
+  #winson-flip-text {
+    margin-top: 2%;
+  }
+  #legends-flip-text {
+    margin-top: 2%;
+  }
+  .fooder-back-card {
+    margin-top: 5%;
+  }
+  #fooder-flip-text {
+    margin-top: 0%;
+  }
+  #soccer-flip-text {
+    margin-top: 0%;
+  }
+
+  #flip-box {
+    background-color: transparent;
+    width: 480px;
+    height: 250px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
 
   .github-button {
@@ -606,9 +735,9 @@ html {
     padding-top: 5px;
   }
 
-  #legends-img {
+  /* #legends-img {
     height: 205px; 
-  }
+  } */
 
   .soccer-button {
     border-radius: 40px;
@@ -686,28 +815,98 @@ html {
     margin: 0 auto;
   }
 
-  .shaka-site {
-    height: 200px;
+  #flip-box {
+    background-color: transparent;
+    width: 430px;
+    height: 250px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  .back-card-text {
+    padding-right: 4%;
+    padding-left: 4%;
+    width: 90%;
+    margin: 0 auto;
   }
 
-  .winson-site {
-    height: 200px;
-  }
-
-  #legends-img {
+  #josh-acting-img {
     height: 210px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #shaka-img {
+    height: 224px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #winson-img {
+    height: 237px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #legends-img {
+    height: 215px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #fooder-img {
+    height: 350px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #soccer-img {
+    height: 280px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
   }
 
-  .fooder-site {
-    height: 280px;
+
+  .josh-acting {
+    margin-bottom: 25%;
+    margin-top: 2%;
+  }
+  .shaka {
+    margin-bottom: 33%;
+  }
+  .winson {
+    margin-bottom: 36%;
+  }
+  .deckOfLegends {
+    margin-bottom: 28%;
+  }
+  .fooder {
+    margin-bottom: 75%;
+  }
+  .soccer {
+    margin-top: 5%;
+    margin-bottom: 35%;
+  }
+  
+
+  #josh-flip-text {
+    margin-top: 5%;
+  }
+  #shaka-flip-text {
+    margin-top: 0%;
+  }
+  #winson-flip-text {
+    margin-top: -10%;
+  }
+  #legends-flip-text {
+    margin-top: -10%;
+  }
+  .fooder-back-card {
+    margin-top: 5%;
+  }
+  #fooder-flip-text {
+    margin-top: 0%;
+  }
+  #soccer-flip-text {
+    margin-top: -5%;
   }
 
-  .keeper-site {
-    height: 220px;
-  }
 
   .profile-pic {
-    border-radius: 30px;
+    border-radius: 100%;
     border: 1px black solid;
   }
 
@@ -716,35 +915,6 @@ html {
     border-right: 1px solid lightgray;
     padding-left: 7px;
     padding-right: 7px;
-  }
-
-  .shaka {
-    margin-top: 20%;
-    margin-bottom: 40%;
-
-  }
-  
-  .winson {
-    margin-top: -40%;
-    margin-bottom: 110%;
-
-  }
-  .card-title-winson {
-    margin-top: -50px;
-  }
-  
-  .deckOfLegends {
-    margin-top: -45%;
-    margin-bottom: 60%;
-  }
-  
-  .fooder {
-    margin-top: -20%;
-    margin-bottom: 60%;
-  }
-  
-  .soccer {
-    margin-top: -30%;
   }
 
   .github-button {
@@ -793,7 +963,12 @@ html {
 
 @media screen and (max-width: 435px) {
   /* mobile */
-
+  #flip-box {
+    background-color: transparent;
+    width: 400px;
+    height: 250px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
   .main-page-container {
     display: flex;
     justify-content: center;
@@ -875,61 +1050,8 @@ html {
   }
 
   .profile-pic {
-    border-radius: 30px;
+    border-radius: 100%;
     border: 1px black solid;
-  }
-
-  #flip-box {
-    width: 340px;
-  }
-  
-  #shaka-img {
-    height: 180px; 
-    border-radius: 15px;
-  }
-  #winson-img {
-    height: 190px; 
-    border-radius: 15px;
-  }
-  #legends-img {
-    height: 190px; 
-    border-radius: 15px;
-  }
-  #fooder-img {
-    height: 290px; 
-    border-radius: 15px;
-  }
-  #soccer-img {
-    height: 230px; 
-    border-radius: 15px;
-  }
-  .shaka {
-    margin-top: 20%;
-    margin-bottom: 40%;
-
-  }
-  
-  .winson {
-    margin-top: -40%;
-    margin-bottom: 110%;
-
-  }
-  .card-title-winson {
-    margin-top: -50px;
-  }
-  
-  .deckOfLegends {
-    margin-top: -45%;
-    margin-bottom: 70%;
-  }
-  
-  .fooder {
-    margin-top: -20%;
-    margin-bottom: 60%;
-  }
-  
-  .soccer {
-    margin-top: -30%;
   }
 
   .github-button {
@@ -965,6 +1087,92 @@ html {
     margin-left: 4%;
   }
 
+  .back-card-text {
+    padding-right: 4%;
+    padding-left: 4%;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  #josh-acting-img {
+    height: 190px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #shaka-img {
+    height: 204px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #winson-img {
+    height: 217px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #legends-img {
+    height: 195px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #fooder-img {
+    height: 320px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #soccer-img {
+    height: 260px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+
+
+  .josh-acting {
+    margin-bottom: 17%;
+    margin-top: 10%;
+  }
+  .shaka {
+    margin-bottom: 25%;
+  }
+  .winson {
+    margin-bottom: 33%;
+  }
+  .deckOfLegends {
+    margin-bottom: 28%;
+  }
+  .fooder {
+    margin-bottom: 60%;
+  }
+  .soccer {
+    margin-top: 5%;
+    margin-bottom: 35%;
+  }
+  
+
+  #josh-flip-text {
+    margin-top: -10%;
+  }
+  #shaka-flip-text {
+    margin-top: 0%;
+  }
+  #winson-flip-text {
+    margin-top: -15%;
+  }
+  #legends-flip-text {
+    margin-top: -15%;
+  }
+  .fooder-back-card {
+    margin-top: 0%;
+  }
+  #fooder-flip-text {
+    margin-top: 0%;
+  }
+  #soccer-flip-text {
+    margin-top: -5%;
+  }
+
+  .main-work-container {
+    margin-left: 3% !important;
+  }
 
 }
 
@@ -995,26 +1203,6 @@ html {
     margin: 0 auto;
   }
 
-  .shaka-site {
-    height: 150px;
-  }
-
-  .winson-site {
-    height: 150px;
-  }
-
-  .fooder-site {
-    height: 230px;
-  }
-
-  .keeper-site {
-    height: 170px;
-  }
-
-  #work-page {
-    margin-left: 3%;
-  }
-
 
   #contact-page {
     font-size: 30px;
@@ -1029,60 +1217,6 @@ html {
 
   #main-contact-page {
     margin-left: 8%;
-  }
-
-  #flip-box {
-    width: 340px;
-  }
-  
-  #shaka-img {
-    height: 170px; 
-    border-radius: 15px;
-  }
-  #winson-img {
-    height: 180px; 
-    border-radius: 15px;
-  }
-  #legends-img {
-    height: 180px; 
-    border-radius: 15px;
-  }
-  #fooder-img {
-    height: 280px; 
-    border-radius: 15px;
-  }
-  #soccer-img {
-    height: 220px; 
-    border-radius: 15px;
-  }
-
-  .shaka {
-    margin-top: 20%;
-    margin-bottom: 40%;
-
-  }
-  
-  .winson {
-    margin-top: -40%;
-    margin-bottom: 110%;
-
-  }
-  .card-title-winson {
-    margin-top: -50px;
-  }
-  
-  .deckOfLegends {
-    margin-top: -45%;
-    margin-bottom: 70%;
-  }
-  
-  .fooder {
-    margin-top: -20%;
-    margin-bottom: 60%;
-  }
-  
-  .soccer {
-    margin-top: -30%;
   }
 
   .github-button {
@@ -1106,6 +1240,13 @@ html {
     justify-content: center;
     align-content: center;
     align-items: center;
+  }
+
+  #flip-box {
+    background-color: transparent;
+    width: 380px;
+    height: 250px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
 
 }
@@ -1183,62 +1324,6 @@ html {
     margin: 0 auto;
   }
 
-  #work-page {
-    margin-left: 7%;
-  }
-
-  #flip-box {
-    width: 340px;
-  }
-  
-  #shaka-img {
-    height: 155px; 
-    border-radius: 15px;
-  }
-  #winson-img {
-    height: 165px; 
-    border-radius: 15px;
-  }
-  #legends-img {
-    height: 165px; 
-    border-radius: 15px;
-  }
-  #fooder-img {
-    height: 265px; 
-    border-radius: 15px;
-  }
-  #soccer-img {
-    height: 205px; 
-    border-radius: 15px;
-  }
-  .shaka {
-    margin-top: 20%;
-    margin-bottom: 40%;
-
-  }
-  
-  .winson {
-    margin-top: -40%;
-    margin-bottom: 110%;
-
-  }
-  .card-title-winson {
-    margin-top: -50px;
-  }
-  
-  .deckOfLegends {
-    margin-top: -45%;
-    margin-bottom: 70%;
-  }
-  
-  .fooder {
-    margin-top: -20%;
-    margin-bottom: 60%;
-  }
-  
-  .soccer {
-    margin-top: -30%;
-  }
 
   .github-button {
     border-radius: 40px;
@@ -1271,6 +1356,115 @@ html {
     list-style: none;
     margin-right: 4%;
     margin-left: 4%;
+  }
+
+  #flip-box {
+    background-color: transparent;
+    width: 350px;
+    height: 250px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+
+  .back-card-text {
+    padding-right: 4%;
+    padding-left: 4%;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  #josh-acting-img {
+    height: 170px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #shaka-img {
+    height: 184px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #winson-img {
+    height: 197px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #legends-img {
+    height: 175px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #fooder-img {
+    height: 280px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #soccer-img {
+    height: 230px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+
+
+  .josh-acting {
+    margin-bottom: 17%;
+    margin-top: 10%;
+  }
+  .shaka {
+    margin-bottom: 25%;
+  }
+  .winson {
+    margin-bottom: 33%;
+  }
+  .deckOfLegends {
+    margin-bottom: 28%;
+  }
+  .fooder {
+    margin-bottom: 60%;
+  }
+  .soccer {
+    margin-top: 5%;
+    margin-bottom: 35%;
+  }
+  
+
+  #josh-flip-text {
+    margin-top: -10%;
+  }
+  #shaka-flip-text {
+    margin-top: -10%;
+  }
+  #winson-flip-text {
+    margin-top: -25%;
+  }
+  #legends-flip-text {
+    margin-top: -20%;
+  }
+  .fooder-back-card {
+    margin-top: 0%;
+  }
+  #fooder-flip-text {
+    margin-top: -5%;
+  }
+  #soccer-flip-text {
+    margin-top: -10%;
+  }
+
+
+  .main-work-container {
+    margin-left: 7% !important;
+  }
+
+  .soccer-button {
+    border-radius: 40px;
+    width: 40%;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    font-family: "Lekton", sans-serif;
+    font-size: 20px;
+    border: 1px solid black;
+    outline: none;
+    padding-top: 5px;
+    margin-right: 2%;
   }
 }
 
@@ -1344,35 +1538,6 @@ html {
     margin: 0 auto;
   }
 
-  .shaka {
-    margin-top: 20%;
-    margin-bottom: 40%;
-
-  }
-  
-  .winson {
-    margin-top: -40%;
-    margin-bottom: 110%;
-
-  }
-  .card-title-winson {
-    margin-top: -50px;
-  }
-  
-  .deckOfLegends {
-    margin-top: -45%;
-    margin-bottom: 60%;
-  }
-  
-  .fooder {
-    margin-top: -20%;
-    margin-bottom: 60%;
-  }
-  
-  .soccer {
-    margin-top: -30%;
-  }
-
   .github-button {
     border-radius: 40px;
     width: 30%;
@@ -1414,6 +1579,17 @@ html {
     margin-right: 4%;
     margin-left: 4%;
   }
+
+  #flip-box {
+    background-color: transparent;
+    width: 305px;
+    height: 250px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+
+
+
+
 }
 
 @media screen and (max-width: 326px) {
@@ -1521,64 +1697,6 @@ html {
     height: 85%;
   }
 
-  #work-page {
-    margin-left: 10%;
-  }
-
-  #flip-box {
-    width: 360px;
-  }
-  
-  #shaka-img {
-    height: 150px; 
-    border-radius: 15px;
-  }
-  #winson-img {
-    height: 160px; 
-    border-radius: 15px;
-  }
-  #legends-img {
-    height: 150px; 
-    border-radius: 15px;
-  }
-  #fooder-img {
-    height: 250px; 
-    border-radius: 15px;
-  }
-  #soccer-img {
-    height: 200px; 
-    border-radius: 15px;
-  }
-
-  .shaka {
-    margin-top: 20%;
-    margin-bottom: 40%;
-
-  }
-  
-  .winson {
-    margin-top: -40%;
-    margin-bottom: 100%;
-
-  }
-  .card-title-winson {
-    margin-top: -50px;
-  }
-  
-  .deckOfLegends {
-    margin-top: -45%;
-    margin-bottom: 60%;
-  }
-  
-  .fooder {
-    margin-top: -20%;
-    margin-bottom: 60%;
-  }
-  
-  .soccer {
-    margin-top: -30%;
-  }
-
   .github-button {
     border-radius: 40px;
     width: 30%;
@@ -1622,4 +1740,93 @@ html {
     margin-left: 4%;
   }
 
+  .main-work-container {
+    margin-left: 10% !important;
+  }
+
+
+  .back-card-text {
+    padding-right: 4%;
+    padding-left: 4%;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  #josh-acting-img {
+    height: 155px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #shaka-img {
+    height: 169px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #winson-img {
+    height: 182px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #legends-img {
+    height: 165px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #fooder-img {
+    height: 260px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #soccer-img {
+    height: 210px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+
+
+  .josh-acting {
+    margin-bottom: 10%;
+    margin-top: 15%;
+  }
+  .shaka {
+    margin-bottom: 20%;
+  }
+  .winson {
+    margin-bottom: 37%;
+  }
+  .deckOfLegends {
+    margin-bottom: 25%;
+  }
+  .fooder {
+    margin-bottom: 60%;
+  }
+  .soccer {
+    margin-top: 5%;
+    margin-bottom: 35%;
+  }
+  
+
+  #josh-flip-text {
+    margin-top: -20%;
+  }
+  #shaka-flip-text {
+    margin-top: -20%;
+  }
+  #winson-flip-text {
+    margin-top: -35%;
+  }
+  #legends-flip-text {
+    margin-top: -35%;
+  }
+  .fooder-back-card {
+    margin-top: -10%;
+  }
+  #fooder-flip-text {
+    margin-top: -5%;
+  }
+  #soccer-flip-text {
+    margin-top: -20%;
+  }
+
+  
 }
