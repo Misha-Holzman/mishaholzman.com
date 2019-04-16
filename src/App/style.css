@@ -1740,10 +1740,7 @@ html {
     margin-left: 4%;
   }
 
-  .main-work-container {
-    margin-left: 10% !important;
-  }
-
+  
 
   .back-card-text {
     padding-right: 4%;
@@ -1828,5 +1825,70 @@ html {
     margin-top: -20%;
   }
 
+
+
+  .nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center; 
+  }
+
+  .nav-bullets {
+    padding-left: 0; 
+    margin-right: 0;
+  }
+  .title {
+    width: 100%;
+    padding: 0;
+  }
+
+  strong {
+    margin-right: 5%;
+    margin-bottom: -1%;
+  }
+
+  #my-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: center;
+  }
+
+  .main-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-left: 4%;
+  }
+
+  .about-page-container {
+    margin-left: 0;
+  }
+
+  .main-work-container {
+    margin-left: 2% !important;
+  }
+
+  .contact-page-container {
+    margin-left: 4% !important;
+  }
+
+  .address {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
   
+  .back-to-top-link {
+    margin-bottom: 5%;
+  }
+
 }
