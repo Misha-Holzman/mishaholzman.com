@@ -1715,6 +1715,8 @@ html {
     padding-top: 5px;
     margin: 0 auto;
     text-align: center;
+    max-width: 100%;
+    text-decoration: none;
   }
 
   .social-pics-container {
@@ -1914,11 +1916,8 @@ html {
     outline: none;
     padding-top: 5px;
     margin-right: 2%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+    max-width: 100%;
+    text-decoration: none;
   }
 
 }

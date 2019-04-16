@@ -20,7 +20,7 @@ class MyWork extends Component {
                   <div className='back-card-text' id='josh-flip-text'>
                     <h2 id='card-title-josh-acting'>Josh Gregory's Acting Website</h2>
                     <p id='card-text'>
-                      This website is a freelance project created for an actor. It is build using ReactJS, without css frameworks. The site is fully responsive and mobile friendly. I have gained invaluable experience from building this site through working closely with my client, creating accurate work estimates, wire framing, creating user-oriented design, the development development, and deployment.
+                      This website is a freelance project created for an actor. It is build using ReactJS, without the use of CSS frameworks. The site is fully responsive and mobile friendly on any device. I have gained invaluable experience from building this site, working closely with my client and handling every step of the design and development process. After I created work estimates, wire frames, and a user-experience design that had continuity throughout each page, I then handled all of development, problem-solving and bug resolution, and deployment.
                     </p>
                     <a
                       href='https://hungry-tesla-4c40db.netlify.com/'
