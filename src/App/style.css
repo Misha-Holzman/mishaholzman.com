@@ -1708,6 +1708,8 @@ html {
     border: 1px solid black;
     outline: none;
     padding-top: 5px;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .social-pics-container {
@@ -1782,20 +1784,20 @@ html {
 
 
   .josh-acting {
-    margin-bottom: 10%;
+    margin-bottom: 15%;
     margin-top: 15%;
   }
   .shaka {
-    margin-bottom: 20%;
+    margin-bottom: 28%;
   }
   .winson {
-    margin-bottom: 37%;
+    margin-bottom: 45%;
   }
   .deckOfLegends {
-    margin-bottom: 25%;
+    margin-bottom: 30%;
   }
   .fooder {
-    margin-bottom: 60%;
+    margin-bottom: 65%;
   }
   .soccer {
     margin-top: 5%;
@@ -1879,6 +1881,10 @@ html {
     margin-left: 4% !important;
   }
 
+  .contact-content-container {
+    margin-left: -1.5%;
+  }
+
   .address {
     width: 100%;
     display: flex;
@@ -1889,6 +1895,20 @@ html {
   
   .back-to-top-link {
     margin-bottom: 5%;
+  }
+
+  .soccer-button {
+    border-radius: 40px;
+    width: 45%;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    font-family: "Lekton", sans-serif;
+    font-size: 20px;
+    border: 1px solid black;
+    outline: none;
+    padding-top: 5px;
+    margin-right: 2%;
   }
 
 }
