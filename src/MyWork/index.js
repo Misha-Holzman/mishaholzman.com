@@ -24,7 +24,7 @@ class MyWork extends Component {
                     </p>
                     <div className='buttons-div'>
                       <a
-                        href='https://hungry-tesla-4c40db.netlify.com/'
+                        href='https://www.joshgregoryactor.com/'
                         target='_blank'
                         className='live-site-button-link'
                       >

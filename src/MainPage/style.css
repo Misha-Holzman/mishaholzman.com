@@ -43,6 +43,7 @@
     animation-timing-function: ease-in-out;
     margin-top: 13%;
     position: absolute;
+    opacity: 0.6;
 }
 
 #link {
