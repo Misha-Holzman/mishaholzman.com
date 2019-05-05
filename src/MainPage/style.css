@@ -29,7 +29,13 @@
 }
 
 .globe-text {
+  -webkit-font-family: "Lekton", sans-serif;
+  -ms-font-family: "Lekton", sans-serif;
+  -moz-font-family: "Lekton", sans-serif;
   font-family: "Lekton", sans-serif;
+  -webkit-font-size: 140%;
+  -ms-font-size: 140%;
+  -moz-font-size: 140%;
   font-size: 140%;
 }
 
