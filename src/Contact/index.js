@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ContactForm from '../ContactForm'
 import './style.css'
 
 class ContactPage extends Component {
@@ -54,8 +55,33 @@ class ContactPage extends Component {
             </a>
           </div>
         </div>
+        <p className='contact-description'>
+        Shoot me an email about any inquiries. I’m always happy to chat!
+        </p>
         <div className='contact-content-container'>
-          <div className=''>
+          <ContactForm />
+        </div>
+        <a
+          href='#top'
+          className='back-to-top-link'
+        >
+          <img
+            src='https://i.imgur.com/lxhXnov.png'
+            className='back-to-top-img'
+            height='50px'
+          />
+        </a>
+      </div>
+    )
+  }
+}
+
+export default ContactPage
+
+
+
+
+/*           <div className=''>
             <p className='phone'>
               <img
                 src='https://i.imgur.com/YBe6mxx.png'
@@ -84,20 +110,4 @@ class ContactPage extends Component {
               Manhattan, NY 10012
             </p>
           </div>
-        </div>
-        <a
-          href='#top'
-          className='back-to-top-link'
-        >
-          <img
-            src='https://i.imgur.com/lxhXnov.png'
-            className='back-to-top-img'
-            height='50px'
-          />
-        </a>
-      </div>
-    )
-  }
-}
-
-export default ContactPage
+          */ 

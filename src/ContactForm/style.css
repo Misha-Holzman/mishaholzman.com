@@ -1,0 +1,107 @@
+
+#contactform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+#name-input {
+  -webkit-appearance: none;
+  box-shadow: 6px 7px 0px -1px rgba(113,209,189,.8);
+  -webkit-box-shadow: 6px 7px 0px -1px rgba(113,209,189,.8);
+  -moz-box-shadow: 6px 7px 0px -1px rgba(113,209,189,.8);
+  border: 1px solid rgba(0,0,0,0.55);
+  font-size: 13px;
+}
+
+#email-input {
+  -webkit-appearance: none;
+  box-shadow: 6px 7px 0px -1px rgba(113,209,189,.8);
+  -webkit-box-shadow: 6px 7px 0px -1px rgba(113,209,189,.8);
+  -moz-box-shadow: 6px 7px 0px -1px rgba(113,209,189,.8);
+  border: 1px solid rgba(0,0,0,0.55);
+  font-size: 13px;
+}
+
+#subject-input {
+  -webkit-appearance: none;
+  box-shadow: 6px 7px 0px -1px rgba(113,209,189,.8);
+  -webkit-box-shadow: 6px 7px 0px -1px rgba(113,209,189,.8);
+  -moz-box-shadow: 6px 7px 0px -1px rgba(113,209,189,.8);
+  border: 1px solid rgba(0,0,0,0.55);
+  font-size: 13px;
+}
+
+#message-input {
+  -webkit-appearance: none;
+  box-shadow: 6px 7px 0px -1px rgba(113,209,189,.8);
+  -webkit-box-shadow: 6px 7px 0px -1px rgba(113,209,189,.8);
+  -moz-box-shadow: 6px 7px 0px -1px rgba(113,209,189,.8);
+  border: 1px solid rgba(0,0,0,0.55);
+  font-size: 13px;
+}
+
+/* #submit-button {
+  -webkit-appearance: none;
+  background-color:  #70d1bd;  
+  color: rgb(234,92,90); 
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Cutive Mono, monospace;
+  margin-top: 3%;
+  box-shadow: 6px 6px 0px -1px rgb(234,92,90);
+  -webkit-box-shadow: 6px 6px 0px -1px rgb(234,92,90);
+  -moz-box-shadow: 6px 6px 0px -1px rgb(234,92,90);
+  transition: 400ms;
+} */
+
+#submit-button  {
+    border-radius: 40px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    font-family: "Lekton", sans-serif;
+    font-size: 20px;
+    border: 1px solid black;
+    outline: none;
+    padding-top: 5px;
+    box-shadow: 6px 7px 0px -1px #70d1bd;
+    -webkit-box-shadow: 6px 7px 0px -1px #70d1bd;
+    -moz-box-shadow: 6px 7px 0px -1px #70d1bd;
+    transition: 200ms;
+    margin-top: 5%;
+  }
+  
+  #submit-button:hover {
+    transition: 200ms;
+    box-shadow: -6px -7px 0px -1px #ea5c5a;
+    -webkit-box-shadow: -6px -7px 0px -1px #ea5c5a;
+    -moz-box-shadow: -6px -7px 0px -1px #ea5c5a;
+  }
+/* 
+#submit-button:hover {
+  -webkit-appearance: none;
+  box-shadow: -6px -6px 0px -1px rgb(234,92,90);
+  -webkit-box-shadow: -6px -6px 0px -1px rgb(234,92,90);
+  -moz-box-shadow: -6px -6px 0px -1px rgb(234,92,90);
+  transition: 400ms;
+  background-color:  #70d1bd;  
+} */
+/* 
+#submit-button:focus {
+  outline: 0;
+} */
+#message-input:focus {
+  outline: 0;
+}
+#subject-input:focus {
+  outline: 0;
+}
+#email-input:focus {
+  outline: 0;
+}
+#name-input:focus {
+  outline: 0;
+}

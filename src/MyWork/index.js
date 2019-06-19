@@ -31,7 +31,7 @@ class MyWork extends Component {
                         <button className='soccer-button'>Live Site</button>
                       </a>
                       <a
-                        href='#'
+                        href='https://github.com/Misha-Holzman/Josh-Acting-Website'
                         target='_blank'
                         className='github-button-link'
                       >

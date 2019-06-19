@@ -7,9 +7,9 @@ class Navbar extends Component {
     return (
       <div className='nav-container' id='navbar'>
         <div className='title'>
-          <a href='#changeMe' id='my-name'>
+          <div id='my-name'>
             <strong>Misha</strong> Holzman
-          </a>
+          </div>
         </div>
         <ul className='nav-bullets'>
           <li className='links'>
