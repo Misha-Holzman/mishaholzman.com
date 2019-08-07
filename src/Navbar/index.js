@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import './style.css'
-import { StickyContainer, Sticky } from 'react-sticky'
 
 class Navbar extends Component {
   render () {

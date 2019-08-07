@@ -19,6 +19,7 @@ class ContactPage extends Component {
               href='https://www.linkedin.com/in/misha-holzman/'
               className='social-link1'
               target='_blank'
+              rel='noopener noreferrer'
             >
               <img
                 src='https://i.imgur.com/M427KnU.png'
@@ -32,6 +33,7 @@ class ContactPage extends Component {
               href='https://git.generalassemb.ly/mholzman'
               className='social-link2'
               target='_blank'
+              rel='noopener noreferrer'
             >
               <img
                 src='https://i.imgur.com/0pzhAxs.png'
@@ -46,6 +48,7 @@ class ContactPage extends Component {
               href='https://www.instagram.com/notions_of_real/?hl=en'
               className='social-link3'
               target='_blank'
+              rel='noopener noreferrer'
             >
               <img
                 src='https://i.imgur.com/l9qpIO3.png'
@@ -69,6 +72,7 @@ class ContactPage extends Component {
             src='https://i.imgur.com/lxhXnov.png'
             className='back-to-top-img'
             height='50px'
+            alt=''
           />
         </a>
       </div>
@@ -77,37 +81,3 @@ class ContactPage extends Component {
 }
 
 export default ContactPage
-
-
-
-
-/*           <div className=''>
-            <p className='phone'>
-              <img
-                src='https://i.imgur.com/YBe6mxx.png'
-                alt='github'
-                height='30px'
-                className=''
-              />
-              347 • 603 • 6396
-            </p>
-            <p className='email'>
-              <img
-                src='https://i.imgur.com/AGftEKD.png'
-                alt='github'
-                height='30px'
-                className=''
-              />
-              mcholzman1@gmail.com
-            </p>
-            <p className='address'>
-              <img
-                src='https://i.imgur.com/C3FkxHo.png'
-                alt='github'
-                height='30px'
-                className=''
-              />
-              Manhattan, NY 10012
-            </p>
-          </div>
-          */ 

@@ -24,7 +24,7 @@
   align-items: center;
   align-content: center;
   margin: 0;
-  max-width: 75%;
+  width: 85%;
 }
 
 /* .shaka-site {
@@ -101,15 +101,15 @@
 
 #flip-box {
   background-color: transparent;
-  width: 600px;
-  height: 250px;
+  width: 700px;
+  height: 300px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
 #flip-box-click {
   background-color: transparent;
   width: 600px;
-  height: 250px;
+  height: 300px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -149,6 +149,7 @@
 #flip-box-front {
   background-color: white;
   color: black;
+  height: 100%;
 }
 
 /* Style the back side */
@@ -161,10 +162,11 @@
 .back-card-text {
   padding-right: 4%;
   padding-left: 4%;
+  height: 100%;
 }
 
 .fooder-back-card {
-  margin-top: 17%;
+  margin-top: 10%;
 }
 
 #josh-flip-text {
@@ -188,56 +190,62 @@
 
 
 .josh-acting {
-  margin-bottom: 25%;
+  margin-bottom: 15%;
   margin-top: 8%;
 }
 .shaka {
-  margin-bottom: 30%;
+  margin-top: 8%;
+  margin-bottom: 26%;
 }
 
 .winson {
-  margin-bottom: 33%;
+  margin-bottom: 30%;
 }
 
 .deckOfLegends {
-  margin-bottom: 28%;
-}
-
-.fooder {
-  margin-bottom: 55%;
-}
-
-.soccer {
   margin-bottom: 25%;
 }
 
+.fooder {
+  margin-bottom: 40%;
+}
+
+.soccer {
+  margin-bottom: 23%;
+}
+
+#vehicle-img {
+  height: 350px; 
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
 #josh-acting-img {
-  height: 300px; 
+  height: 360px; 
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
 #shaka-img {
-  height: 324px; 
+  height: 390px; 
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
 #winson-img {
-  height: 337px; 
+  height: 400px; 
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
 #legends-img {
-  height: 305px; 
+  height: 365px; 
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
 #fooder-img {
-  height: 470px; 
+  height: 490px; 
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
 #soccer-img {
-  height: 380px; 
+  height: 440px; 
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
@@ -271,6 +279,7 @@
 
 #card-text {
   font-size: 13px;
+  margin-bottom: 3%;
 }
 
 

@@ -66,12 +66,14 @@ class MainPage extends Component {
           src='https://i.imgur.com/wT3za4V.png'
           height='50px'
           className='shadow'
+          alt=''
         />
         <a href='#about-page' id='link'>
           <img
             src='https://i.imgur.com/T5f8v9i.png'
             height='50px'
             className='arrow'
+            alt=''
           />
         </a>
       </div>

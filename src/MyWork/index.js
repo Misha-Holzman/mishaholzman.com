@@ -6,11 +6,49 @@ class MyWork extends Component {
     return (
       <div className='main-work-container' id='work-page'>
         <div id='press'>
-          <a id='my-work'>
+          <a id='my-work' >
             <h2 className='my-work-title'>MY WORK</h2>
           </a>
-
           <div className='press-container'>
+            <div id='flip-box' className='josh-acting'>
+              <div id='flip-box-inner'>
+                <div id='flip-box-front'>
+                  <img src='https://i.imgur.com/RKedclo.png' alt='' id='vehicle-img' />
+                </div>
+                <div id='flip-box-back' className='josh-back-card'>
+                  <div className='back-card-text' id='josh-flip-text'>
+                    <h2 id='card-title-josh-acting'>Annabel Lee – Vehicle Editions Website</h2>
+                    <p id='card-text'>
+                      This website is a freelance project created for Annabel Lee, a bookmaker, editor, poet,
+                      activist, musician, etc. It is build in ReactJS, without the use of CSS frameworks.
+                      This project has been my largest project to date, with over 50 different components
+                      and over 20 navigatable pages. The site is fully responsive and mobile friendly on any device.
+                      Working closely with my client, I handling every step of the design, development, and
+                      deployment process.
+                    </p>
+                    <div className='buttons-div'>
+                      <a
+                        href='https://www.vehicleeditions.com'
+                        target='_blank'
+                        className='live-site-button-link'
+                        rel='noopener noreferrer'
+                      >
+                        <button className='soccer-button'>Live Site</button>
+                      </a>
+                      <a
+                        href='https://github.com/Misha-Holzman/Vehicle-editions-website'
+                        target='_blank'
+                        className='github-button-link'
+                        rel='noopener noreferrer'
+                      >
+                        <button className='github-button'>GitHub</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div id='flip-box' className='josh-acting'>
               <div id='flip-box-inner'>
                 <div id='flip-box-front'>
@@ -27,6 +65,7 @@ class MyWork extends Component {
                         href='https://www.joshgregoryactor.com/'
                         target='_blank'
                         className='live-site-button-link'
+                        rel='noopener noreferrer'
                       >
                         <button className='soccer-button'>Live Site</button>
                       </a>
@@ -34,6 +73,7 @@ class MyWork extends Component {
                         href='https://github.com/Misha-Holzman/Josh-Acting-Website'
                         target='_blank'
                         className='github-button-link'
+                        rel='noopener noreferrer'
                       >
                         <button className='github-button'>GitHub</button>
                       </a>
@@ -58,6 +98,7 @@ class MyWork extends Component {
                         href='https://git.generalassemb.ly/mholzman/Shaka'
                         target='_blank'
                         className='github-button-link'
+                        rel='noopener noreferrer'
                       >
                         <button className='github-button'>GitHub</button>
                       </a>
@@ -82,6 +123,7 @@ class MyWork extends Component {
                         href='https://git.generalassemb.ly/Win-son/Win-Son'
                         target='_blank'
                         className='github-button-link'
+                        rel='noopener noreferrer'
                       >
                         <button className='github-button'>GitHub</button>
                       </a>
@@ -105,6 +147,7 @@ class MyWork extends Component {
                         href='https://git.generalassemb.ly/team-b/baseball-hof-deck'
                         target='_blank'
                         className='github-button-link'
+                        rel='noopener noreferrer'
                       >
                         <button className='github-button'>GitHub</button>
                       </a>
@@ -129,6 +172,7 @@ class MyWork extends Component {
                         href='https://git.generalassemb.ly/mholzman/Fooder_Project2'
                         target='_blank'
                         className='github-button-link'
+                        rel='noopener noreferrer'
                       >
                         <button className='github-button'>GitHub</button>
                       </a>
@@ -153,6 +197,7 @@ class MyWork extends Component {
                         href='https://pages.git.generalassemb.ly/mholzman/MCHolzman-beatTheKeeper-Project-1/'
                         target='_blank'
                         className='live-site-button-link'
+                        rel='noopener noreferrer'
                       >
                         <button className='soccer-button'>Live Site</button>
                       </a>
@@ -160,6 +205,7 @@ class MyWork extends Component {
                         href='https://pages.git.generalassemb.ly/mholzman/MCHolzman-beatTheKeeper-Project-1/'
                         target='_blank'
                         className='github-button-link'
+                        rel='noopener noreferrer'
                       >
                         <button className='github-button'>GitHub</button>
                       </a>
@@ -168,49 +214,7 @@ class MyWork extends Component {
                 </div>
               </div>
             </div>
-
-            {/*
-            https://git.generalassemb.ly/mholzman/MCHolzman-beatTheKeeper-Project-1
-            <div className='shaka-div'>
-              <a
-                href='https://git.generalassemb.ly/mholzman/Shaka'
-                target='_blank'
-              >
-                <img src='https://i.imgur.com/bkN5v6m.jpg' alt='' className='shaka-site' height='250px' />
-              </a>
-
-            </div>
-
-            <div className='winson-div'>
-              <a
-                href='https://win-son-app.herokuapp.com/'
-                target='_blank'
-              >
-                <img src='https://i.imgur.com/Zw3EHBL.jpg' alt='' height='270px' className='winson-site' />
-
-              </a>
-            </div>
-            <div className='fooder-div'>
-              <a
-                href='https://git.generalassemb.ly/mholzman/Fooder_Project2'
-                target='_blank'
-              >
-                <img src='https://i.imgur.com/Y8HWoHe.jpg' alt='' height='370px' className='fooder-site' />
-
-              </a>
-            </div>
-            <div className='keeper-div'>
-              <a
-                href='https://pages.git.generalassemb.ly/mholzman/MCHolzman-beatTheKeeper-Project-1/'
-                target='_blank'
-              >
-                <img src='https://i.imgur.com/hcaxG8m.jpg' alt='' className='keeper-site' />
-              </a>
-            </div>
-            */}
-
           </div>
-
         </div>
       </div>
     )

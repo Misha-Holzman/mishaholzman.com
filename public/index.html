@@ -48,13 +48,24 @@
     <script type="text/javascript">
 
       var Webflow = Webflow || [];
-Webflow.push(function() {
-  $('a').click(function() {
-    setTimeout(function() {
-      location.hash = '';
-    }, 50);
-  });
-});
+      Webflow.push(function() {
+        $('a').click(function() {
+          setTimeout(function() {
+            location.hash = '';
+          }, 50);
+        });
+      });
+
+      function notSentAlert () {
+        const name = document.getElementById('name-input').value
+        const email = document.getElementById('email-input').value
+        const subject = document.getElementById('subject-input').value
+        const message = document.getElementById('message-input').value
+      
+        if (name !== '' || email !== '' || subject !== '' || message !== '') {
+          alert('Please fill out all information boxes. Thanks!')
+        }
+      }
 
     </script>
   </body>
