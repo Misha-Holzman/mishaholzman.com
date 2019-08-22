@@ -3,11 +3,10 @@ import './style.css'
 
 class ContactForm extends Component {
   notSentAlert () {
-    const name = document.getElementById('name').value
-    const email = document.getElementById('email').value
-    const subject = document.getElementById('subject').value
-    const message = document.getElementById('message').value
-
+    const name = document.getElementById('name-input').value
+    const email = document.getElementById('email-input').value
+    const subject = document.getElementById('subject-input').value
+    const message = document.getElementById('message-input').value
     if (name !== '' || email !== '' || subject !== '' || message !== '') {
       alert('Please fill out all information boxes. Thanks!')
     }

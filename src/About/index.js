@@ -25,7 +25,7 @@ class AboutPage extends Component {
             </p>
             <p className='main-text'>
             Have an idea? Let’s get in touch and build something awesome! Shoot me an email or give me a ring about any inquiries, I’m
-              always happy to chat <span role='img' aria-label='emoji'>🤙</span>
+            always happy to chat <span role='img' aria-label='emoji'>🤙</span>
             </p>
             <a
               href='https://www.canva.com/design/DADJEW_UA3A/0bMj_EnvT1y6R75vMixSbw/view?website#4'
