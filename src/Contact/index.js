@@ -58,9 +58,6 @@ class ContactPage extends Component {
             </a>
           </div>
         </div>
-        <p className='contact-description'>
-        Shoot me an email about any inquiries. I’m always happy to chat!
-        </p>
         <div className='contact-content-container'>
           <ContactForm />
         </div>
