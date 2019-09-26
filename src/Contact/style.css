@@ -131,6 +131,8 @@
 }
 .social-image2 {
   height: 110%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition:         transform .8s ease-in-out;
 }
 
 .social-image3 {
@@ -152,11 +154,16 @@
 
 .social-image2:hover
 {
-  -webkit-animation: swing .75s ease;
+  /* -webkit-animation: swing .75s ease;
   animation: swing .75s ease;
   -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
+  animation-iteration-count: 1; */
+
+  -webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
 }
+
+
 
 .social-image3:hover
 {
