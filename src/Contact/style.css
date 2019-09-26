@@ -130,7 +130,7 @@
   height: 110%;
 }
 .social-image2 {
-  height: 110%;
+  height: 90% !important;
   -webkit-transition: -webkit-transform .8s ease-in-out;
   transition:         transform .8s ease-in-out;
 }
@@ -159,8 +159,8 @@
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1; */
 
-  -webkit-transform: rotate(360deg);
-	transform: rotate(360deg);
+  -webkit-transform: rotate(720deg);
+	transform: rotate(720deg);
 }
 
 

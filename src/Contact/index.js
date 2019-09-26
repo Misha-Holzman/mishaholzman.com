@@ -36,7 +36,7 @@ class ContactPage extends Component {
               rel='noopener noreferrer'
             >
               <img
-                src='https://i.imgur.com/DJiCjTv.png'
+                src='https://i.imgur.com/4UOzqBT.png'
                 alt='github'
                 className='social-image2'
                 height='50px'
