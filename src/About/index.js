@@ -15,7 +15,7 @@ class AboutPage extends Component {
           <div className='about-all-texts'>
             <h3 className='hello-text'>Hi! I'm Misha Holzman</h3>
             <p className='main-text'>
-            I am a front end web developer with an eye for modern design. I am passionate about helping companies and individuals express who they are and what they represent by creating beautiful interfaces and engaging experiences.
+            I am a front end web designer and developer with an eye for modern cohesive design. I am passionate about helping companies and individuals express who they are and what they represent by creating beautiful interfaces and engaging experiences.
             </p>
             <p className='main-text'>
             I was born in raised in NYC surrounded by art and design. I love to create art and music in my free time and I cultivate my creative drive in web development. I studied business and management in college, and I have found that such a background gives me a great advantage when creating effective and engaging user experiences on a website.
