@@ -10,7 +10,7 @@ class MyWork extends Component {
             <h2 className='my-work-title'>MY WORK</h2>
           </a>
           <div className='press-container'>
-            <div id='flip-box' className='josh-acting'>
+            <div id='flip-box' className='annabel-lee-div-container'>
               <div id='flip-box-inner'>
                 <div id='flip-box-front'>
                   <img src='https://i.imgur.com/RKedclo.png' alt='' id='vehicle-img' />
@@ -33,7 +33,7 @@ class MyWork extends Component {
                         className='live-site-button-link'
                         rel='noopener noreferrer'
                       >
-                        <button className='soccer-button'>Live Site</button>
+                        <button className='live-site-button'>Live Site</button>
                       </a>
                       <a
                         href='https://github.com/Misha-Holzman/Vehicle-editions-website'
@@ -49,7 +49,7 @@ class MyWork extends Component {
               </div>
             </div>
 
-            <div id='flip-box' className='josh-acting'>
+            <div id='flip-box' className='josh-acting-div-container'>
               <div id='flip-box-inner'>
                 <div id='flip-box-front'>
                   <img src='https://i.imgur.com/D3mvRFZ.png' alt='' id='josh-acting-img' />
@@ -73,7 +73,7 @@ class MyWork extends Component {
                         className='live-site-button-link'
                         rel='noopener noreferrer'
                       >
-                        <button className='soccer-button'>Live Site</button>
+                        <button className='live-site-button'>Live Site</button>
                       </a>
                       <a
                         href='https://github.com/Misha-Holzman/Josh-Acting-Website'
@@ -89,7 +89,7 @@ class MyWork extends Component {
               </div>
             </div>
 
-            <div id='flip-box' className='josh-acting'>
+            <div id='flip-box' className='kazimira-div-container'>
               <div id='flip-box-inner'>
                 <div id='flip-box-front'>
                   <img src='https://i.imgur.com/f5CW6x8.png' alt='' id='kaz-healing-img' />
@@ -110,7 +110,7 @@ class MyWork extends Component {
                         className='live-site-button-link-solo'
                         rel='noopener noreferrer'
                       >
-                        <button className='soccer-button'>Live Site</button>
+                        <button className='live-site-button'>Live Site</button>
                       </a>
                     </div>
                   </div>
@@ -118,7 +118,7 @@ class MyWork extends Component {
               </div>
             </div>
 
-            <div id='flip-box' className='josh-acting'>
+            <div id='flip-box' className='eric-art-div-container'>
               <div id='flip-box-inner'>
                 <div id='flip-box-front'>
                   <img src='https://i.imgur.com/Pg7xW73.png' alt='' id='ric-artist-img' />
@@ -138,7 +138,7 @@ class MyWork extends Component {
                         className='live-site-button-link-solo'
                         rel='noopener noreferrer'
                       >
-                        <button className='soccer-button'>Live Site</button>
+                        <button className='live-site-button'>Live Site</button>
                       </a>
                     </div>
                   </div>
@@ -146,7 +146,7 @@ class MyWork extends Component {
               </div>
             </div>
 
-            <div id='flip-box' className='shaka'>
+            <div id='flip-box' className='shaka-div-container'>
               <div id='flip-box-inner'>
                 <div id='flip-box-front'>
                   <img src='https://i.imgur.com/bkN5v6m.jpg' alt='' id='shaka-img' />
@@ -176,7 +176,7 @@ class MyWork extends Component {
               </div>
             </div>
 
-            <div id='flip-box' className='winson'>
+            <div id='flip-box' className='winson-div-container'>
               <div id='flip-box-inner'>
                 <div id='flip-box-front'>
                   <img src='https://i.imgur.com/Zw3EHBL.jpg' alt='winson' id='winson-img' />
@@ -209,7 +209,7 @@ class MyWork extends Component {
                 </div>
               </div>
             </div>
-            <div id='flip-box' className='deckOfLegends'>
+            <div id='flip-box' className='deckOfLegends-div-container'>
               <div id='flip-box-inner'>
                 <div id='flip-box-front'>
                   <img src='https://i.imgur.com/fmqhF6f.jpg' alt='legends' id='legends-img' />
@@ -242,7 +242,7 @@ class MyWork extends Component {
               </div>
             </div>
 
-            <div id='flip-box' className='fooder'>
+            <div id='flip-box' className='fooder-div-container'>
               <div id='flip-box-inner'>
                 <div id='flip-box-front'>
                   <img src='https://i.imgur.com/Y8HWoHe.jpg' alt='fooder' id='fooder-img' />
@@ -272,7 +272,7 @@ class MyWork extends Component {
               </div>
             </div>
 
-            <div id='flip-box' className='soccer'>
+            <div id='flip-box' className='soccer-div-container'>
               <div id='flip-box-inner'>
                 <div id='flip-box-front'>
                   <img src='https://i.imgur.com/hcaxG8m.jpg' alt='beatTheKeep' id='soccer-img' />
@@ -295,7 +295,7 @@ class MyWork extends Component {
                         className='live-site-button-link'
                         rel='noopener noreferrer'
                       >
-                        <button className='soccer-button'>Live Site</button>
+                        <button className='live-site-button'>Live Site</button>
                       </a>
                       <a
                         href='https://pages.git.generalassemb.ly/mholzman/MCHolzman-beatTheKeeper-Project-1/'

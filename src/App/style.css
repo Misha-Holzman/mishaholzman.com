@@ -389,6 +389,31 @@ html {
   #link2 {
     margin-left: 0;
   }
+
+  .back-to-top-link {
+    margin-top: 4%;
+  }
+
+  .annabel-lee-div-container {
+    margin-top: 8%;
+    margin-bottom: 15%;
+  }
+  .josh-acting-div-container {
+    margin-top: 8%;
+    margin-bottom: 15%;
+  }
+  .kazimira-div-container {
+    margin-top: 10%;
+    margin-bottom: 24%;
+  }
+  .eric-art-div-container {
+    margin-top: 8%;
+    margin-bottom: 24%;
+  }
+  .shaka-div-container {
+    margin-top: 8%;
+    margin-bottom: 30%;
+  }
 }
 
 @media screen and (max-width: 780px) {
@@ -458,6 +483,39 @@ html {
     align-items: center;
   }
 
+  .annabel-lee-div-container {
+    margin-top: 8%;
+    margin-bottom: 25%;
+  }
+  .josh-acting-div-container {
+    margin-top: 8%;
+    margin-bottom: 25%;
+  }
+  .kazimira-div-container {
+    margin-top: 10%;
+    margin-bottom: 35%;
+  }
+  .eric-art-div-container {
+    margin-top: 8%;
+    margin-bottom: 35%;
+  }
+  .shaka-div-container {
+    margin-top: 8%;
+    margin-bottom: 40%;
+  }
+  .winson-div-container {
+    margin-bottom: 40%;
+  }
+  .deckOfLegends-div-container {
+    margin-bottom: 35%;
+  }
+  .fooder-div-container {
+    margin-bottom: 55%;
+  }
+  .soccer-div-container {
+    margin-bottom: 30%;
+  }
+
 }
 
 @media screen and (max-width: 705px) {
@@ -519,6 +577,58 @@ html {
     justify-content: center;
   }
 
+
+
+  .annabel-lee-div-container {
+    margin-top: 8%;
+    margin-bottom: 15%;
+  }
+  .josh-acting-div-container {
+    margin-top: 8%;
+    margin-bottom: 15%;
+  }
+  .kazimira-div-container {
+    margin-top: 10%;
+    margin-bottom: 25%;
+  }
+  .eric-art-div-container {
+    margin-top: 8%;
+    margin-bottom: 25%;
+  }
+  .shaka-div-container {
+    margin-top: 8%;
+    margin-bottom: 30%;
+  }
+  .winson-div-container {
+    margin-bottom: 30%;
+  }
+  .deckOfLegends-div-container {
+    margin-bottom: 25%;
+  }
+  .fooder-div-container {
+    margin-bottom: 45%;
+  }
+  .soccer-div-container {
+    margin-bottom: 20%;
+  }
+
+
+
+  #vehicle-img {
+    height: 270px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #ric-artist-img {
+    height: 300px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #kaz-healing-img {
+    height: 300px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
   #josh-acting-img {
     height: 270px; 
     border-radius: 15px;
@@ -549,11 +659,14 @@ html {
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
   }
-  .fooder {
+
+
+
+  .fooder-div-container {
     margin-bottom: 65%;
   }
   
-  .soccer {
+  .soccer-div-container {
     margin-bottom: 30%;
   }
 }
@@ -597,6 +710,88 @@ html {
     height: 250px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
+
+
+  .annabel-lee-div-container {
+    margin-top: 8%;
+    margin-bottom: 20%;
+  }
+  .kazimira-div-container {
+    margin-top: 10%;
+    margin-bottom: 30%;
+  }
+  .eric-art-div-container {
+    margin-top: 8%;
+    margin-bottom: 30%;
+  }
+  .josh-acting-div-container {
+    margin-top: 8%;
+    margin-bottom: 20%;
+  }
+  .shaka-div-container {
+    margin-top: 8%;
+    margin-bottom: 35%;
+  }
+  .winson-div-container {
+    margin-bottom: 35%;
+  }
+  .deckOfLegends-div-container {
+    margin-bottom: 30%;
+  }
+  .fooder-div-container {
+    margin-bottom: 65%;
+  }
+  .soccer-div-container {
+    margin-bottom: 25%;
+  }
+
+
+
+  #vehicle-img {
+    height: 255px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #ric-artist-img {
+    height: 285px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #kaz-healing-img {
+    height: 285px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #josh-acting-img {
+    height: 270px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #shaka-img {
+    height: 275px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #winson-img {
+    height: 290px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #legends-img {
+    height: 275px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #fooder-img {
+    height: 425px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #soccer-img {
+    height: 335px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
 }
 
 @media screen and (max-width: 535px) {
@@ -630,62 +825,79 @@ html {
   /* #flip-box {
     width: 360px;
   } */
-  
+  #vehicle-img {
+    height: 235px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #ric-artist-img {
+    height: 265px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #kaz-healing-img {
+    height: 265px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
   #josh-acting-img {
     height: 240px; 
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
   }
   #shaka-img {
-    height: 264px; 
+    height: 254px; 
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
   }
   #winson-img {
-    height: 277px; 
+    height: 267px; 
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
   }
   #legends-img {
-    height: 245px; 
+    height: 235px; 
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
   }
   #fooder-img {
-    height: 410px; 
+    height: 400px; 
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
   }
   #soccer-img {
-    height: 320px; 
+    height: 310px; 
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
   }
-  .fooder {
+
+
+
+  .fooder-div-container {
     margin-bottom: 75%;
   }
-  
-  .soccer {
+  .soccer-div-container {
     margin-top: 5%;
     margin-bottom: 35%;
   }
-
-  .josh-acting {
+  .josh-acting-div-container {
     margin-bottom: 25%;
     margin-top: 8%;
   }
-  .shaka {
+  .shaka-div-container {
     margin-bottom: 33%;
   }
   
-  .winson {
+  .winson-div-container {
     margin-bottom: 37%;
   }
   
-  .deckOfLegends {
+  .deckOfLegends-div-container {
     margin-bottom: 28%;
   }
   
+
+
   .back-card-text {
     padding-right: 4%;
     padding-left: 4%;
@@ -722,36 +934,6 @@ html {
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
 
-  .github-button {
-    border-radius: 40px;
-    width: 30%;
-    height: 30px;
-    background-color: rgba(255, 255, 255, 0.3);
-    color: black;
-    font-family: "Lekton", sans-serif;
-    font-size: 20px;
-    border: 1px solid black;
-    outline: none;
-    padding-top: 5px;
-  }
-
-  /* #legends-img {
-    height: 205px; 
-  } */
-
-  .soccer-button {
-    border-radius: 40px;
-    width: 35%;
-    height: 30px;
-    background-color: rgba(255, 255, 255, 0.3);
-    color: black;
-    font-family: "Lekton", sans-serif;
-    font-size: 20px;
-    border: 1px solid black;
-    outline: none;
-    padding-top: 5px;
-    margin-right: 2%;
-  }
 
   .social-pics-container {
     width: 55%;
@@ -761,6 +943,40 @@ html {
     justify-content: center;
     align-content: center;
     align-items: center;
+  }
+
+  .back-to-top-link {
+    margin-top: 7%;
+  }
+
+  .buttons-div {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: space-around;
+    justify-content: center;
+    width: 100%;
+  }
+  .live-site-button-link {
+    margin-right: 3%;
+    text-decoration: none;
+    width: 30%;
+  }
+  .live-site-button-link-solo {
+    margin-right: 0%;
+    text-decoration: none;
+    width: 30%;
+  }
+  .github-button {
+    width: 100%;
+    height: 30px;
+    padding: 5px 8% 5px 8%;
+  }
+  .live-site-button {
+    width: 100%;
+    height: 30px;
+    padding-top: 5px;
+    margin-right: 2%;
   }
   
 }
@@ -828,6 +1044,21 @@ html {
     margin: 0 auto;
   }
 
+  #vehicle-img {
+    height: 205px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #ric-artist-img {
+    height: 235px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #kaz-healing-img {
+    height: 235px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
   #josh-acting-img {
     height: 210px; 
     border-radius: 15px;
@@ -860,23 +1091,23 @@ html {
   }
 
 
-  .josh-acting {
+  .josh-acting-div-container {
     margin-bottom: 25%;
     margin-top: 2%;
   }
-  .shaka {
+  .shaka-div-container {
     margin-bottom: 33%;
   }
-  .winson {
+  .winson-div-container {
     margin-bottom: 36%;
   }
-  .deckOfLegends {
+  .deckOfLegends-div-container {
     margin-bottom: 28%;
   }
-  .fooder {
+  .fooder-div-container {
     margin-bottom: 75%;
   }
-  .soccer {
+  .soccer-div-container {
     margin-top: 5%;
     margin-bottom: 35%;
   }
@@ -958,6 +1189,28 @@ html {
     list-style: none;
     margin-right: 4%;
     margin-left: 4%;
+  }
+
+  .live-site-button-link {
+    margin-right: 3%;
+    text-decoration: none;
+    width: 30%;
+  }
+  .live-site-button-link-solo {
+    margin-right: 0%;
+    text-decoration: none;
+    width: 30%;
+  }
+  .github-button {
+    width: 100%;
+    height: 30px;
+    padding: 5px 8% 5px 8%;
+  }
+  .live-site-button {
+    width: 100%;
+    height: 30px;
+    padding-top: 5px;
+    margin-right: 2%;
   }
 }
 
@@ -1094,6 +1347,22 @@ html {
     margin: 0 auto;
   }
 
+
+  #vehicle-img {
+    height: 180px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #ric-artist-img {
+    height: 215px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #kaz-healing-img {
+    height: 215px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
   #josh-acting-img {
     height: 190px; 
     border-radius: 15px;
@@ -1126,23 +1395,23 @@ html {
   }
 
 
-  .josh-acting {
+  .josh-acting-div-container {
     margin-bottom: 17%;
     margin-top: 10%;
   }
-  .shaka {
+  .shaka-div-container {
     margin-bottom: 25%;
   }
-  .winson {
+  .winson-div-container {
     margin-bottom: 33%;
   }
-  .deckOfLegends {
+  .deckOfLegends-div-container {
     margin-bottom: 28%;
   }
-  .fooder {
+  .fooder-div-container {
     margin-bottom: 60%;
   }
-  .soccer {
+  .soccer-div-container {
     margin-top: 5%;
     margin-bottom: 35%;
   }
@@ -1172,6 +1441,28 @@ html {
 
   .main-work-container {
     margin-left: 3% !important;
+  }
+
+  .live-site-button-link {
+    margin-right: 3%;
+    text-decoration: none;
+    width: 30%;
+  }
+  .live-site-button-link-solo {
+    margin-right: 0%;
+    text-decoration: none;
+    width: 30%;
+  }
+  .github-button {
+    width: 100%;
+    height: 30px;
+    padding: 5px 8% 5px 8%;
+  }
+  .live-site-button {
+    width: 100%;
+    height: 30px;
+    padding-top: 5px;
+    margin-right: 2%;
   }
 
 }
@@ -1247,6 +1538,28 @@ html {
     width: 380px;
     height: 250px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+
+  .live-site-button-link {
+    margin-right: 3%;
+    text-decoration: none;
+    width: 30%;
+  }
+  .live-site-button-link-solo {
+    margin-right: 0%;
+    text-decoration: none;
+    width: 30%;
+  }
+  .github-button {
+    width: 100%;
+    height: 30px;
+    padding: 5px 8% 5px 8%;
+  }
+  .live-site-button {
+    width: 100%;
+    height: 30px;
+    padding-top: 5px;
+    margin-right: 2%;
   }
 
 }
@@ -1372,6 +1685,22 @@ html {
     margin: 0 auto;
   }
 
+
+  #vehicle-img {
+    height: 160px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #ric-artist-img {
+    height: 190px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #kaz-healing-img {
+    height: 190px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
   #josh-acting-img {
     height: 170px; 
     border-radius: 15px;
@@ -1404,23 +1733,23 @@ html {
   }
 
 
-  .josh-acting {
+  .josh-acting-div-container {
     margin-bottom: 17%;
     margin-top: 10%;
   }
-  .shaka {
+  .shaka-div-container {
     margin-bottom: 25%;
   }
-  .winson {
+  .winson-div-container {
     margin-bottom: 33%;
   }
-  .deckOfLegends {
+  .deckOfLegends-div-container {
     margin-bottom: 28%;
   }
-  .fooder {
+  .fooder-div-container {
     margin-bottom: 60%;
   }
-  .soccer {
+  .soccer-div-container {
     margin-top: 5%;
     margin-bottom: 35%;
   }
@@ -1453,7 +1782,7 @@ html {
     margin-left: 7% !important;
   }
 
-  .soccer-button {
+  .live-site-button {
     border-radius: 40px;
     width: 40%;
     height: 30px;
@@ -1463,6 +1792,28 @@ html {
     font-size: 20px;
     border: 1px solid black;
     outline: none;
+    padding-top: 5px;
+    margin-right: 2%;
+  }
+
+  .live-site-button-link {
+    margin-right: 3%;
+    text-decoration: none;
+    width: 37%;
+  }
+  .live-site-button-link-solo {
+    margin-right: 0%;
+    text-decoration: none;
+    width: 37%;
+  }
+  .github-button {
+    width: 100%;
+    height: 30px;
+    padding: 5px 8% 5px 8%;
+  }
+  .live-site-button {
+    width: 100%;
+    height: 30px;
     padding-top: 5px;
     margin-right: 2%;
   }
@@ -1592,7 +1943,27 @@ html {
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
 
-
+  .live-site-button-link {
+    margin-right: 3%;
+    text-decoration: none;
+    width: 37%;
+  }
+  .live-site-button-link-solo {
+    margin-right: 0%;
+    text-decoration: none;
+    width: 37%;
+  }
+  .github-button {
+    width: 100%;
+    height: 30px;
+    padding: 5px 8% 5px 8%;
+  }
+  .live-site-button {
+    width: 100%;
+    height: 30px;
+    padding-top: 5px;
+    margin-right: 2%;
+  }
 
 
 }
@@ -1702,7 +2073,9 @@ html {
     height: 85%;
   }
 
-
+  .my-work-title {
+    margin-bottom: 30%;
+  }
 
   .social-pics-container {
     width: 95%;
@@ -1743,6 +2116,22 @@ html {
     margin: 0 auto;
   }
 
+
+  #vehicle-img {
+    height: 150px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #ric-artist-img {
+    height: 180px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  #kaz-healing-img {
+    height: 180px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  }
   #josh-acting-img {
     height: 155px; 
     border-radius: 15px;
@@ -1774,24 +2163,35 @@ html {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
   }
 
-
-  .josh-acting {
+  .annabel-lee-div-container {
+    margin-top: 8%;
+    margin-bottom: 10%;
+  }
+  .kazimira-div-container {
+    margin-top: 10%;
+    margin-bottom: 20%;
+  }
+  .eric-art-div-container {
+    margin-top: 8%;
+    margin-bottom: 20%;
+  }
+  .josh-acting-div-container {
     margin-bottom: 23%;
     margin-top: 20%;
   }
-  .shaka {
+  .shaka-div-container {
     margin-bottom: 28%;
   }
-  .winson {
+  .winson-div-container {
     margin-bottom: 45%;
   }
-  .deckOfLegends {
+  .deckOfLegends-div-container {
     margin-bottom: 30%;
   }
-  .fooder {
+  .fooder-div-container {
     margin-bottom: 65%;
   }
-  .soccer {
+  .soccer-div-container {
     margin-top: 5%;
     margin-bottom: 35%;
   }
@@ -1921,7 +2321,7 @@ html {
     -moz-box-shadow: -6px -7px 0px -1px #ea5c5a;
   }
   
-  .soccer-button {
+  .live-site-button {
     border-radius: 40px;
     width: 100%;
     height: 30px;
@@ -1938,7 +2338,7 @@ html {
     transition: 200ms;
   }
   
-  .soccer-button:hover {
+  .live-site-button:hover {
     transition: 200ms;
     box-shadow: -6px -7px 0px -1px #ea5c5a;
     -webkit-box-shadow: -6px -7px 0px -1px #ea5c5a;

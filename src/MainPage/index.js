@@ -62,12 +62,12 @@ class MainPage extends Component {
           </g>
 
         </svg>
-        <img
+        {/* <img
           src='https://i.imgur.com/wT3za4V.png'
           height='50px'
           className='shadow'
           alt=''
-        />
+        /> */}
         <a href='#about-page' id='link'>
           <img
             src='https://i.imgur.com/T5f8v9i.png'

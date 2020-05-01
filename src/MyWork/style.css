@@ -188,29 +188,40 @@
   margin-top: 0%;
 }
 
-
-.josh-acting {
+.annabel-lee-div-container {
   margin-bottom: 15%;
   margin-top: 8%;
 }
-.shaka {
+.josh-acting-div-container {
+  margin-bottom: 15%;
+  margin-top: 8%;
+}
+.kazimira-div-container {
+  margin-bottom: 15%;
+  margin-top: 8%;
+}
+.eric-art-div-container {
+  margin-bottom: 15%;
+  margin-top: 8%;
+}
+.shaka-div-container {
   margin-top: 8%;
   margin-bottom: 26%;
 }
 
-.winson {
+.winson-div-container {
   margin-bottom: 30%;
 }
 
-.deckOfLegends {
+.deckOfLegends-div-container {
   margin-bottom: 25%;
 }
 
-.fooder {
+.fooder-div-container {
   margin-bottom: 40%;
 }
 
-.soccer {
+.soccer-div-container {
   margin-bottom: 23%;
 }
 
@@ -342,7 +353,7 @@
   -moz-box-shadow: -6px -7px 0px -1px #ea5c5a;
 }
 
-.soccer-button {
+.live-site-button {
   border-radius: 40px;
   width: 100%;
   height: 30px;
@@ -359,7 +370,7 @@
   transition: 200ms;
 }
 
-.soccer-button:hover {
+.live-site-button:hover {
   transition: 200ms;
   box-shadow: -6px -7px 0px -1px #ea5c5a;
   -webkit-box-shadow: -6px -7px 0px -1px #ea5c5a;

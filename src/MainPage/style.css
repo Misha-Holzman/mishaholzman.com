@@ -46,7 +46,7 @@
 
 
 
-.shadow {
+/* .shadow {
     animation-name: floating;
     animation-duration: 0s;
     animation-iteration-count: infinite;
@@ -54,11 +54,11 @@
     margin-top: 13%;
     position: absolute;
     opacity: 0.6;
-}
+} */
 
 #link {
   text-decoration: none;
-  margin-top: 20%;
+  margin-top: 17%;
   margin-left: 1px;
   position: absolute;
 }
