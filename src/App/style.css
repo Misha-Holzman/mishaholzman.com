@@ -1946,12 +1946,12 @@ html {
   .live-site-button-link {
     margin-right: 3%;
     text-decoration: none;
-    width: 37%;
+    width: 39%;
   }
   .live-site-button-link-solo {
     margin-right: 0%;
     text-decoration: none;
-    width: 37%;
+    width: 39%;
   }
   .github-button {
     width: 100%;
@@ -2351,6 +2351,28 @@ html {
   }
   .github-button-link {
     text-decoration: none;
+  }
+
+  .live-site-button-link {
+    margin-right: 3%;
+    text-decoration: none;
+    width: 41%;
+  }
+  .live-site-button-link-solo {
+    margin-right: 0%;
+    text-decoration: none;
+    width: 41%;
+  }
+  .github-button {
+    width: 100%;
+    height: 30px;
+    padding: 5px 8% 5px 8%;
+  }
+  .live-site-button {
+    width: 100%;
+    height: 30px;
+    padding-top: 5px;
+    margin-right: 2%;
   }
 
 }
