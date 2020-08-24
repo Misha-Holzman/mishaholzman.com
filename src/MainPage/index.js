@@ -35,7 +35,7 @@ class MainPage extends Component {
               className='text--line'
               id='textLocation1'
             >
-      creative
+              creative
             </text>
             <text text-anchor='middle'
               x='82%'
@@ -43,7 +43,7 @@ class MainPage extends Component {
               className='text--line2'
               id='textLocation2'
             >
-      solutions
+              solutions
             </text>
 
           </symbol>

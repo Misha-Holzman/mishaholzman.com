@@ -1,4 +1,13 @@
 import React, { Component } from 'react'
+import businessCard1 from '../assets/business-card.jpg'
+import businessCard2 from '../assets/business-card-back.jpg'
+import mixBusinessCard1 from '../assets/mix-design-front.jpg'
+import mixBusinessCard2 from '../assets/mix-design-back.jpg'
+import cudaLogo1 from '../assets/cuda-logo-sketch.JPG'
+import cudaLogo2 from '../assets/cuda-logo-outline.png'
+import cudaLogo3 from '../assets/cuda-logo-white.png'
+import cudaLogo4 from '../assets/cuda-logo-color.jpg'
+import cudaSiteVid from '../assets/cuda-logo-screen-recording.mov'
 import './style.css'
 
 class MyWork extends Component {
@@ -310,6 +319,30 @@ class MyWork extends Component {
                 </div>
               </div>
             </div>
+
+            <div className='my-work-my-designs-div'>
+              <h2 className='other-designs-title'>OTHER DESIGNS</h2>
+
+              <div className='my-designs-business-cards-div1'>
+                <img src={businessCard1} alt='' className='business-card-img-1' />
+                <img src={businessCard2} alt='' className='business-card-img-2' />
+              </div>
+
+              <div className='my-designs-business-cards-div2'>
+                <img src={mixBusinessCard1} alt='' className='mix-business-card-img-1' />
+                <img src={mixBusinessCard2} alt='' className='mix-business-card-img-2' />
+              </div>
+              
+              <img class='cuda-logo-slides1' src={cudaLogo1} />
+              <img class='cuda-logo-slides' src={cudaLogo2} />
+              <img class='cuda-logo-slides' src={cudaLogo3} />
+              <img class='cuda-logo-slides' src={cudaLogo4} />
+
+              <video controls autoPlay loop muted className='cuda-site-vid'>
+                <source src={cudaSiteVid} type='video/mp4'></source>
+              </video>
+            </div>
+
           </div>
         </div>
       </div>

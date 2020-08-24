@@ -8,6 +8,7 @@
   align-items: center;
   align-content: center;
   flex-direction: column;
+  margin-top: 2.5%;
 }
 
 .background-globe {
@@ -38,7 +39,7 @@
   -webkit-font-size: 140%;
   -ms-font-size: 140%;
   -moz-font-size: 140%;
-  font-size: 140%;
+  font-size: 120%;
   color: black;
   text-align: center;
 }
@@ -58,7 +59,7 @@
 
 #link {
   text-decoration: none;
-  margin-top: 17%;
+  margin-top: 24%;
   margin-left: 1px;
   position: absolute;
 }
@@ -213,11 +214,11 @@ https://codepen.io/selimyilmaz/pen/WJKNWO
 
 #newSvg {
   width: 1200px;
-  height: 400px;
+  height: 500px;
   font: 10em/1 Arial;
-  margin-top: 150px;
   top: 10%;
   left: 5%;
+  margin-top: 184px !important;
 }
 
 .text-copy {

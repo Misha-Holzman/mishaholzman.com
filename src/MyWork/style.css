@@ -398,3 +398,84 @@
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
+
+
+.my-work-my-designs-div {
+  /* border-top: 2px solid black; */
+  width: 70%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.my-designs-business-cards-div1 {
+  width: 70%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 5%;
+}
+.my-designs-business-cards-div2 {
+  width: 70%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 15%;
+}
+
+.other-designs-title {
+  font-family: "Sarina", cursive;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 2px;
+/*  border-top: 2px solid black;
+  border-bottom: 2px solid black;*/
+  margin-bottom: 20%;
+  margin-top: 14%;
+}
+
+.business-card-img-1 {
+  height: 200px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  margin-right: 10%;
+}
+.business-card-img-2 {
+  height: 200px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+}
+.mix-business-card-img-1 {
+  height: 200px;
+  margin-right: 10%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+}
+.mix-business-card-img-2 {
+  height: 200px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+}
+
+.cuda-logo-slides1 {
+  height: 301px;
+  margin-top: 15%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+
+}
+
+.cuda-logo-slides {
+  height: 300px;
+  margin-top: 5%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+}
+
+.cuda-site-vid {
+  height: 429px;
+  margin-top: 15%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+}
+

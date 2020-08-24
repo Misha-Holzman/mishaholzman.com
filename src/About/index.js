@@ -15,10 +15,10 @@ class AboutPage extends Component {
           <div className='about-all-texts'>
             <h3 className='hello-text'>Hi! I'm Misha Holzman</h3>
             <p className='main-text'>
-            I am a front end web designer and developer with an eye for modern cohesive design. I am passionate about helping companies and individuals express who they are and what they represent by creating beautiful interfaces and engaging experiences.
+            I am a web designer and front end developer with an eye for modern cohesive design. I am passionate about helping companies and individuals express who they are and what they represent by creating beautiful interfaces and engaging experiences.
             </p>
             <p className='main-text'>
-            I was born in raised in NYC surrounded by art and design. I love to create art and music in my free time and I cultivate my creative drive in web development. I studied business and management in college, and I have found that such a background gives me a great advantage when creating effective and engaging user experiences on a website.
+            I was born in raised in NYC surrounded by art and design. I love to create art and music in my free time and I cultivate my creative drive in design and coding. I studied business and management in college, and I have found that such a background allows me to understand the essence and direction of a brand or individual and how to convey that with an effective and engaging user experience.
             </p>
             <p className='main-text'>
             I understand the importance of aligning a company or individual’s online presence with their brand, vision, values, and positioning within an industry. A visit to a website is a lot like physically walking into a store. Every part of the visit, from the lighting to the font on the walls will impact how you feel about the product while inside and help shape your opinion of the brand.
