@@ -1902,6 +1902,42 @@ html {
     padding-top: 5px;
     margin-right: 2%;
   }
+
+  .business-card-img-1 {
+    height: 170px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+    margin-right: 0%;
+    margin-bottom: 7%;
+  }
+  .business-card-img-2 {
+    height: 170px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+    margin-bottom: 10%;
+  }
+  .mix-business-card-img-1 {
+    height: 170px;
+    margin-right: 0%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+    margin-bottom: 7%;
+  }
+  .mix-business-card-img-2 {
+    height: 170px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+    margin-bottom: 5%;
+  }
+
+  .cuda-site-vid {
+    height: 190px;
+    margin-top: 22%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+    margin-bottom: 10%;
+  }
+  .nsf-site-vid {
+    height: 190px;
+    margin-top: 22%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+    margin-bottom: 10%;
+  }
 }
 
 @media screen and (max-width: 376px) {
@@ -1927,6 +1963,8 @@ html {
     padding-top: 5px;
     margin-right: 2%;
   }
+
+  
 }
 
 
