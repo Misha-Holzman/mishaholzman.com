@@ -8,6 +8,8 @@ import cudaLogo2 from '../assets/cuda-logo-outline.png'
 import cudaLogo3 from '../assets/cuda-logo-white.png'
 import cudaLogo4 from '../assets/cuda-logo-color.jpg'
 import cudaSiteVid from '../assets/cuda-logo-screen-recording.mov'
+import NSFsiteVid from '../assets/NSF-site.mp4'
+
 import './style.css'
 
 class MyWork extends Component {
@@ -345,6 +347,10 @@ class MyWork extends Component {
 
               <video controls autoPlay loop muted className='cuda-site-vid'>
                 <source src={cudaSiteVid} type='video/mp4' />
+              </video>
+
+              <video controls autoPlay loop muted className='nsf-site-vid'>
+                <source src={NSFsiteVid} type='video/mp4' />
               </video>
             </div>
 
