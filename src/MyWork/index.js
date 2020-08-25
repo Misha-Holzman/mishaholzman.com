@@ -321,7 +321,7 @@ class MyWork extends Component {
             </div>
 
             <div className='my-work-my-designs-div'>
-              <h2 className='designs-title'>DESIGNS</h2>
+              <h2 className='designs-title'>DESIGN</h2>
 
               <div className='my-designs-business-cards-div1'>
                 <img src={businessCard1} alt='' className='business-card-img-1' />
