@@ -321,7 +321,7 @@ class MyWork extends Component {
             </div>
 
             <div className='my-work-my-designs-div'>
-              <h2 className='other-designs-title'>OTHER DESIGNS</h2>
+              <h2 className='designs-title'>DESIGNS</h2>
 
               <div className='my-designs-business-cards-div1'>
                 <img src={businessCard1} alt='' className='business-card-img-1' />
@@ -332,14 +332,19 @@ class MyWork extends Component {
                 <img src={mixBusinessCard1} alt='' className='mix-business-card-img-1' />
                 <img src={mixBusinessCard2} alt='' className='mix-business-card-img-2' />
               </div>
-              
-              <img class='cuda-logo-slides1' src={cudaLogo1} />
-              <img class='cuda-logo-slides' src={cudaLogo2} />
-              <img class='cuda-logo-slides' src={cudaLogo3} />
-              <img class='cuda-logo-slides' src={cudaLogo4} />
+
+              <div id='slider'>
+                <figure>
+                  <img class='cuda-logo-slides' src={cudaLogo1} />
+                  <img class='cuda-logo-slides' src={cudaLogo2} />
+                  <img class='cuda-logo-slides' src={cudaLogo3} />
+                  <img class='cuda-logo-slides' src={cudaLogo4} />
+                  <img class='cuda-logo-slides' src={cudaLogo1} />
+                </figure>
+              </div>
 
               <video controls autoPlay loop muted className='cuda-site-vid'>
-                <source src={cudaSiteVid} type='video/mp4'></source>
+                <source src={cudaSiteVid} type='video/mp4' />
               </video>
             </div>
 

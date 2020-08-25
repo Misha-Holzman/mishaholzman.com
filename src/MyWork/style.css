@@ -402,7 +402,7 @@
 
 .my-work-my-designs-div {
   /* border-top: 2px solid black; */
-  width: 70%;
+  width: 100%;
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -426,19 +426,18 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
-.other-designs-title {
+.designs-title {
   font-family: "Sarina", cursive;
   font-size: 30px;
   font-weight: 400;
   text-align: center;
   letter-spacing: 2px;
-/*  border-top: 2px solid black;
-  border-bottom: 2px solid black;*/
-  margin-bottom: 20%;
+  margin-bottom: 10%;
   margin-top: 14%;
+  width: 100%;
 }
 
 .business-card-img-1 {
@@ -460,22 +459,63 @@
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
 }
 
-.cuda-logo-slides1 {
-  height: 301px;
-  margin-top: 15%;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
-
-}
 
 .cuda-logo-slides {
   height: 300px;
-  margin-top: 5%;
+  margin-top: 4%;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
 }
 
 .cuda-site-vid {
   height: 429px;
-  margin-top: 15%;
+  margin-top: 18%;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
 }
 
+
+#slider {
+  overflow: hidden;
+  width: 100%;
+}
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 15s slider infinite;
+}
+#slider figure .cuda-logo-slides {
+  width: 20%;
+  float: left;
+  height: 100%;
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}

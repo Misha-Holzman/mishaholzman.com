@@ -513,6 +513,59 @@ html {
     margin-bottom: 30%;
   }
 
+  .designs-title {
+    font-family: "Sarina", cursive;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 15%;
+    margin-top: 20%;
+    width: 100%;
+  }
+
+  .my-designs-business-cards-div1 {
+    width: 70%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 5%;
+  }
+  .my-designs-business-cards-div2 {
+    width: 70%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 10%;
+  }
+  .business-card-img-1 {
+    height: 200px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+    margin-right: 0%;
+    margin-bottom: 5%;
+  }
+  .business-card-img-2 {
+    height: 200px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+    margin-bottom: 10%;
+  }
+  .mix-business-card-img-1 {
+    height: 200px;
+    margin-right: 0%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+    margin-bottom: 5%;
+  }
+  .mix-business-card-img-2 {
+    height: 200px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+    margin-bottom: 5%;
+  }
+  
+
 }
 
 @media screen and (max-width: 705px) {
@@ -665,6 +718,12 @@ html {
   
   .soccer-div-container {
     margin-bottom: 30%;
+  }
+
+  .cuda-site-vid {
+    height: 309px;
+    margin-top: 20%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
   }
 }
 
@@ -976,6 +1035,11 @@ html {
     margin-right: 2%;
   }
   
+  .cuda-site-vid {
+    height: 270px;
+    margin-top: 22%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -1208,6 +1272,12 @@ html {
     height: 30px;
     padding-top: 5px;
     margin-right: 2%;
+  }
+
+  .cuda-site-vid {
+    height: 250px;
+    margin-top: 22%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
   }
 }
 
@@ -1557,6 +1627,24 @@ html {
     height: 30px;
     padding-top: 5px;
     margin-right: 2%;
+  }
+
+  .designs-title {
+    font-family: "Sarina", cursive;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 15%;
+    margin-top: 0%;
+    width: 100%;
+  }
+
+  .cuda-site-vid {
+    height: 220px;
+    margin-top: 22%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+    margin-bottom: 10%;
   }
 
 }
@@ -1988,7 +2076,35 @@ html {
     margin-right: 2%;
   }
 
+  .cuda-site-vid {
+    height: 190px;
+    margin-top: 22%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+    margin-bottom: 15%;
+  }
 
+  .business-card-img-1 {
+    height: 180px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+    margin-right: 0%;
+    margin-bottom: 12%;
+  }
+  .business-card-img-2 {
+    height: 180px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+    margin-bottom: 19%;
+  }
+  .mix-business-card-img-1 {
+    height: 180px;
+    margin-right: 0%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+    margin-bottom: 12%;
+  }
+  .mix-business-card-img-2 {
+    height: 180px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+    margin-bottom: 12%;
+  }
 }
 
 @media screen and (max-width: 326px) {
@@ -2396,6 +2512,36 @@ html {
     height: 30px;
     padding-top: 5px;
     margin-right: 2%;
+  }
+
+  .cuda-site-vid {
+    height: 170px;
+    margin-top: 22%;
+    margin-bottom: 15%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  }
+
+  .business-card-img-1 {
+    height: 150px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+    margin-right: 0%;
+    margin-bottom: 12%;
+  }
+  .business-card-img-2 {
+    height: 150px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+    margin-bottom: 19%;
+  }
+  .mix-business-card-img-1 {
+    height: 150px;
+    margin-right: 0%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+    margin-bottom: 12%;
+  }
+  .mix-business-card-img-2 {
+    height: 150px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+    margin-bottom: 12%;
   }
 
 }
