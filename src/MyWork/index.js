@@ -17,7 +17,7 @@ class MyWork extends Component {
     return (
       <div className='main-work-container' id='work-page'>
         <div id='press'>
-          <a id='my-work' >
+          <a id='my-work' href='/#'>
             <h2 className='my-work-title'>MY WORK</h2>
           </a>
           <div className='press-container'>
@@ -87,7 +87,7 @@ class MyWork extends Component {
                         <button className='live-site-button'>Live Site</button>
                       </a>
                       <a
-                        href='https://github.com/Misha-Holzman/Josh-Acting-Website'
+                        href='https://github.com/Misha-Holzman/Josh-Gregory-Actor-Website'
                         target='_blank'
                         className='github-button-link'
                         rel='noopener noreferrer'
@@ -337,11 +337,11 @@ class MyWork extends Component {
 
               <div id='slider'>
                 <figure>
-                  <img class='cuda-logo-slides' src={cudaLogo1} />
-                  <img class='cuda-logo-slides' src={cudaLogo2} />
-                  <img class='cuda-logo-slides' src={cudaLogo3} />
-                  <img class='cuda-logo-slides' src={cudaLogo4} />
-                  <img class='cuda-logo-slides' src={cudaLogo1} />
+                  <img class='cuda-logo-slides' src={cudaLogo1} onContextMenu='return false;' alt='' />
+                  <img class='cuda-logo-slides' src={cudaLogo2} onContextMenu='return false;' alt='' />
+                  <img class='cuda-logo-slides' src={cudaLogo3} onContextMenu='return false;' alt='' />
+                  <img class='cuda-logo-slides' src={cudaLogo4} onContextMenu='return false;' alt='' />
+                  <img class='cuda-logo-slides' src={cudaLogo1} onContextMenu='return false;' alt='' />
                 </figure>
               </div>
 
