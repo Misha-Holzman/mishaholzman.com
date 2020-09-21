@@ -17,9 +17,7 @@ class MyWork extends Component {
     return (
       <div className='main-work-container' id='work-page'>
         <div id='press'>
-          <a id='my-work' href='/#'>
-            <h2 className='my-work-title'>MY WORK</h2>
-          </a>
+          <h2 className='my-work-title' id='my-work'>MY WORK</h2>
           <div className='press-container'>
             <div id='flip-box' className='annabel-lee-div-container'>
               <div id='flip-box-inner'>
