@@ -28,7 +28,7 @@ class AboutPage extends Component {
             always happy to chat <span role='img' aria-label='emoji'>🤙</span>
             </p>
             <a
-              href='https://www.canva.com/design/DADJEW_UA3A/0bMj_EnvT1y6R75vMixSbw/view?website#4'
+              href='https://www.canva.com/design/DADggpvAWJk/uL6N6NtHJcRfiZsTO3Fedg/view?utm_content=DADggpvAWJk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink'
               target='_blank'
               rel='noopener noreferrer'
             >
