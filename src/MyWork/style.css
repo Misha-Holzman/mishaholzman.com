@@ -24,7 +24,7 @@
   align-items: center;
   align-content: center;
   margin: 0;
-  width: 85%;
+  width: 95%;
 }
 
 /* .shaka-site {
@@ -101,14 +101,14 @@
 
 #flip-box {
   background-color: transparent;
-  width: 700px;
+  width: 100%;
   height: 300px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
 #flip-box-click {
   background-color: transparent;
-  width: 600px;
+  width: 700px;
   height: 300px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
@@ -121,6 +121,17 @@
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+}
+#flip-box {
+  background-color: transparent;
+  width: 900px;
+  height: 445px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+.annabel-lee-div-container {
+  margin-bottom: 25%;
+  margin-top: 8%;
+  width: 100%
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -159,18 +170,33 @@
   transform: rotateY(180deg);
   font-family: "Montserrat", sans-serif;
 }
+
+#flip-box-back {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  transform: rotateY(180deg);
+  font-family: "Montserrat", sans-serif;
+  margin-top: -1%;
+}
 .back-card-text {
   padding-right: 4%;
   padding-left: 4%;
   height: 100%;
 }
 
+.annabel-back-card {
+  margin-top: 10%;
+}
 .fooder-back-card {
   margin-top: 10%;
 }
 
+#tresensa-flip-text {
+  margin-top: 16%;
+}
 #josh-flip-text {
-  margin-top: 10%;
+  margin-top: 20%;
+  margin-bottom: -10%;
 }
 #shaka-flip-text {
   margin-top: 10%;
@@ -188,88 +214,105 @@
   margin-top: 0%;
 }
 
-.annabel-lee-div-container {
+.tresensa-div-container {
   margin-bottom: 15%;
+  margin-top: 0%;
+}
+.tresensa-iframe-component {
+  border: 0px #ffffff none;
+}
+
+
+
+.annabel-lee-div-container {
+  margin-bottom: 25%;
   margin-top: 8%;
 }
 .josh-acting-div-container {
-  margin-bottom: 15%;
+  margin-bottom: 25%;
   margin-top: 8%;
 }
 .kazimira-div-container {
-  margin-bottom: 15%;
+  margin-bottom: 28%;
   margin-top: 8%;
 }
 .eric-art-div-container {
-  margin-bottom: 15%;
+  margin-bottom: 30%;
   margin-top: 8%;
 }
 .shaka-div-container {
   margin-top: 8%;
-  margin-bottom: 26%;
+  margin-bottom: 38%;
 }
 
 .winson-div-container {
-  margin-bottom: 30%;
-}
-
-.deckOfLegends-div-container {
-  margin-bottom: 25%;
-}
-
-.fooder-div-container {
   margin-bottom: 40%;
 }
 
-.soccer-div-container {
-  margin-bottom: 23%;
+.deckOfLegends-div-container {
+  margin-bottom: 37%;
 }
 
+.fooder-div-container {
+  margin-bottom: 50%;
+}
+
+.soccer-div-container {
+  margin-bottom: 35%;
+}
+
+
+
+
+
+
+
+
 #vehicle-img {
-  height: 350px; 
+  height: 445px; 
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
 #josh-acting-img {
-  height: 360px; 
+  height: 463px; 
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
 
 #ric-artist-img {
-  height: 400px; 
+  height: 515px; 
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
 
 #kaz-healing-img {
-  height: 390px; 
+  height: 504px; 
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
 
 #shaka-img {
-  height: 390px; 
+  height: 502px; 
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
 #winson-img {
-  height: 400px; 
+  height: 523px; 
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
 #legends-img {
-  height: 365px; 
+  height: 475px; 
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
 #fooder-img {
-  height: 490px; 
+  height: 590px; 
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
 #soccer-img {
-  height: 440px; 
+  height: 540px; 
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
@@ -377,6 +420,7 @@
   -moz-box-shadow: -6px -7px 0px -1px #ea5c5a;
 }
 
+
 .live-site-button-link {
   margin-right: 3%;
   text-decoration: none;
@@ -466,6 +510,8 @@
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
 }
 
+
+
 .cuda-site-vid {
   height: 565px;
   margin-top: 18%;
@@ -523,4 +569,92 @@
   100% {
     left: -400%;
   }
+}
+
+
+
+
+
+
+#tresensa-video-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  margin-bottom: 7%;
+  margin-top: 8%;
+}
+.tresensa-screen-rec {
+  height: 450px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  border-radius: 15px;
+}
+.tresensa-screen-rec:focus {
+  outline: 0;
+}
+
+.tresensa-buttons-div {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%;
+}
+.tresesa-live-site-button {
+
+}
+.tresensa-live-site-button-link:hover {
+  transition: 200ms;
+
+}
+.tresensa-live-site-button-link {
+  text-decoration: none;
+  border-radius: 100px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #70d1bd;
+  border: 3px solid #70d1bd;
+  outline: none;
+  padding-top: 5px;
+  transition: 500ms;
+  width: 100%;
+  height: 100%;
+  padding: 5px 20px 5px 20px;
+}
+.tresensa-live-site-button-link:hover {
+  transition: 500ms;
+  background-color: #ea5c5a;
+  border: 3px solid #ea5c5a;
+  color: white;
+}
+
+
+.tresensa-live-site-button {
+  border-radius: 40px;
+  width: 100%;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: black;
+  font-family: "Lekton", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  border: 1px solid black;
+  outline: none;
+  padding-top: 5px;
+  box-shadow: 6px 7px 0px -1px #70d1bd;
+  -webkit-box-shadow: 6px 7px 0px -1px #70d1bd;
+  -moz-box-shadow: 6px 7px 0px -1px #70d1bd;
+  transition: 200ms;
+  padding: 5px 10px 5px 10px;
+}
+.tresensa-live-site-button:hover {
+  transition: 200ms;
+  box-shadow: -6px -7px 0px -1px #ea5c5a;
+  -webkit-box-shadow: -6px -7px 0px -1px #ea5c5a;
+  -moz-box-shadow: -6px -7px 0px -1px #ea5c5a;
 }

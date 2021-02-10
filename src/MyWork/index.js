@@ -9,6 +9,9 @@ import cudaLogo3 from '../assets/cuda-logo-white.png'
 import cudaLogo4 from '../assets/cuda-logo-color.jpg'
 import cudaSiteVid from '../assets/cuda-logo-screen-recording.mov'
 import NSFsiteVid from '../assets/NSF-site.mp4'
+import tsScreenRec from '../assets/ts-screen-rec.mov'
+
+// import Iframe from 'react-iframe'
 
 import './style.css'
 
@@ -19,12 +22,29 @@ class MyWork extends Component {
         <div id='press'>
           <h2 className='my-work-title' id='my-work'>MY WORK</h2>
           <div className='press-container'>
+
+                <div id='tresensa-video-container'>
+                  <video controls autoPlay loop muted className='tresensa-screen-rec'>
+                    <source src={tsScreenRec} type='video/mp4' />
+                  </video>
+                  <div className='tresensa-buttons-div'>
+                      <a
+                        href='https://www.tresensa.com'
+                        target='_blank'
+                        className='tresensa-live-site-button-link'
+                        rel='noopener noreferrer'
+                      >
+                        Live Site
+                      </a>
+                    </div>
+                </div>
+
             <div id='flip-box' className='annabel-lee-div-container'>
               <div id='flip-box-inner'>
                 <div id='flip-box-front'>
                   <img src='https://i.imgur.com/RKedclo.png' alt='' id='vehicle-img' />
                 </div>
-                <div id='flip-box-back' className='josh-back-card'>
+                <div id='flip-box-back' className='annabel-back-card'>
                   <div className='back-card-text' id='josh-flip-text'>
                     <h2 id='card-title-josh-acting'>Annabel Lee – Vehicle Editions Website</h2>
                     <p id='card-text'>

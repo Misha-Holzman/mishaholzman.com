@@ -1,5 +1,11 @@
 html {
   scroll-behavior: smooth;
+  -webkit-scroll-behavior: smooth;
+  width: 99.7%;
+}
+
+.body {
+  width: 99.7%;
 }
 
 @media only screen  and (min-width : 1665px) {
@@ -250,7 +256,7 @@ html {
 
   #newSvg {
     position: absolute;
-    width: 1200px;
+    width: 1185px !important;
     height: 400px;
     font: 10em/1 Arial;
     margin-top: 150px;
