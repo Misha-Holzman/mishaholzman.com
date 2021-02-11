@@ -1879,6 +1879,7 @@ html {
     align-items: center;
     align-content: center;
     flex-direction: column;
+    margin-bottom: -50% !important;
   }
 
   .about-page-container {
@@ -1887,9 +1888,10 @@ html {
   }
 
   .about-page {
-    padding: 5% 5% 0 5%;
+    padding: 0% 5% 0 5%;
     width: 95%;
     margin: 0 auto;
+    margin-top: -50% !important;
   }
 
 
@@ -1979,6 +1981,18 @@ html {
     margin-bottom: 10%;
   }
 
+  #my-work {
+    margin-top: 30%;
+    margin-bottom: 15%;
+  }
+
+  .tresensa-buttons-div {
+    margin-top: 5%;
+  }
+
+  .designs-title {
+    margin-top: 10%;
+  }
 }
 
 
@@ -2049,7 +2063,7 @@ html {
   }
 
   .about-page {
-    padding: 5% 0% 0 0%;
+    padding: 0% 0% 0 0%;
     width: 100%;
     margin: 0 auto;
   }
