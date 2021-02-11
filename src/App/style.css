@@ -1831,7 +1831,7 @@ html {
   }
 
   .main-work-container {
-    margin-left: 3% !important;
+    margin-left: 0% !important;
   }
 
   .live-site-button-link {
@@ -1905,7 +1905,8 @@ html {
   }
 
   #main-contact-page {
-    margin-left: 8%;
+    margin-left: 2%;
+    margin-right: 2%;
   }
 
   .github-button {
@@ -2048,7 +2049,7 @@ html {
   }
 
   .about-page {
-    padding: 5% 5% 0 5%;
+    padding: 5% 0% 0 0%;
     width: 100%;
     margin: 0 auto;
   }
@@ -2195,7 +2196,10 @@ html {
 
 
   .main-work-container {
-    margin-left: 7% !important;
+    margin-left: 0;
+  }
+  #work-page {
+    margin-left: 0;
   }
 
   .live-site-button {
