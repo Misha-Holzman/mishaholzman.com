@@ -332,19 +332,159 @@ html {
 @media screen and (max-width: 950px) {
   /* Large Desktop */
 
+  .nav-container {
+    background-color: rgba(255, 255, 255, 0);
+    width: 85%;
+    margin: 0 auto;
+    border-color: #8795a1;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+  }
+  .nav-bullets {
+    list-style: none;
+    width: 60%;
+    margin: 3% -3.5% 3% 2% !important;
+    display: flex;
+    align-content: flex-end;
+  }
+  #my-name {
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+    font-family: "Lekton", sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    width: 320px;
+  }
+  .links {
+    display: inline;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 3%;
+    margin-left: 5%;
+  }
+
+  .arrow {
+    -webkit-animation: shake-vertical 18s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+    animation: shake-vertical 18s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+  }
+  
+  #link {
+    text-decoration: none;
+    margin-top: 45%;
+    margin-left: 1px;
+    position: absolute;
+  }
+
+  #flip-box {
+    background-color: transparent;
+    width: 768px;
+    height: 345px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  .annabel-lee-div-container {
+    margin-bottom: 25%;
+    margin-top: 8%;
+    width: 100%
+  }
+  #flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 130%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.cuda-site-vid {
+  height: 365px;
+  margin-top: 18%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+}
+.nsf-site-vid {
+  height: 365px;
+  margin-top: 18%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+}
+
+.tresensa-screen-rec {
+  height: 350px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  border-radius: 15px;
+}
+
+
+.resume-button-link {
+  margin:0;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.about-headshot-and-button{
+  margin-right: 0;
+}
+
+
+#vehicle-img {
+  height: 345px; 
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+#josh-acting-img {
+  height: 363px; 
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+
+#ric-artist-img {
+  height: 415px; 
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+
+#kaz-healing-img {
+  height: 404px; 
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+
+#shaka-img {
+  height: 402px; 
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+#winson-img {
+  height: 423px; 
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+#legends-img {
+  height: 375px; 
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+#fooder-img {
+  height: 490px; 
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+#soccer-img {
+  height: 440px; 
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+  
   .shadow {
     animation-name: floating;
     animation-duration: 0s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     margin-top: 18%;
-    position: absolute;
-  }
-
-  #link {
-    text-decoration: none;
-    margin-top: 25%;
-    margin-left: 1px;
     position: absolute;
   }
 
@@ -422,19 +562,72 @@ html {
 @media screen and (max-width: 780px) {
   /* tablet */
 
+  .nav-container {
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    margin: 0 auto;
+    border-color: #8795a1;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+
+  }
+  .nav-bullets {
+    list-style: none;
+    width: 100%;
+    margin: 3% 0% 3% 0% !important;
+    display: flex;
+    align-content: center;
+    padding: 0%;
+
+  }
+  #my-name {
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+    font-family: "Lekton", sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    width: 320px;
+  }
+  .links {
+    display: inline;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    list-style: none;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  
+
+  .arrow {
+    -webkit-animation: shake-vertical 18s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+    animation: shake-vertical 18s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+  }
+  
+  #link {
+    text-decoration: none;
+    margin-top: 55%;
+    margin-left: 1px;
+    position: absolute;
+  }
+
+  
+  
+
+
+
   .shadow {
     animation-name: floating;
     animation-duration: 0s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     margin-top: 24%;
-    position: absolute;
-  }
-
-  #link {
-    text-decoration: none;
-    margin-top: 31%;
-    margin-left: 1px;
     position: absolute;
   }
 
@@ -570,6 +763,8 @@ html {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
     margin-bottom: 5%;
   }
+
+  
   
 
 }
@@ -577,19 +772,71 @@ html {
 @media screen and (max-width: 705px) {
   /* Large Desktop */
 
+
+  .nav-container {
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    margin: 0 auto;
+    border-color: #8795a1;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+
+  }
+  .nav-bullets {
+    list-style: none;
+    width: 100%;
+    margin: 3% 0% 3% 0% !important;
+    display: flex;
+    align-content: center;
+    padding: 0%;
+
+  }
+  #my-name {
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+    font-family: "Lekton", sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    width: 320px;
+  }
+  .links {
+    display: inline;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    list-style: none;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  
+
+  .arrow {
+    -webkit-animation: shake-vertical 18s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+    animation: shake-vertical 18s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+  }
+  
+  #link {
+    text-decoration: none;
+    margin-top: 55%;
+    margin-left: 1px;
+    position: absolute;
+  }
+
+  
+
+
   .shadow {
     animation-name: floating;
     animation-duration: 0s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     margin-top: 28%;
-    position: absolute;
-  }
-
-  #link {
-    text-decoration: none;
-    margin-top: 35%;
-    margin-left: 1px;
     position: absolute;
   }
 
@@ -736,6 +983,22 @@ html {
 @media screen and (max-width: 667px) {
   /* mobile */
 
+  .cuda-site-vid {
+    height: 265px;
+    margin-top: 18%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  }
+  .nsf-site-vid {
+    height: 265px;
+    margin-top: 18%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  }
+  
+  .tresensa-screen-rec {
+    height: 250px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+    border-radius: 15px;
+  }
   .shadow {
     animation-name: floating;
     animation-duration: 0s;
@@ -747,7 +1010,7 @@ html {
 
   #link {
     text-decoration: none;
-    margin-top: 42%;
+    margin-top: 62%;
     margin-left: 1px;
     position: absolute;
   }
@@ -854,11 +1117,55 @@ html {
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
   }
+
+  .arrow {
+    -webkit-animation: shake-vertical 18s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+    animation: shake-vertical 18s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+  }
+  .background-globe {
+    margin-bottom: 80%;
+  }
+  #link {
+    text-decoration: none;
+    margin-top: 30%;
+    margin-left: 1px;
+    position: absolute;
+  }
 }
 
 @media screen and (max-width: 535px) {
   /* mobile */
 
+
+  .arrow {
+    -webkit-animation: shake-vertical 18s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+    animation: shake-vertical 18s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+  }
+  .background-globe {
+    margin-bottom: 80%;
+  }
+  #link {
+    text-decoration: none;
+    margin-top: 90%;
+    margin-left: 1px;
+    position: absolute;
+  }
+  .cuda-site-vid {
+    height: 240px;
+    margin-top: 18%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  }
+  .nsf-site-vid {
+    height: 240px;
+    margin-top: 18%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  }
+  
+  .tresensa-screen-rec {
+    height: 234px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+    border-radius: 15px;
+  }
   .shadow {
     animation-name: floating;
     animation-duration: 0s;
@@ -1040,16 +1347,27 @@ html {
     padding-top: 5px;
     margin-right: 2%;
   }
-  
-  .cuda-site-vid {
-    height: 270px;
-    margin-top: 22%;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
-  }
+
 }
 
 @media screen and (max-width: 480px) {
   /* mobile */
+  .cuda-site-vid {
+    height: 230px;
+    margin-top: 18%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  }
+  .nsf-site-vid {
+    height: 230px;
+    margin-top: 18%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  }
+  
+  .tresensa-screen-rec {
+    height: 200px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+    border-radius: 15px;
+  }
 
   .shadow {
     animation-name: floating;
@@ -1543,6 +1861,13 @@ html {
 @media screen and (max-width: 400px) {
   /* mobile */
 
+
+  
+  .tresensa-screen-rec {
+    height: 180px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+    border-radius: 15px;
+  }
   .profile-pic {
     border-radius: 100%;
     border: 1px black solid;
