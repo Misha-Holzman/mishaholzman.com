@@ -7,11 +7,16 @@ import cudaLogo1 from '../assets/cuda-logo-sketch.JPG'
 import cudaLogo2 from '../assets/cuda-logo-outline.png'
 import cudaLogo3 from '../assets/cuda-logo-white.png'
 import cudaLogo4 from '../assets/cuda-logo-color.jpg'
-import cudaSiteVid from '../assets/cuda-logo-screen-recording.mov'
+import cudaSiteVid from '../assets/cuda-logo-screen-recording-420.mov'
 import NSFsiteVid from '../assets/NSF-site.mp4'
-import tsScreenRec from '../assets/ts-screen-rec.mov'
-
-// import Iframe from 'react-iframe'
+import tsScreenRec from '../assets/ts-screen-rec-420.mov'
+import legends from '../assets/legends.jpg'
+import shaka from '../assets/shaka.jpg'
+import winson from '../assets/winson.jpg'
+import holzmanart from '../assets/holzmanart.png'
+import joshacting from '../assets/joshacting.png'
+import takemeonajourney from '../assets/takemeonajourney.png'
+import vehicles from '../assets/vehicles.png'
 
 import './style.css'
 
@@ -23,26 +28,26 @@ class MyWork extends Component {
           <h2 className='my-work-title' id='my-work'>MY WORK</h2>
           <div className='press-container'>
 
-                <div id='tresensa-video-container'>
-                  <video controls autoPlay loop muted className='tresensa-screen-rec'>
-                    <source src={tsScreenRec} type='video/mp4' />
-                  </video>
-                  <div className='tresensa-buttons-div'>
-                      <a
-                        href='https://www.tresensa.com'
-                        target='_blank'
-                        className='tresensa-live-site-button-link'
-                        rel='noopener noreferrer'
-                      >
+            <div id='tresensa-video-container'>
+              <video controls autoPlay loop muted className='tresensa-screen-rec'>
+                <source src={tsScreenRec} type='video/mp4' />
+              </video>
+              <div className='tresensa-buttons-div'>
+                <a
+                  href='https://www.tresensa.com'
+                  target='_blank'
+                  className='tresensa-live-site-button-link'
+                  rel='noopener noreferrer'
+                >
                         Live Site
-                      </a>
-                    </div>
-                </div>
+                </a>
+              </div>
+            </div>
 
             <div id='flip-box' className='annabel-lee-div-container'>
               <div id='flip-box-inner'>
                 <div id='flip-box-front'>
-                  <img src='https://i.imgur.com/RKedclo.png' alt='' id='vehicle-img' />
+                  <img src={vehicles} alt='' id='vehicle-img' />
                 </div>
                 <div id='flip-box-back' className='annabel-back-card'>
                   <div className='back-card-text' id='josh-flip-text'>
@@ -81,7 +86,7 @@ class MyWork extends Component {
             <div id='flip-box' className='josh-acting-div-container'>
               <div id='flip-box-inner'>
                 <div id='flip-box-front'>
-                  <img src='https://i.imgur.com/D3mvRFZ.png' alt='' id='josh-acting-img' />
+                  <img src={joshacting} alt='' id='josh-acting-img' />
                 </div>
                 <div id='flip-box-back' className='josh-back-card'>
                   <div className='back-card-text' id='josh-flip-text'>
@@ -121,7 +126,7 @@ class MyWork extends Component {
             <div id='flip-box' className='kazimira-div-container'>
               <div id='flip-box-inner'>
                 <div id='flip-box-front'>
-                  <img src='https://i.imgur.com/f5CW6x8.png' alt='' id='kaz-healing-img' />
+                  <img src={takemeonajourney} alt='' id='kaz-healing-img' />
                 </div>
                 <div id='flip-box-back' className='josh-back-card'>
                   <div className='back-card-text' id='josh-flip-text'>
@@ -150,7 +155,7 @@ class MyWork extends Component {
             <div id='flip-box' className='eric-art-div-container'>
               <div id='flip-box-inner'>
                 <div id='flip-box-front'>
-                  <img src='https://i.imgur.com/Pg7xW73.png' alt='' id='ric-artist-img' />
+                  <img src={holzmanart} alt='' id='ric-artist-img' />
                 </div>
                 <div id='flip-box-back' className='josh-back-card'>
                   <div className='back-card-text' id='josh-flip-text'>
@@ -178,7 +183,7 @@ class MyWork extends Component {
             <div id='flip-box' className='shaka-div-container'>
               <div id='flip-box-inner'>
                 <div id='flip-box-front'>
-                  <img src='https://i.imgur.com/bkN5v6m.jpg' alt='' id='shaka-img' />
+                  <img src={shaka} alt='' id='shaka-img' />
                 </div>
                 <div id='flip-box-back' className='shaka-back-card'>
                   <div className='back-card-text' id='shaka-flip-text'>
@@ -208,7 +213,7 @@ class MyWork extends Component {
             <div id='flip-box' className='winson-div-container'>
               <div id='flip-box-inner'>
                 <div id='flip-box-front'>
-                  <img src='https://i.imgur.com/Zw3EHBL.jpg' alt='winson' id='winson-img' />
+                  <img src={winson} alt='winson' id='winson-img' />
                 </div>
                 <div id='flip-box-back' className='winson-back-card'>
                   <div className='back-card-text' id='winson-flip-text'>
@@ -241,7 +246,7 @@ class MyWork extends Component {
             <div id='flip-box' className='deckOfLegends-div-container'>
               <div id='flip-box-inner'>
                 <div id='flip-box-front'>
-                  <img src='https://i.imgur.com/fmqhF6f.jpg' alt='legends' id='legends-img' />
+                  <img src={legends} alt='legends' id='legends-img' />
                 </div>
                 <div id='flip-box-back' className='legends-back-card'>
                   <div className='back-card-text' id='legends-flip-text'>
