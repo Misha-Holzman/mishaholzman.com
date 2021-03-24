@@ -357,7 +357,7 @@ class MyWork extends Component {
                 <img src={mixBusinessCard1} alt='' className='mix-business-card-img-1' />
                 <img src={mixBusinessCard2} alt='' className='mix-business-card-img-2' />
               </div>
-
+{/* 
               <div id='slider'>
                 <figure>
                   <img class='cuda-logo-slides' src={cudaLogo1} onContextMenu='return false;' alt='' />
@@ -366,7 +366,7 @@ class MyWork extends Component {
                   <img class='cuda-logo-slides' src={cudaLogo4} onContextMenu='return false;' alt='' />
                   <img class='cuda-logo-slides' src={cudaLogo1} onContextMenu='return false;' alt='' />
                 </figure>
-              </div>
+              </div> */}
 
               <video controls autoPlay loop muted className='cuda-site-vid'>
                 <source src={cudaSiteVid} type='video/mp4' />

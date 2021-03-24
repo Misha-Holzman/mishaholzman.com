@@ -8,16 +8,38 @@ html {
   width: 99.7%;
 }
 
-@media only screen  and (min-width : 1665px) {
-	
+@media screen and (max-width: 1723px) {
+  #newSvg {
+    position: absolute;
+    width: 1300px !important;
+    height: 500px;
+    font: 13em/1 Arial;
+    margin-top: 170px;
+    top: 9% !important;
+    left: 13.7% !important;
+  }
+}
+@media screen and (max-width: 1675px) {
+  #newSvg {
+    position: absolute;
+    width: 1250px !important;
+    height: 500px;
+    font: 13em/1 Arial;
+    margin-top: 170px;
+    top: 7.5% !important;
+    left: 14.5% !important;
+  }
+}
+@media screen and (max-width: 1665px) {	
+  
   #newSvg {
     position: absolute;
     width: 1800px;
     height: 500px;
     font: 13em/1 Arial;
     margin-top: 170px;
-    top: 8%;
-    left: 5%;
+    top: 7% !important;
+    left: 13.8% !important;
   }
 
 
@@ -72,6 +94,20 @@ html {
 
 }
 
+@media screen and (max-width: 1630px) {
+
+  #newSvg {
+    position: absolute;
+    width: 1550px;
+    height: 500px;
+    font: 10em/1 Arial;
+    margin-top: 130px;
+    top: 6%;
+    left: 13% !important;
+  }
+
+}
+
 @media screen and (max-width: 1620px) {
 
   #newSvg {
@@ -81,7 +117,7 @@ html {
     font: 10em/1 Arial;
     margin-top: 130px;
     top: 6%;
-    left: 4%;
+    left: 13% !important;
   }
 
   .nav-bullets {
@@ -104,7 +140,7 @@ html {
     font: 10em/1 Arial;
     margin-top: 170px;
     top: 4%;
-    left: 7%;
+    left: 12% !important;
   }
 
 
@@ -133,8 +169,23 @@ html {
     height: 500px;
     font: 10em/1 Arial;
     margin-top: 140px;
-    top: 4%;
-    left: 5.5%;
+    top: 6% !important;
+    left: 11% !important;
+  }
+
+
+}
+
+@media screen and (max-width: 1500px) {
+
+  #newSvg {
+    position: absolute;
+    width: 1400px;
+    height: 500px;
+    font: 10em/1 Arial;
+    margin-top: 140px;
+    top: 5% !important;
+    left: 10% !important;
   }
 
 
@@ -155,16 +206,16 @@ html {
 
 }
 
-@media screen and (max-width: 1444px) {
+@media screen and (max-width: 1449px) {
 
   #newSvg {
     position: absolute;
-    width: 1350px;
+    width: 1400px;
     height: 500px;
     font: 10em/1 Arial;
     margin-top: 140px;
-    top: 4%;
-    left: 5%;
+    top: 5% !important;
+    left: 8.7% !important;
   }
 
 }
@@ -186,17 +237,31 @@ html {
 
 }
 
+@media screen and (max-width: 1410px) {
+
+  #newSvg {
+    position: absolute;
+    width: 1400px;
+    height: 500px;
+    font: 10em/1 Arial;
+    margin-top: 140px;
+    top: 5% !important;
+    left: 7.5% !important;
+  }
+
+}
+
 
 @media screen and (max-width: 1375px) {
 
   #newSvg {
     position: absolute;
-    width: 1300px;
+    width: 1400px;
     height: 500px;
     font: 10em/1 Arial;
-    margin-top: 170px;
-    top: 10%;
-    left: 4.5%;
+    margin-top: 140px;
+    top: 5% !important;
+    left: 6.5% !important;
   }
 
 
@@ -207,14 +272,13 @@ html {
 
   #newSvg {
     position: absolute;
-    width: 1300px;
+    width: 1400px;
     height: 500px;
     font: 10em/1 Arial;
-    margin-top: 170px;
-    top: 5%;
-    left: 4%;
+    margin-top: 140px;
+    top: 5% !important;
+    left: 5.5% !important;
   }
-
 
 }
 
@@ -238,13 +302,14 @@ html {
 
   #newSvg {
     position: absolute;
-    width: 1250px;
+    width: 1400px;
     height: 500px;
     font: 10em/1 Arial;
-    margin-top: 170px;
-    top: 4%;
-    left: 4%;
+    margin-top: 140px;
+    top: 5% !important;
+    left: 4% !important;
   }
+
 
 
 }
@@ -260,8 +325,8 @@ html {
     height: 400px;
     font: 10em/1 Arial;
     margin-top: 150px;
-    top: 10%;
-    left: 5%;
+    top: 10.5% !important;
+    left: 6% !important;
   }
 
 }
@@ -274,8 +339,22 @@ html {
     height: 400px;
     font: 10em/1 Arial;
     margin-top: 150px;
-    top: 10%;
-    left: 4.5%;
+    top: 9% !important;
+    left: 5% !important;
+  }
+
+}
+
+@media screen and (max-width: 1221px) {
+
+  #newSvg {
+    position: absolute;
+    width: 1180px;
+    height: 400px;
+    font: 10em/1 Arial;
+    margin-top: 150px;
+    top: 9% !important;
+    left: 4% !important;
   }
 
 }
