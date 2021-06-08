@@ -388,7 +388,7 @@ html {
   }
 
   .my-designs-cuda-mock-div-2 {
-    width: 80%;
+    width: 85%;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -405,12 +405,13 @@ html {
   .cuda-mock-img-2 {
     height: 600px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
-    margin-right: 0%;
+    margin-right: 10%;
+    margin-top: 10%;
   }
   .cuda-mock-img-3 {
     height: 600px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
-    margin-top: 5%;
+    margin-top: 10%;
   }
   
   
@@ -430,7 +431,7 @@ html {
   }
 
   .my-designs-cbd-div {
-    width: 70%;
+    width: 80%;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -447,12 +448,12 @@ html {
   .cbd-mock-img-2 {
     height: 500px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
-    margin-right: 0%;
+    margin-right: 10%;
   }
   .cbd-mock-img-3 {
     height: 500px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
-    margin-top: 10%;
+    margin-right: 10%;
 
   }
 
