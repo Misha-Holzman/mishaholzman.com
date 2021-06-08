@@ -7,16 +7,32 @@ import cudaLogo1 from '../assets/cuda-logo-sketch.JPG'
 import cudaLogo2 from '../assets/cuda-logo-outline.png'
 import cudaLogo3 from '../assets/cuda-logo-white.png'
 import cudaLogo4 from '../assets/cuda-logo-color.jpg'
-import cudaSiteVid from '../assets/cuda-logo-screen-recording-420.mov'
+// import cudaSiteVid from '../assets/cuda-logo-screen-recording-420.mov'
 import NSFsiteVid from '../assets/NSF-site.mp4'
 import tsScreenRec from '../assets/ts-screen-rec-420.mov'
-import legends from '../assets/legends.jpg'
+// import legends from '../assets/legends.jpg'
 import shaka from '../assets/shaka.jpg'
-import winson from '../assets/winson.jpg'
+// import winson from '../assets/winson.jpg'
 import holzmanart from '../assets/holzmanart.png'
 import joshacting from '../assets/joshacting.png'
 import takemeonajourney from '../assets/takemeonajourney.png'
 import vehicles from '../assets/vehicles.png'
+
+import cbdimg1 from '../assets/cbd-mock-light-blue.png'
+import cbdimg2 from '../assets/cbd-mock-dark-blue.png'
+import cbdimg3 from '../assets/cbd-mock-purple.png'
+
+import cudamockimg1 from '../assets/Cuda-surf-snow-one.png'
+import cudamockimg2 from '../assets/Cuda-surf-mock-two.png'
+import cudamockimg3 from '../assets/Cuda-snow-mock-three.png'
+
+import tresensalandingmockimg1 from '../assets/TS-landing-page-mockup-img.png'
+import tresensalandingmockimg2 from '../assets/TS-Mockup-Iteration-1.png'
+
+import photographymockimg1 from '../assets/Notions–website-Mock-1.png'
+import photographymockimg2 from '../assets/Notions–website-Mock-2.png'
+import photographymockimg3 from '../assets/Notions–website-Mock-3.png'
+import photographymockimg4 from '../assets/Notions–website-Mock-4.png'
 
 import './style.css'
 
@@ -210,7 +226,7 @@ class MyWork extends Component {
               </div>
             </div>
 
-            <div id='flip-box' className='winson-div-container'>
+            {/* <div id='flip-box' className='winson-div-container'>
               <div id='flip-box-inner'>
                 <div id='flip-box-front'>
                   <img src={winson} alt='winson' id='winson-img' />
@@ -242,8 +258,8 @@ class MyWork extends Component {
                   </div>
                 </div>
               </div>
-            </div>
-            <div id='flip-box' className='deckOfLegends-div-container'>
+            </div> */}
+            {/* <div id='flip-box' className='deckOfLegends-div-container'>
               <div id='flip-box-inner'>
                 <div id='flip-box-front'>
                   <img src={legends} alt='legends' id='legends-img' />
@@ -274,9 +290,9 @@ class MyWork extends Component {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div id='flip-box' className='fooder-div-container'>
+            {/* <div id='flip-box' className='fooder-div-container'>
               <div id='flip-box-inner'>
                 <div id='flip-box-front'>
                   <img src='https://i.imgur.com/Y8HWoHe.jpg' alt='fooder' id='fooder-img' />
@@ -304,7 +320,7 @@ class MyWork extends Component {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div id='flip-box' className='soccer-div-container'>
               <div id='flip-box-inner'>
@@ -348,6 +364,50 @@ class MyWork extends Component {
             <div className='my-work-my-designs-div'>
               <h2 className='designs-title'>DESIGN</h2>
 
+              <div className='my-designs-tresensa-div'>
+                <img src={tresensalandingmockimg1} alt='' className='ts-mock-img-1' />
+                <img src={tresensalandingmockimg2} alt='' className='ts-mock-img-2' />
+              </div>
+
+              <div className='my-designs-cbd-div'>
+                <img src={cbdimg1} alt='' className='cbd-mock-img-1' />
+                <img src={cbdimg2} alt='' className='cbd-mock-img-2' />
+                <img src={cbdimg3} alt='' className='cbd-mock-img-3' />
+              </div>
+
+              <div className='my-designs-cuda-mock-div-1'>
+                <img src={cudamockimg1} alt='' className='cuda-mock-img-1' />
+              </div>
+              <div className='my-designs-cuda-mock-div-2'>
+                <img src={cudamockimg2} alt='' className='cuda-mock-img-2' />
+                <img src={cudamockimg3} alt='' className='cuda-mock-img-3' />
+              </div>
+
+              <div id='slider'>
+                <figure>
+                  <img class='cuda-logo-slides' src={cudaLogo1} onContextMenu='return false;' alt='' />
+                  <img class='cuda-logo-slides' src={cudaLogo2} onContextMenu='return false;' alt='' />
+                  <img class='cuda-logo-slides' src={cudaLogo3} onContextMenu='return false;' alt='' />
+                  <img class='cuda-logo-slides' src={cudaLogo4} onContextMenu='return false;' alt='' />
+                  <img class='cuda-logo-slides' src={cudaLogo1} onContextMenu='return false;' alt='' />
+                </figure>
+              </div>
+
+              <div className='my-designs-photography-div'>
+                <img src={photographymockimg1} alt='' className='photography-mock-img-1' />
+                <img src={photographymockimg2} alt='' className='photography-mock-img-2' />
+                <img src={photographymockimg3} alt='' className='photography-mock-img-3' />
+                <img src={photographymockimg4} alt='' className='photography-mock-img-4' />
+              </div>
+
+              {/* <video controls autoPlay loop muted className='cuda-site-vid'>
+                <source src={cudaSiteVid} type='video/mp4' />
+              </video> */}
+
+              <video controls autoPlay loop muted className='nsf-site-vid'>
+                <source src={NSFsiteVid} type='video/mp4' />
+              </video>
+
               <div className='my-designs-business-cards-div1'>
                 <img src={businessCard1} alt='' className='business-card-img-1' />
                 <img src={businessCard2} alt='' className='business-card-img-2' />
@@ -357,24 +417,7 @@ class MyWork extends Component {
                 <img src={mixBusinessCard1} alt='' className='mix-business-card-img-1' />
                 <img src={mixBusinessCard2} alt='' className='mix-business-card-img-2' />
               </div>
-{/* 
-              <div id='slider'>
-                <figure>
-                  <img class='cuda-logo-slides' src={cudaLogo1} onContextMenu='return false;' alt='' />
-                  <img class='cuda-logo-slides' src={cudaLogo2} onContextMenu='return false;' alt='' />
-                  <img class='cuda-logo-slides' src={cudaLogo3} onContextMenu='return false;' alt='' />
-                  <img class='cuda-logo-slides' src={cudaLogo4} onContextMenu='return false;' alt='' />
-                  <img class='cuda-logo-slides' src={cudaLogo1} onContextMenu='return false;' alt='' />
-                </figure>
-              </div> */}
 
-              <video controls autoPlay loop muted className='cuda-site-vid'>
-                <source src={cudaSiteVid} type='video/mp4' />
-              </video>
-
-              <video controls autoPlay loop muted className='nsf-site-vid'>
-                <source src={NSFsiteVid} type='video/mp4' />
-              </video>
             </div>
 
           </div>

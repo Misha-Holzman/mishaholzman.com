@@ -461,7 +461,7 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  margin-top: 5%;
+  margin-top: 15%;
 }
 .my-designs-business-cards-div2 {
   width: 70%;
@@ -504,11 +504,121 @@
 }
 
 
+
+
+
+.my-designs-cbd-div {
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 20%;
+}
+
+.cbd-mock-img-1 {
+  height: 500px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  margin-right: 15%;
+}
+.cbd-mock-img-2 {
+  height: 500px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  margin-right: 15%;
+}
+.cbd-mock-img-3 {
+  height: 500px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+}
+
+
+
+
+
+.my-designs-tresensa-div {
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+.ts-mock-img-1 {
+  height: 900px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  margin-right: 10%;
+  transition: all .3s ease-in-out;
+}
+.ts-mock-img-2 {
+  height: 1200px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  margin-right: 13%;
+  transition: all .3s ease-in-out;
+}
+
+.ts-mock-img-1:hover {
+  transform: scale(1.4);
+}
+.ts-mock-img-2:hover {
+  transform: scale(1.6);
+}
+
+
+
+
+
+.my-designs-cuda-mock-div-2 {
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 5%;
+}
+
+.cuda-mock-img-1 {
+  height: 637px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  margin-top: 25%;
+}
+.cuda-mock-img-2 {
+  height: 600px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  margin-right: 5%;
+}
+.cuda-mock-img-3 {
+  height: 600px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+}
+
+
+
+
+
+
+
+
+
+
+
 .cuda-logo-slides {
   height: 300px;
   margin-top: 4%;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
 }
+
+
+.cuda-mock-slides {
+  height: 500px;
+  margin-top: 4%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+}
+
+
 
 
 
@@ -570,6 +680,62 @@
     left: -400%;
   }
 }
+
+
+
+
+
+
+.my-designs-photography-div {
+  width: 95%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  margin-top: 20%;
+}
+.photography-mock-img-1 {
+  height: 950px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  margin-right: 5%;
+  transition: all .3s ease-in-out;
+}
+.photography-mock-img-2 {
+  height: 950px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  transition: all .3s ease-in-out;
+}
+.photography-mock-img-3 {
+  height: 980px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  margin-right: 5%;
+  margin-top: 10%;
+  transition: all .3s ease-in-out;
+}
+.photography-mock-img-4 {
+  height: 520px;
+  margin-top: 10%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  transition: all .3s ease-in-out;
+}
+
+.photography-mock-img-1:hover {
+  transform: scale(1.2);
+}
+.photography-mock-img-2:hover {
+  transform: scale(1.2);
+}
+.photography-mock-img-3:hover {
+  transform: scale(1.2);
+}
+.photography-mock-img-4:hover {
+  transform: scale(1.2);
+}
+
+
+
+
 
 
 
