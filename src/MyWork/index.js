@@ -1,44 +1,58 @@
 import React, { Component } from 'react'
-import businessCard1 from '../assets/business-card.jpg'
-import businessCard2 from '../assets/business-card-back.jpg'
-import mixBusinessCard1 from '../assets/mix-design-front.jpg'
-import mixBusinessCard2 from '../assets/mix-design-back.jpg'
-import cudaLogo1 from '../assets/cuda-logo-sketch.JPG'
-import cudaLogo2 from '../assets/cuda-logo-outline.png'
-import cudaLogo3 from '../assets/cuda-logo-white.png'
-import cudaLogo4 from '../assets/cuda-logo-color.jpg'
-// import cudaSiteVid from '../assets/cuda-logo-screen-recording-420.mov'
-import NSFsiteVid from '../assets/NSF-site.mp4'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import GraphicDesign from '../GraphicDesign'
+import ProductDesign from '../ProductDesign'
+import WebDesign from '../WebDesign'
+import OtherDesign from '../OtherDesign'
+
+
+
 import tsScreenRec from '../assets/ts-screen-rec-420.mov'
-// import legends from '../assets/legends.jpg'
+import legends from '../assets/legends.jpg'
 import shaka from '../assets/shaka.jpg'
-// import winson from '../assets/winson.jpg'
+import winson from '../assets/winson.jpg'
 import holzmanart from '../assets/holzmanart.png'
 import joshacting from '../assets/joshacting.png'
 import takemeonajourney from '../assets/takemeonajourney.png'
 import vehicles from '../assets/vehicles.png'
 
-import cbdimg1 from '../assets/cbd-mock-light-blue.png'
-import cbdimg2 from '../assets/cbd-mock-dark-blue.png'
-import cbdimg3 from '../assets/cbd-mock-purple.png'
+// import cudaLogo1 from '../assets/cuda-logo-sketch.JPG'
+// import cudaLogo2 from '../assets/cuda-logo-outline.png'
+// import cudaLogo3 from '../assets/cuda-logo-white.png'
+// import cudaLogo4 from '../assets/cuda-logo-color.jpg'
 
-import cudamockimg1 from '../assets/Cuda-surf-snow-one.png'
-import cudamockimg2 from '../assets/Cuda-surf-mock-two.png'
-import cudamockimg3 from '../assets/Cuda-snow-mock-three.png'
+// import cudaSiteVid from '../assets/cuda-logo-screen-recording-420.mov'
+// import NSFsiteVid from '../assets/NSF-site.mp4'
 
-import tresensalandingmockimg1 from '../assets/TS-landing-page-mockup-img.png'
-import tresensalandingmockimg2 from '../assets/TS-Mockup-Iteration-1.png'
+// import cbdimg1 from '../assets/cbd-mock-light-blue.png'
+// import cbdimg2 from '../assets/cbd-mock-dark-blue.png'
+// import cbdimg3 from '../assets/cbd-mock-purple.png'
 
-import photographymockimg1 from '../assets/Notions–website-Mock-1.png'
-import photographymockimg2 from '../assets/Notions–website-Mock-2.png'
-import photographymockimg3 from '../assets/Notions–website-Mock-3.png'
-import photographymockimg4 from '../assets/Notions–website-Mock-4.png'
+// import cudamockimg1 from '../assets/Cuda-surf-snow-one.png'
+// import cudamockimg2 from '../assets/Cuda-surf-mock-two.png'
+// import cudamockimg3 from '../assets/Cuda-snow-mock-three.png'
+
+// import tresensalandingmockimg1 from '../assets/TS-landing-page-mockup-img.png'
+// import tresensalandingmockimg2 from '../assets/TS-Mockup-Iteration-1.png'
+
+// import photographymockimg1 from '../assets/Notions–website-Mock-1.png'
+// import photographymockimg2 from '../assets/Notions–website-Mock-2.png'
+// import photographymockimg3 from '../assets/Notions–website-Mock-3.png'
+// import photographymockimg4 from '../assets/Notions–website-Mock-4.png'
+
+// import businessCard1 from '../assets/business-card.jpg'
+// import businessCard2 from '../assets/business-card-back.jpg'
+// import mixBusinessCard1 from '../assets/mix-design-front.jpg'
+// import mixBusinessCard2 from '../assets/mix-design-back.jpg'
+
 
 import './style.css'
 
 class MyWork extends Component {
   render () {
     return (
+      <Router className='nav'>
+
       <div className='main-work-container' id='work-page'>
         <div id='press'>
           <h2 className='my-work-title' id='my-work'>MY WORK</h2>
@@ -226,7 +240,7 @@ class MyWork extends Component {
               </div>
             </div>
 
-            {/* <div id='flip-box' className='winson-div-container'>
+            <div id='flip-box' className='winson-div-container'>
               <div id='flip-box-inner'>
                 <div id='flip-box-front'>
                   <img src={winson} alt='winson' id='winson-img' />
@@ -258,8 +272,8 @@ class MyWork extends Component {
                   </div>
                 </div>
               </div>
-            </div> */}
-            {/* <div id='flip-box' className='deckOfLegends-div-container'>
+            </div>
+            <div id='flip-box' className='deckOfLegends-div-container'>
               <div id='flip-box-inner'>
                 <div id='flip-box-front'>
                   <img src={legends} alt='legends' id='legends-img' />
@@ -290,9 +304,9 @@ class MyWork extends Component {
                   </div>
                 </div>
               </div>
-            </div> */}
+            </div>
 
-            {/* <div id='flip-box' className='fooder-div-container'>
+            <div id='flip-box' className='fooder-div-container'>
               <div id='flip-box-inner'>
                 <div id='flip-box-front'>
                   <img src='https://i.imgur.com/Y8HWoHe.jpg' alt='fooder' id='fooder-img' />
@@ -320,7 +334,7 @@ class MyWork extends Component {
                   </div>
                 </div>
               </div>
-            </div> */}
+            </div>
 
             <div id='flip-box' className='soccer-div-container'>
               <div id='flip-box-inner'>
@@ -364,25 +378,84 @@ class MyWork extends Component {
             <div className='my-work-my-designs-div'>
               <h2 className='designs-title'>DESIGN</h2>
 
+              {/* <Link className='dropdown-tabs' to='/writingSamples' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Writing</span></Link> */}
+              {/* <Route path='/writing' component={Writing} /> */}
+              <div className='designs-nav-bar'>
+                <ul className='design-nav-bullets'>
+                  <li className='design-links'>
+                    <div class='section'>
+                      <div class='section__item'>
+                        <Link
+                          to='/WebDesign'
+                          class='sm-link sm-link_padding-all sm-link6 design-nav-text-links'
+                        >
+                          <span class='sm-link__label'>Web Design</span>
+                        </Link>
+                      </div>
+                    </div>
+                  </li>
+                  <li className='design-links'>
+                    <div class='section'>
+                      <div class='section__item'>
+                        <Link
+                          to='/GraphicDesign'
+                          class='sm-link sm-link_padding-all sm-link6 design-nav-text-links'
+                        >
+                          <span class='sm-link__label'>Graphic Design</span>
+                        </Link>
+                      </div>
+                    </div>
+                  </li>
+                  <li className='design-links'>
+                    <div class='section'>
+                      <div class='section__item'>
+                        <Link
+                          to='/ProductDesign'
+                          class='sm-link sm-link_padding-all sm-link6 design-nav-text-links'
+                        >
+                          <span class='sm-link__label'>Product Design</span>
+                        </Link>
+                      </div>
+                    </div>
+                  </li>
+                  <li className='design-links'>
+                    <div class='section'>
+                      <div class='section__item'>
+                        <Link
+                          to='/OtherDesign'
+                          class='sm-link sm-link_padding-all sm-link6 design-nav-text-links'
+                        >
+                          <span class='sm-link__label'>Other Design</span>
+                        </Link>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+{/* 
               <div className='my-designs-tresensa-div'>
                 <img src={tresensalandingmockimg1} alt='' className='ts-mock-img-1' />
                 <img src={tresensalandingmockimg2} alt='' className='ts-mock-img-2' />
-              </div>
+              </div> */}
 
-              <div className='my-designs-cbd-div'>
+              {/* <div className='my-designs-cbd-div'>
                 <img src={cbdimg1} alt='' className='cbd-mock-img-1' />
                 <img src={cbdimg2} alt='' className='cbd-mock-img-2' />
                 <img src={cbdimg3} alt='' className='cbd-mock-img-3' />
-              </div>
+              </div> */}
 
-              <div className='my-designs-cuda-mock-div-1'>
+              {/* <div className='my-designs-cuda-mock-div-1'>
                 <img src={cudamockimg1} alt='' className='cuda-mock-img-1' />
-              </div>
-              <div className='my-designs-cuda-mock-div-2'>
+              </div> */}
+              {/* <video controls autoPlay loop muted className='cuda-site-vid'>
+                <source src={cudaSiteVid} type='video/mp4' />
+              </video> */}
+
+              {/* <div className='my-designs-cuda-mock-div-2'>
                 <img src={cudamockimg2} alt='' className='cuda-mock-img-2' />
                 <img src={cudamockimg3} alt='' className='cuda-mock-img-3' />
-              </div>
-
+              </div> */}
+{/* 
               <div id='slider'>
                 <figure>
                   <img class='cuda-logo-slides' src={cudaLogo1} onContextMenu='return false;' alt='' />
@@ -391,23 +464,20 @@ class MyWork extends Component {
                   <img class='cuda-logo-slides' src={cudaLogo4} onContextMenu='return false;' alt='' />
                   <img class='cuda-logo-slides' src={cudaLogo1} onContextMenu='return false;' alt='' />
                 </figure>
-              </div>
+              </div> */}
 
-              <div className='my-designs-photography-div'>
+              {/* <div className='my-designs-photography-div'>
                 <img src={photographymockimg1} alt='' className='photography-mock-img-1' />
                 <img src={photographymockimg2} alt='' className='photography-mock-img-2' />
                 <img src={photographymockimg3} alt='' className='photography-mock-img-3' />
                 <img src={photographymockimg4} alt='' className='photography-mock-img-4' />
-              </div>
+              </div> */}
 
-              {/* <video controls autoPlay loop muted className='cuda-site-vid'>
-                <source src={cudaSiteVid} type='video/mp4' />
-              </video> */}
-
-              <video controls autoPlay loop muted className='nsf-site-vid'>
+             
+              {/* <video controls autoPlay loop muted className='nsf-site-vid'>
                 <source src={NSFsiteVid} type='video/mp4' />
-              </video>
-
+              </video> */}
+{/* 
               <div className='my-designs-business-cards-div1'>
                 <img src={businessCard1} alt='' className='business-card-img-1' />
                 <img src={businessCard2} alt='' className='business-card-img-2' />
@@ -416,13 +486,20 @@ class MyWork extends Component {
               <div className='my-designs-business-cards-div2'>
                 <img src={mixBusinessCard1} alt='' className='mix-business-card-img-1' />
                 <img src={mixBusinessCard2} alt='' className='mix-business-card-img-2' />
-              </div>
+              </div> */}
 
             </div>
 
           </div>
         </div>
       </div>
+      
+      <Route path='/WebDesign' component={WebDesign} />
+      <Route path='/GraphicDesign' component={GraphicDesign} />
+      <Route path='/ProductDesign' component={ProductDesign} />
+      <Route path='/OtherDesign' component={OtherDesign} />
+
+      </Router>
     )
   }
 }

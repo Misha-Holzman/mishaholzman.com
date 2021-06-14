@@ -403,15 +403,14 @@ html {
     margin-top: 25%;
   }
   .cuda-mock-img-2 {
-    height: 550px;
+    height: 450px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
-    margin-right: 5%;
-    margin-top: 10%;
+    margin-top: 5%;
   }
   .cuda-mock-img-3 {
-    height: 550px;
+    height: 450px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
-    margin-top: 10%;
+    margin-top: 5%;
   }
   
   
