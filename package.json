@@ -16,7 +16,8 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "^3.0.1",
     "react-sticky": "^6.0.3",
-    "sass-loader": "^7.1.0"
+    "sass-loader": "^7.1.0",
+    "webpack": "^5.38.1"
   },
   "scripts": {
     "start": "react-scripts start",
