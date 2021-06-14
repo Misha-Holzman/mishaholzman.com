@@ -15,8 +15,7 @@ class GraphicDesign extends Component {
   render () {
     return (
       <div className='graphic-design-page'>
-
-        <div className='graphic-designs-div'>
+        <div className='graphic-designs-img-div'>
           <img src={surferGraphic} alt='' className='surfer-graphic-img' />
           <img src={wavyColorGraphic} alt='' className='wavy-color-graphic-img' />
           <img src={WhaleGraphic} alt='' className='whale-graphic-img' />
