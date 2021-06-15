@@ -20,7 +20,6 @@ class WebDesign extends Component {
   render () {
     return (
       <div className='graphic-design-page'>
-
         <div className='my-designs-tresensa-div'>
           <img src={tresensalandingmockimg1} alt='' className='ts-mock-img-1' />
           <img src={tresensalandingmockimg2} alt='' className='ts-mock-img-2' />
