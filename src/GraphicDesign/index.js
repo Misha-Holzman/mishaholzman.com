@@ -9,15 +9,18 @@ import cudaLogo4 from '../assets/cuda-logo-color.jpg'
 import surferGraphic from '../assets/the-surfer.png'
 import wavyColorGraphic from '../assets/wavy-color-graphic.png'
 import WhaleGraphic from '../assets/whale-geometry.png'
-import NumberGraphic from '../assets/3d-number-two-ocean.png'
+// import NumberGraphic from '../assets/3d-number-two-ocean.png'
+import NumberGraphic from '../assets/3d-twenty-two-ocean-pant.png'
+import GeometricShapes from '../assets/geometric-shapes.png'
 
 class GraphicDesign extends Component {
   render () {
     return (
       <div className='graphic-design-page'>
         <div className='graphic-designs-img-div'>
-          <img src={surferGraphic} alt='' className='surfer-graphic-img' />
           <img src={wavyColorGraphic} alt='' className='wavy-color-graphic-img' />
+          <img src={GeometricShapes} alt='' className='geo-shapes-graphic-img' />
+          <img src={surferGraphic} alt='' className='surfer-graphic-img' />
           <img src={WhaleGraphic} alt='' className='whale-graphic-img' />
           <img src={NumberGraphic} alt='' className='number-graphic-img' />
         </div>

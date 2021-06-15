@@ -16,6 +16,9 @@ import joshacting from '../assets/joshacting.png'
 import takemeonajourney from '../assets/takemeonajourney.png'
 import vehicles from '../assets/vehicles.png'
 
+import GeometricShapes from '../assets/geometric-shapes.png'
+
+
 // import cudaLogo1 from '../assets/cuda-logo-sketch.JPG'
 // import cudaLogo2 from '../assets/cuda-logo-outline.png'
 // import cudaLogo3 from '../assets/cuda-logo-white.png'
@@ -386,18 +389,6 @@ class MyWork extends Component {
                     <div class='section'>
                       <div class='section__item'>
                         <Link
-                          to='/WebDesign'
-                          class='sm-link sm-link_padding-all sm-link6 design-nav-text-links'
-                        >
-                          <span class='sm-link__label'>Web Design</span>
-                        </Link>
-                      </div>
-                    </div>
-                  </li>
-                  <li className='design-links'>
-                    <div class='section'>
-                      <div class='section__item'>
-                        <Link
                           to='/GraphicDesign'
                           class='sm-link sm-link_padding-all sm-link6 design-nav-text-links'
                         >
@@ -410,14 +401,27 @@ class MyWork extends Component {
                     <div class='section'>
                       <div class='section__item'>
                         <Link
-                          to='/ProductDesign'
+                          to='/WebDesign'
                           class='sm-link sm-link_padding-all sm-link6 design-nav-text-links'
                         >
-                          <span class='sm-link__label'>Product Design</span>
+                          <span class='sm-link__label'>Web / Visual Design</span>
                         </Link>
                       </div>
                     </div>
                   </li>
+                  
+                  {/* <li className='design-links'>
+                    <div class='section'>
+                      <div class='section__item'>
+                        <Link
+                          to='/ProductDesign'
+                          class='sm-link sm-link_padding-all sm-link6 design-nav-text-links'
+                        >
+                          <span class='sm-link__label'>General Design</span>
+                        </Link>
+                      </div>
+                    </div>
+                  </li> */}
                   <li className='design-links'>
                     <div class='section'>
                       <div class='section__item'>
@@ -425,13 +429,15 @@ class MyWork extends Component {
                           to='/OtherDesign'
                           class='sm-link sm-link_padding-all sm-link6 design-nav-text-links'
                         >
-                          <span class='sm-link__label'>Other Design</span>
+                          <span class='sm-link__label'>General Design</span>
                         </Link>
                       </div>
                     </div>
                   </li>
                 </ul>
               </div>
+
+
 {/* 
               <div className='my-designs-tresensa-div'>
                 <img src={tresensalandingmockimg1} alt='' className='ts-mock-img-1' />
@@ -491,14 +497,19 @@ class MyWork extends Component {
             </div>
 
           </div>
+
         </div>
+
       </div>
+
       
       <Route path='/WebDesign' component={WebDesign} />
       <Route path='/GraphicDesign' component={GraphicDesign} />
       <Route path='/ProductDesign' component={ProductDesign} />
       <Route path='/OtherDesign' component={OtherDesign} />
-
+      <div className='design-header-img'>
+        <img src={GeometricShapes} alt='' className='geo-shapes-graphic-img' />
+      </div>
       </Router>
     )
   }

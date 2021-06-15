@@ -6,12 +6,12 @@ class ContactPage extends Component {
   render () {
     return (
       <div className='contact-page-container' id='main-contact-page'>
-        <img
+        {/* <img
           src='https://www.freeiconspng.com/uploads/line-png-32.png'
           width='40%'
           alt='Free Download Line Png Images'
           className='line'
-        />
+        /> */}
         <h2 className='contact-title' id='contact-page'>contact me</h2>
         <div className='social-pics-container'>
           <div className='social-links-container1'>

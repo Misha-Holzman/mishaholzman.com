@@ -837,6 +837,7 @@
   align-items: center;
   align-content: center;
   justify-content: center;
+  flex-direction: row wrap;
   width: 100%;
 }
 
@@ -847,6 +848,7 @@
   margin: 3% 2% 0% 2% !important;
   padding: 0;
   display: flex;
+  flex-direction: row wrap;
   align-items: center;
   align-content: center;
   justify-content: center;
@@ -884,4 +886,19 @@
 }
 .section_item {
   width: 100%
+}
+
+
+
+.design-header-img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.geo-shapes-graphic-img {
+  height: 670px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  margin-top: 15%;
 }

@@ -28,6 +28,12 @@
 .surfer-graphic-img {
   height: 600px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  margin-top: 15%;
+}
+.geo-shapes-graphic-img {
+  height: 670px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  margin-top: 15%;
 }
 .wavy-color-graphic-img {
   height: 600px;
