@@ -169,6 +169,7 @@ a.sm-link {
 
 .sm-link__label {
   display: block;
+  width: 100%;
 }
 
 /* sm-link_padding-all */
@@ -179,6 +180,8 @@ a.sm-link {
   --uismLinkPadding: var(--smLinkPadding, 5px);
 
   padding: var(--uismLinkPadding);
+  width: 100%;
+
 }
 
 .sm-link_padding-all::before,

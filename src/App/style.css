@@ -9,7 +9,69 @@ html {
 }
 
 
+@media screen and (max-width: 2600px) {
+  #newSvg {
+    position: absolute !important;
+    width: 1600px !important;
+    height: 570px;
+    font: 12em/1 Arial;
+    margin-top: 170px;
+    top: 13% !important;
+    left: 20% !important
+  }
+  
+}
+@media screen and (max-width: 2500px) {
+  #newSvg {
+    position: absolute !important;
+    width: 1600px !important;
+    height: 570px;
+    font: 12em/1 Arial;
+    margin-top: 170px;
+    top: 13% !important;
+    left: 18.5% !important
+  }
+  
+}
 
+@media screen and (max-width: 2400px) {
+  #newSvg {
+    position: absolute !important;
+    width: 1600px !important;
+    height: 570px;
+    font: 12em/1 Arial;
+    margin-top: 170px;
+    top: 12% !important;
+    left: 17% !important
+  }
+  
+}
+
+@media screen and (max-width: 2300px) {
+  #newSvg {
+    position: absolute !important;
+    width: 1300px !important;
+    height: 500px;
+    font: 13em/1 Arial;
+    margin-top: 170px;
+    top: 12% !important;
+    left: 22% !important
+  }
+  
+}
+
+@media screen and (max-width: 2200px) {
+  #newSvg {
+    position: absolute !important;
+    width: 1300px !important;
+    height: 500px;
+    font: 13em/1 Arial;
+    margin-top: 170px;
+    top: 11% !important;
+    left: 20% !important
+  }
+  
+}
 @media screen and (max-width: 2000px) {
   #newSvg {
     position: absolute !important;
@@ -17,7 +79,7 @@ html {
     height: 500px;
     font: 13em/1 Arial;
     margin-top: 170px;
-    top: 13% !important;
+    top: 11% !important;
     left: 19% !important
   }
   
@@ -30,7 +92,7 @@ html {
     height: 500px;
     font: 13em/1 Arial;
     margin-top: 170px;
-    top: 12% !important;
+    top: 10% !important;
     left: 18% !important
   }
   
@@ -44,7 +106,7 @@ html {
     height: 500px;
     font: 13em/1 Arial;
     margin-top: 170px;
-    top: 11% !important;
+    top: 10% !important;
     left: 17% !important
   }
   
@@ -58,7 +120,7 @@ html {
     height: 500px;
     font: 13em/1 Arial;
     margin-top: 170px;
-    top: 10% !important;
+    top: 9% !important;
     left: 15% !important
   }
   
@@ -72,7 +134,7 @@ html {
     height: 500px;
     font: 13em/1 Arial;
     margin-top: 170px;
-    top: 9% !important;
+    top: 8% !important;
     left: 13.7% !important
   }
 

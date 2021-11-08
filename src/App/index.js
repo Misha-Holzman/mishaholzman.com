@@ -5,6 +5,7 @@ import MyWork from '../MyWork'
 import AboutPage from '../About'
 import ContactPage from '../Contact'
 import './style.css'
+import BannerImage from '../BannerImage'
 
 class App extends Component {
   render () {
@@ -12,6 +13,7 @@ class App extends Component {
       <div className='App'>
         <Navbar />
         <MainPage />
+        <BannerImage />
         <AboutPage />
         <MyWork />
         <ContactPage />
