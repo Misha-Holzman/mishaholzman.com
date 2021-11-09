@@ -13,8 +13,8 @@ class App extends Component {
       <div className='App'>
         <Navbar />
         <MainPage />
-        <BannerImage />
         <AboutPage />
+        <BannerImage />
         <MyWork />
         <ContactPage />
       </div>

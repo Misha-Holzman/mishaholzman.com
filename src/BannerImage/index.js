@@ -7,11 +7,8 @@ import ThreeComputerBannerImage from '../assets/ThreeComputerBannerImage.png'
 class BannerImage extends Component {
   render () {
     return (
-      <div className='graphic-design-page'>
-        <div className='graphic-designs-img-div'>
+      <div className='three-computer-image-div' id='banner-image'>
           <img src={ThreeComputerBannerImage} alt='' className='three-computer-banner-image' />
-
-        </div>
       </div>
     )
   }

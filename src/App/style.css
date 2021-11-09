@@ -1,6 +1,6 @@
 html {
-  scroll-behavior: smooth;
-  -webkit-scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
+  -webkit-scroll-behavior: smooth !important;
   width: 99.7%;
 }
 
@@ -707,9 +707,6 @@ html {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
     transition: all .3s ease-in-out;
   }
-
-
-
 
 }
 
