@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+
 import GraphicDesign from '../GraphicDesign'
 import ProductDesign from '../ProductDesign'
 import WebDesign from '../WebDesign'
 import OtherDesign from '../OtherDesign'
-
-
 
 import tsScreenRec from '../assets/ts-screen-rec-420.mov'
 import legends from '../assets/legends.jpg'

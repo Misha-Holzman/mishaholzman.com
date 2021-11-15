@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
 import './style.css'
-import arrowColor from '../assets/arrow-color.png'
+import { Link, animateScroll as scroll } from "react-scroll";
+
+import colorArrow from '../assets/arrow-color.png'
 
 
 class MainPage extends Component {
+
   render () {
     return (
       <div className='main-page-container'>
@@ -64,11 +67,17 @@ class MainPage extends Component {
           </g>
 
         </svg>
+        {/* <img
+          src='https://i.imgur.com/wT3za4V.png'
+          height='50px'
+          className='shadow'
+          alt=''
+        /> */}
         <a href='#about-page' id='link'>
           <img
-            src={arrowColor}
+            src={colorArrow}
             height='50px'
-            className='arrow'
+            className='arrow-to-about'
             alt=''
           />
         </a>

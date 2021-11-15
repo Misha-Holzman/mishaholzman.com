@@ -4,7 +4,7 @@ import './style.css'
 class AboutPage extends Component {
   render () {
     return (
-      <div className='about-page' id='about-page'>
+      <div className='about-page' id='about-page' ref={this.myRef}>
         <div className='about-page-container'>
           <div className='about-headshot-and-button'>
             <img

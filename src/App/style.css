@@ -1,11 +1,12 @@
 html {
   scroll-behavior: smooth !important;
   -webkit-scroll-behavior: smooth !important;
-  width: 99.7%;
+  width: 100% !important;
 }
 
-.body {
-  width: 99.7%;
+body {
+  width: 100%;
+  margin: 0;
 }
 
 
@@ -764,6 +765,16 @@ html {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
     transition: all .3s ease-in-out;
   }
+
+  .graphic-design-page {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 80%;
+  }
+  
   
 }
 
