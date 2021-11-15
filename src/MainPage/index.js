@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './style.css'
-import { Link, animateScroll as scroll } from "react-scroll";
+// import { Link, animateScroll as scroll } from "react-scroll";
 
 import colorArrow from '../assets/arrow-color.png'
 
